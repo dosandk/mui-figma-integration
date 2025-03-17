@@ -2,11 +2,15 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 
 import { Button } from "./index.tsx";
-import { FIGMA_PATH } from "../../figma.config";
+import { FIGMA_PATH } from "../figma.config";
 
 const FIGMA_COMPONENT_NODE = "node-id=6543-36648"
 const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`
 
+/**
+ * Button stories
+ * These stories showcase the button
+ */
 const meta = {
   title: 'Components/Button',
   component: Button,
@@ -28,6 +32,10 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
+/**
+ * Default Button
+ * This is the default button
+ */
 export const DefaultButton: Story = {
   parameters: {
     design: {

@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 import { Accordion } from './index';
 
-import { FIGMA_PATH } from "../../figma.config";
+import { FIGMA_PATH } from "../figma.config";
 
 const FIGMA_COMPONENT_NODE = "node-id=6583-45995";
 const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;

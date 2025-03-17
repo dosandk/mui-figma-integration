@@ -1,10 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
+
 import { ButtonGroup } from './index';
-import { Button } from '@mui/material';
+import { Button } from '../Button';
 import { Save as SaveIcon, Delete as DeleteIcon, Send as SendIcon } from '@mui/icons-material';
 
 const meta: Meta<typeof ButtonGroup> = {
-  title: 'Molecules/ButtonGroup',
+  title: 'Components/ButtonGroup',
   component: ButtonGroup,
   tags: ['autodocs'],
   argTypes: {

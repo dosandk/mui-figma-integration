@@ -15,6 +15,17 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    backgrounds: {
+      values: [
+        { name: 'light', value: '#fff' },
+        { name: 'dark', value: '#333' },
+      ],
+    },
+    docs: {
+      toc: {
+        title: 'Table of Contents',
+      }
+    },
   },
   decorators: [
     withThemeFromJSXProvider<ReactRenderer>({
@@ -28,6 +39,10 @@ const preview: Preview = {
       Provider: ThemeProvider,
       GlobalStyles: CssBaseline,
     }),
+    // TODO: temp commented
+    // (Story) => {
+    //   return (<div className="riba"><Story /></div>);
+    // }
   ],
 };
 

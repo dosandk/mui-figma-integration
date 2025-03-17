@@ -52,7 +52,7 @@ export const WithCustomContent: Story = {
   args: {
     open: true,
     children: (
-      <div style={{ color: 'white', textAlign: 'center' }}>
+      <div style={{ color: 'red', textAlign: 'center', backgroundColor: 'blue', height: "200px" }}>
         <CircularProgress color="inherit" />
         <p style={{ marginTop: '16px' }}>Loading...</p>
       </div>
