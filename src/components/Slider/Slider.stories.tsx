@@ -9,7 +9,7 @@ import { Slider } from './index';
  * https://mui.com/material-ui/react-slider/
  */
 const meta: Meta<typeof Slider> = {
-  title: 'Molecules/Slider',
+  title: 'Atoms/Slider',
   component: Slider,
   tags: ['autodocs'],
   argTypes: {

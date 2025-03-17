@@ -12,7 +12,7 @@ import { Save as SaveIcon, Delete as DeleteIcon, Send as SendIcon } from '@mui/i
  * https://mui.com/material-ui/react-button-group/
  */
 const meta: Meta<typeof ButtonGroup> = {
-  title: 'Components/ButtonGroup',
+  title: 'Molecules/ButtonGroup',
   component: ButtonGroup,
   tags: ['autodocs'],
   argTypes: {

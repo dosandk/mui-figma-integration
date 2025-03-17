@@ -10,7 +10,7 @@ import { Box } from '@mui/material';
  * https://mui.com/material-ui/react-avatar/
  */
 const meta: Meta<typeof Avatar> = {
-  title: 'Molecules/Avatar',
+  title: 'Atoms/Avatar',
   component: Avatar,
   tags: ['autodocs'],
   argTypes: {
@@ -118,7 +118,7 @@ export const WithError: Story = {
     <Avatar
       alt="User"
       src="invalid-image.jpg"
-      onError={(e) => {
+      onError={() => {
         console.log('Image failed to load');
       }}
     >

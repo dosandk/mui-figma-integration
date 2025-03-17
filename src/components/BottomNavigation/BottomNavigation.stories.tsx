@@ -11,7 +11,7 @@ import { Restore as RestoreIcon, Favorite as FavoriteIcon, LocationOn as Locatio
  * https://mui.com/material-ui/react-bottom-navigation/
  */
 const meta: Meta<typeof BottomNavigation> = {
-  title: 'Molecules/BottomNavigation',
+  title: 'Organisms/BottomNavigation',
   component: BottomNavigation,
   tags: ['autodocs'],
   argTypes: {

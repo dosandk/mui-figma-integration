@@ -10,7 +10,7 @@ import { Box, Typography } from '@mui/material';
  * https://mui.com/material-ui/react-divider/
  */
 const meta: Meta<typeof Divider> = {
-  title: 'Molecules/Divider',
+  title: 'Atoms/Divider',
   component: Divider,
   tags: ['autodocs'],
   argTypes: {

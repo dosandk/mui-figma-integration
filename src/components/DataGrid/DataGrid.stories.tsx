@@ -29,6 +29,7 @@ const columns: GridColDef[] = [
     description: 'This column is calculated using firstName and lastName',
     sortable: false,
     width: 160,
+    // TODO: temp
     // valueGetter: (params: GridCellParams) =>
     //   `${params.row.firstName || ''} ${params.row.lastName || ''}`,
   },
@@ -54,7 +55,7 @@ const rows = [
  * https://mui.com/x/react-data-grid/
  */
 const meta: Meta<typeof DataGrid> = {
-  title: 'Molecules/DataGrid',
+  title: 'Organisms/DataGrid',
   component: DataGrid,
   tags: ['autodocs'],
   argTypes: {

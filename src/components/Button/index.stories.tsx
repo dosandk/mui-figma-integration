@@ -15,7 +15,7 @@ const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`
  * https://mui.com/material-ui/react-button/
  */
 const meta = {
-  title: 'Components/Button',
+  title: 'Molecules/Button',
   component: Button,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout

@@ -11,7 +11,7 @@ import { Info, Delete, Edit, Add } from '@mui/icons-material';
  * https://mui.com/material-ui/react-tooltip/
  */
 const meta: Meta<typeof Tooltip> = {
-  title: 'Molecules/Tooltip',
+  title: 'Atoms/Tooltip',
   component: Tooltip,
   tags: ['autodocs'],
   argTypes: {

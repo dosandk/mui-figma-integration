@@ -10,7 +10,7 @@ import { CircularProgress } from '@mui/material';
  * https://mui.com/material-ui/react-backdrop/
  */
 const meta: Meta<typeof Backdrop> = {
-  title: 'Molecules/Backdrop',
+  title: 'Atoms/Backdrop',
   component: Backdrop,
   tags: ['autodocs'],
   argTypes: {

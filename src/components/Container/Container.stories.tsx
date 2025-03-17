@@ -10,7 +10,7 @@ import { Box, Typography } from '@mui/material';
  * https://mui.com/material-ui/react-container/
  */
 const meta: Meta<typeof Container> = {
-  title: 'Molecules/Container',
+  title: 'Atoms/Container',
   component: Container,
   tags: ['autodocs'],
   argTypes: {

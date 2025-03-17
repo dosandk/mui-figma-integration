@@ -11,7 +11,7 @@ import { useState } from 'react';
  * https://mui.com/material-ui/react-dialog/
  */
 const meta: Meta<typeof Dialog> = {
-  title: 'Molecules/Dialog',
+  title: 'Organisms/Dialog',
   component: Dialog,
   tags: ['autodocs'],
   argTypes: {

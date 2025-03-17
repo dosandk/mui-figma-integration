@@ -11,7 +11,7 @@ import { Button } from '@mui/material';
  * https://mui.com/material-ui/react-table/
  */
 const meta: Meta<typeof Table<Data>> = {
-  title: 'Molecules/Table',
+  title: 'Organisms/Table',
   component: Table,
   tags: ['autodocs'],
   argTypes: {

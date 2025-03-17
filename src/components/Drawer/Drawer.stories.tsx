@@ -12,7 +12,7 @@ import { useState } from 'react';
  * https://mui.com/material-ui/react-drawer/
  */
 const meta: Meta<typeof Drawer> = {
-  title: 'Molecules/Drawer',
+  title: 'Atoms/Drawer',
   component: Drawer,
   tags: ['autodocs'],
   argTypes: {

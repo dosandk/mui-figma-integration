@@ -9,7 +9,7 @@ import { Radio } from './index';
  * https://mui.com/material-ui/react-radio-button/
  */
 const meta: Meta<typeof Radio> = {
-  title: 'Molecules/Radio',
+  title: 'Atoms/Radio',
   component: Radio,
   tags: ['autodocs'],
   argTypes: {

@@ -15,7 +15,7 @@ const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
  * https://mui.com/material-ui/react-accordion/
  */
 const meta = {
-  title: 'Components/Accordion',
+  title: 'Molecules/Accordion',
   component: Accordion,
   parameters: {
     // Optional parameter to center the component in the Canvas. More info: https://storybook.js.org/docs/configure/story-layout

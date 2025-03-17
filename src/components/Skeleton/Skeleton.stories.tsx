@@ -9,7 +9,7 @@ import { Skeleton } from './index';
  * https://mui.com/material-ui/react-skeleton/
  */
 const meta: Meta<typeof Skeleton> = {
-  title: 'Molecules/Skeleton',
+  title: 'Atoms/Skeleton',
   component: Skeleton,
   tags: ['autodocs'],
   argTypes: {

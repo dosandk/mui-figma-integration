@@ -11,7 +11,7 @@ import { FormControlLabel } from '@mui/material';
  * https://mui.com/material-ui/react-switch/
  */
 const meta: Meta<typeof Switch> = {
-  title: 'Molecules/Switch',
+  title: 'Atoms/Switch',
   component: Switch,
   tags: ['autodocs'],
   argTypes: {

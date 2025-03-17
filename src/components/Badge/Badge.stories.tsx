@@ -11,7 +11,7 @@ import { Mail as MailIcon } from '@mui/icons-material';
  * https://mui.com/material-ui/react-badge/
  */
 const meta: Meta<typeof Badge> = {
-  title: 'Molecules/Badge',
+  title: 'Atoms/Badge',
   component: Badge,
   tags: ['autodocs'],
   argTypes: {

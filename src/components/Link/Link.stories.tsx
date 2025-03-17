@@ -9,7 +9,7 @@ import { Link } from './index';
  * https://mui.com/material-ui/react-link/
  */
 const meta: Meta<typeof Link> = {
-  title: 'Molecules/Link',
+  title: 'Atoms/Link',
   component: Link,
   tags: ['autodocs'],
   argTypes: {

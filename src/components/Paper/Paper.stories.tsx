@@ -10,7 +10,7 @@ import { Paper } from './index';
  * https://mui.com/material-ui/react-paper/
  */
 const meta: Meta<typeof Paper> = {
-  title: 'Molecules/Paper',
+  title: 'Atoms/Paper',
   component: Paper,
   tags: ['autodocs'],
   argTypes: {

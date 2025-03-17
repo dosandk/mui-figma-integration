@@ -11,7 +11,7 @@ import { CircularProgress, LinearProgress } from './index';
  * https://mui.com/material-ui/react-progress/
  */
 const meta: Meta<typeof CircularProgress> = {
-  title: 'Molecules/Progress',
+  title: 'Atoms/Progress',
   component: CircularProgress,
   tags: ['autodocs'],
   argTypes: {

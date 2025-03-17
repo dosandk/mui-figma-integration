@@ -12,7 +12,7 @@ import { useState } from 'react';
  * https://mui.com/material-ui/react-toggle-button/
  */
 const meta: Meta<typeof ToggleButton> = {
-  title: 'Molecules/ToggleButton',
+  title: 'Atoms/ToggleButton',
   component: ToggleButton,
   tags: ['autodocs'],
   argTypes: {
