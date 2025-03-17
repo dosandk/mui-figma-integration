@@ -2,6 +2,13 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Avatar } from './index';
 import { Box } from '@mui/material';
 
+/**
+ * Avatar Component Stories
+ * 
+ * This file contains all the stories for the Avatar component, showcasing different variants, colors, and interactive features.
+ * 
+ * https://mui.com/material-ui/react-avatar/
+ */
 const meta: Meta<typeof Avatar> = {
   title: 'Molecules/Avatar',
   component: Avatar,
@@ -21,12 +28,22 @@ const meta: Meta<typeof Avatar> = {
 export default meta;
 type Story = StoryObj<typeof Avatar>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic avatar with a single letter.
+ */
 export const Default: Story = {
   render: () => (
     <Avatar>U</Avatar>
   ),
 };
 
+/**
+ * WithImage Story
+ * 
+ * Demonstrates an avatar with an image source.
+ */
 export const WithImage: Story = {
   render: () => (
     <Avatar
@@ -36,6 +53,11 @@ export const WithImage: Story = {
   ),
 };
 
+/**
+ * DifferentVariants Story
+ * 
+ * Shows the three available avatar variants: circular, rounded, and square.
+ */
 export const DifferentVariants: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2 }}>
@@ -46,6 +68,11 @@ export const DifferentVariants: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Demonstrates avatars with different theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2 }}>
@@ -59,6 +86,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * WithCustomStyling Story
+ * 
+ * Shows an avatar with custom styling and hover effects.
+ */
 export const WithCustomStyling: Story = {
   render: () => (
     <Avatar
@@ -76,6 +108,11 @@ export const WithCustomStyling: Story = {
   ),
 };
 
+/**
+ * WithError Story
+ * 
+ * Demonstrates an avatar with error handling for failed image loading.
+ */
 export const WithError: Story = {
   render: () => (
     <Avatar
@@ -90,6 +127,11 @@ export const WithError: Story = {
   ),
 };
 
+/**
+ * WithClickHandler Story
+ * 
+ * Shows an avatar with click interaction.
+ */
 export const WithClickHandler: Story = {
   render: () => (
     <Avatar

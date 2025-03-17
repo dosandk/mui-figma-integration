@@ -2,6 +2,13 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Divider } from './index';
 import { Box, Typography } from '@mui/material';
 
+/**
+ * Divider Component Stories
+ * 
+ * This file contains all the stories for the Divider component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-divider/
+ */
 const meta: Meta<typeof Divider> = {
   title: 'Molecules/Divider',
   component: Divider,
@@ -32,16 +39,31 @@ const meta: Meta<typeof Divider> = {
 export default meta;
 type Story = StoryObj<typeof Divider>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic horizontal divider with default settings.
+ */
 export const Default: Story = {
   args: {},
 };
 
+/**
+ * WithText Story
+ * 
+ * Demonstrates a divider with centered text content.
+ */
 export const WithText: Story = {
   args: {
     children: 'OR',
   },
 };
 
+/**
+ * DifferentTextAlignments Story
+ * 
+ * Shows dividers with different text alignment options.
+ */
 export const DifferentTextAlignments: Story = {
   render: () => (
     <Box sx={{ width: '100%' }}>
@@ -55,6 +77,11 @@ export const DifferentTextAlignments: Story = {
   ),
 };
 
+/**
+ * DifferentVariants Story
+ * 
+ * Demonstrates different divider variants: fullWidth, inset, and middle.
+ */
 export const DifferentVariants: Story = {
   render: () => (
     <Box sx={{ width: '100%' }}>
@@ -68,6 +95,11 @@ export const DifferentVariants: Story = {
   ),
 };
 
+/**
+ * Vertical Story
+ * 
+ * Shows a vertical divider between content sections.
+ */
 export const Vertical: Story = {
   render: () => (
     <Box sx={{ display: 'flex', height: 100 }}>
@@ -78,6 +110,11 @@ export const Vertical: Story = {
   ),
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Demonstrates a divider with custom styling for the line and text.
+ */
 export const WithCustomStyle: Story = {
   args: {
     children: 'Styled Divider',

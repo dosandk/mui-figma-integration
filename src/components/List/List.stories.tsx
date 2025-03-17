@@ -19,6 +19,13 @@ import {
   Person as PersonIcon,
 } from '@mui/icons-material';
 
+/**
+ * List Component Stories
+ * 
+ * This file contains all the stories for the List component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-list/
+ */
 const meta: Meta<typeof List> = {
   title: 'Molecules/List',
   component: List,
@@ -38,6 +45,11 @@ const meta: Meta<typeof List> = {
 export default meta;
 type Story = StoryObj<typeof List>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic list with simple text items.
+ */
 export const Default: Story = {
   render: () => (
     <List>
@@ -54,6 +66,11 @@ export const Default: Story = {
   ),
 };
 
+/**
+ * WithIcons Story
+ * 
+ * Demonstrates a list with icons for each item.
+ */
 export const WithIcons: Story = {
   render: () => (
     <List>
@@ -85,6 +102,11 @@ export const WithIcons: Story = {
   ),
 };
 
+/**
+ * WithAvatars Story
+ * 
+ * Shows a list with avatar icons and secondary text.
+ */
 export const WithAvatars: Story = {
   render: () => (
     <List>
@@ -110,6 +132,11 @@ export const WithAvatars: Story = {
   ),
 };
 
+/**
+ * WithSecondaryActions Story
+ * 
+ * Demonstrates a list with secondary action buttons.
+ */
 export const WithSecondaryActions: Story = {
   render: () => (
     <List>
@@ -135,6 +162,11 @@ export const WithSecondaryActions: Story = {
   ),
 };
 
+/**
+ * WithSubheaders Story
+ * 
+ * Shows a list with subheaders and dividers for organization.
+ */
 export const WithSubheaders: Story = {
   render: () => (
     <List>
@@ -157,6 +189,11 @@ export const WithSubheaders: Story = {
   ),
 };
 
+/**
+ * Dense Story
+ * 
+ * Demonstrates a list with compact vertical padding.
+ */
 export const Dense: Story = {
   render: () => (
     <List dense>
@@ -173,6 +210,11 @@ export const Dense: Story = {
   ),
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Shows a list with custom styling and hover effects.
+ */
 export const WithCustomStyle: Story = {
   render: () => (
     <List

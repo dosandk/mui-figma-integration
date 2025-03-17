@@ -4,6 +4,13 @@ import { useState } from 'react';
 import { Box, Typography } from '@mui/material';
 import { Home, Person, Settings } from '@mui/icons-material';
 
+/**
+ * Tabs Component Stories
+ * 
+ * This file contains all the stories for the Tabs component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-tabs/
+ */
 const meta: Meta<typeof Tabs> = {
   title: 'Molecules/Tabs',
   component: Tabs,
@@ -30,6 +37,9 @@ const meta: Meta<typeof Tabs> = {
 export default meta;
 type Story = StoryObj<typeof Tabs>;
 
+/**
+ * Default tabs configuration used in multiple stories.
+ */
 const defaultTabs = [
   {
     label: 'Tab 1',
@@ -45,6 +55,11 @@ const defaultTabs = [
   },
 ];
 
+/**
+ * TabsWithState Component
+ * 
+ * A wrapper component that demonstrates controlled tabs functionality.
+ */
 const TabsWithState = ({ ...rest }: any) => {
   const [value, setValue] = useState(0);
 
@@ -62,10 +77,20 @@ const TabsWithState = ({ ...rest }: any) => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows basic tabs with default styling and content.
+ */
 export const Default: Story = {
   render: () => <TabsWithState />,
 };
 
+/**
+ * WithIcons Story
+ * 
+ * Demonstrates tabs with icons and labels.
+ */
 export const WithIcons: Story = {
   render: () => (
     <TabsWithState
@@ -90,6 +115,11 @@ export const WithIcons: Story = {
   ),
 };
 
+/**
+ * WithDisabledTab Story
+ * 
+ * Shows tabs with a disabled tab option.
+ */
 export const WithDisabledTab: Story = {
   render: () => (
     <TabsWithState
@@ -105,6 +135,11 @@ export const WithDisabledTab: Story = {
   ),
 };
 
+/**
+ * VerticalTabs Story
+ * 
+ * Demonstrates vertically oriented tabs.
+ */
 export const VerticalTabs: Story = {
   render: () => (
     <Box sx={{ height: 300 }}>
@@ -113,6 +148,11 @@ export const VerticalTabs: Story = {
   ),
 };
 
+/**
+ * ScrollableTabs Story
+ * 
+ * Shows scrollable tabs with many options.
+ */
 export const ScrollableTabs: Story = {
   render: () => (
     <TabsWithState
@@ -126,6 +166,11 @@ export const ScrollableTabs: Story = {
   ),
 };
 
+/**
+ * FullWidthTabs Story
+ * 
+ * Demonstrates tabs that take up the full width of the container.
+ */
 export const FullWidthTabs: Story = {
   render: () => (
     <TabsWithState
@@ -148,6 +193,11 @@ export const FullWidthTabs: Story = {
   ),
 };
 
+/**
+ * WithCustomStyling Story
+ * 
+ * Shows tabs with custom styling for individual tabs and panel.
+ */
 export const WithCustomStyling: Story = {
   render: () => (
     <TabsWithState

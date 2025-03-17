@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { ImageList, ImageListItemComponent, ImageListItemBarComponent } from './index';
 
+/**
+ * Sample image data for the ImageList stories
+ */
 const itemData = [
   {
     img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
@@ -75,6 +78,13 @@ const itemData = [
   },
 ];
 
+/**
+ * ImageList Component Stories
+ * 
+ * This file contains all the stories for the ImageList component, showcasing different layouts and styling options.
+ * 
+ * https://mui.com/material-ui/react-image-list/
+ */
 const meta: Meta<typeof ImageList> = {
   title: 'Molecules/ImageList',
   component: ImageList,
@@ -98,6 +108,11 @@ const meta: Meta<typeof ImageList> = {
 export default meta;
 type Story = StoryObj<typeof ImageList>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic image list with standard grid layout and item bars.
+ */
 export const Default: Story = {
   render: () => (
     <ImageList sx={{ width: 500, height: 450 }}>
@@ -119,6 +134,11 @@ export const Default: Story = {
   ),
 };
 
+/**
+ * Quilted Story
+ * 
+ * Demonstrates a quilted image list with varying item sizes and overlapping effects.
+ */
 export const Quilted: Story = {
   render: () => (
     <ImageList
@@ -149,6 +169,11 @@ export const Quilted: Story = {
   ),
 };
 
+/**
+ * Masonry Story
+ * 
+ * Shows a masonry layout with different image heights and responsive columns.
+ */
 export const Masonry: Story = {
   render: () => (
     <ImageList
@@ -176,6 +201,11 @@ export const Masonry: Story = {
   ),
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Demonstrates an image list with custom styling including rounded corners and gradient overlays.
+ */
 export const WithCustomStyle: Story = {
   render: () => (
     <ImageList

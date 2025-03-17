@@ -2,6 +2,13 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Chip } from './index';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 
+/**
+ * Chip Component Stories
+ * 
+ * This file contains all the stories for the Chip component, showcasing different variants, colors, sizes, and interactive features.
+ * 
+ * https://mui.com/material-ui/react-chip/
+ */
 const meta: Meta<typeof Chip> = {
   title: 'Molecules/Chip',
   component: Chip,
@@ -40,12 +47,22 @@ const meta: Meta<typeof Chip> = {
 export default meta;
 type Story = StoryObj<typeof Chip>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic chip with default styling.
+ */
 export const Default: Story = {
   args: {
     label: 'Default Chip',
   },
 };
 
+/**
+ * Clickable Story
+ * 
+ * Demonstrates a chip with click interaction enabled.
+ */
 export const Clickable: Story = {
   args: {
     label: 'Clickable Chip',
@@ -53,6 +70,11 @@ export const Clickable: Story = {
   },
 };
 
+/**
+ * Deletable Story
+ * 
+ * Shows a chip with delete functionality and custom delete icon.
+ */
 export const Deletable: Story = {
   args: {
     label: 'Deletable Chip',
@@ -61,6 +83,11 @@ export const Deletable: Story = {
   },
 };
 
+/**
+ * WithAvatar Story
+ * 
+ * Demonstrates a chip with an avatar element.
+ */
 export const WithAvatar: Story = {
   args: {
     label: 'With Avatar',
@@ -68,6 +95,11 @@ export const WithAvatar: Story = {
   },
 };
 
+/**
+ * DifferentVariants Story
+ * 
+ * Shows chips with different variants: filled and outlined.
+ */
 export const DifferentVariants: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '10px' }}>
@@ -80,6 +112,11 @@ export const DifferentVariants: Story = {
   },
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Demonstrates chips with different theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
@@ -97,6 +134,11 @@ export const DifferentColors: Story = {
   },
 };
 
+/**
+ * DifferentSizes Story
+ * 
+ * Shows chips in different sizes.
+ */
 export const DifferentSizes: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
@@ -109,6 +151,11 @@ export const DifferentSizes: Story = {
   },
 };
 
+/**
+ * Disabled Story
+ * 
+ * Demonstrates a disabled chip.
+ */
 export const Disabled: Story = {
   args: {
     label: 'Disabled Chip',
@@ -116,6 +163,11 @@ export const Disabled: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Shows a chip with custom styling and hover effects.
+ */
 export const WithCustomStyle: Story = {
   args: {
     label: 'Custom Style',

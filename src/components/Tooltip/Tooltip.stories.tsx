@@ -3,6 +3,13 @@ import { Tooltip } from './index';
 import { Box, Button, IconButton, Typography } from '@mui/material';
 import { Info, Delete, Edit, Add } from '@mui/icons-material';
 
+/**
+ * Tooltip Component Stories
+ * 
+ * This file contains all the stories for the Tooltip component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-tooltip/
+ */
 const meta: Meta<typeof Tooltip> = {
   title: 'Molecules/Tooltip',
   component: Tooltip,
@@ -22,6 +29,11 @@ const meta: Meta<typeof Tooltip> = {
 export default meta;
 type Story = StoryObj<typeof Tooltip>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic tooltip with default settings.
+ */
 export const Default: Story = {
   render: () => (
     <Tooltip title="This is a tooltip">
@@ -30,6 +42,11 @@ export const Default: Story = {
   ),
 };
 
+/**
+ * WithIcon Story
+ * 
+ * Demonstrates a tooltip attached to an icon button.
+ */
 export const WithIcon: Story = {
   render: () => (
     <Tooltip title="Information">
@@ -40,6 +57,11 @@ export const WithIcon: Story = {
   ),
 };
 
+/**
+ * WithLongText Story
+ * 
+ * Shows a tooltip with long text content that wraps to multiple lines.
+ */
 export const WithLongText: Story = {
   render: () => (
     <Tooltip title="This is a very long tooltip text that might wrap to multiple lines to demonstrate how the tooltip handles longer content">
@@ -48,6 +70,11 @@ export const WithLongText: Story = {
   ),
 };
 
+/**
+ * WithHTML Story
+ * 
+ * Demonstrates a tooltip with HTML content and multiple styled elements.
+ */
 export const WithHTML: Story = {
   render: () => (
     <Tooltip
@@ -65,6 +92,11 @@ export const WithHTML: Story = {
   ),
 };
 
+/**
+ * WithArrow Story
+ * 
+ * Shows a tooltip with an arrow pointer.
+ */
 export const WithArrow: Story = {
   render: () => (
     <Tooltip title="With arrow" arrow>
@@ -73,6 +105,11 @@ export const WithArrow: Story = {
   ),
 };
 
+/**
+ * DifferentPlacements Story
+ * 
+ * Demonstrates tooltips with various placement options around the trigger element.
+ */
 export const DifferentPlacements: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 4 }}>
@@ -104,6 +141,11 @@ export const DifferentPlacements: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Shows tooltips with different theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
@@ -129,6 +171,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * WithCustomDelay Story
+ * 
+ * Demonstrates a tooltip with custom enter and leave delay times.
+ */
 export const WithCustomDelay: Story = {
   render: () => (
     <Tooltip
@@ -141,6 +188,11 @@ export const WithCustomDelay: Story = {
   ),
 };
 
+/**
+ * WithActionButtons Story
+ * 
+ * Shows tooltips attached to action buttons in a toolbar layout.
+ */
 export const WithActionButtons: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 1 }}>
@@ -163,6 +215,11 @@ export const WithActionButtons: Story = {
   ),
 };
 
+/**
+ * WithCustomStyling Story
+ * 
+ * Demonstrates a tooltip with custom styling for the tooltip container.
+ */
 export const WithCustomStyling: Story = {
   render: () => (
     <Tooltip

@@ -1,6 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Slider } from './index';
 
+/**
+ * Slider Component Stories
+ * 
+ * This file contains all the stories for the Slider component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-slider/
+ */
 const meta: Meta<typeof Slider> = {
   title: 'Molecules/Slider',
   component: Slider,
@@ -61,14 +68,29 @@ export default meta;
 
 type Story = StoryObj<typeof Slider>;
 
+/**
+ * Default Story
+ * 
+ * Shows basic slider with default styling and functionality.
+ */
 export const Default: Story = {
   render: () => <Slider />,
 };
 
+/**
+ * WithValue Story
+ * 
+ * Demonstrates slider with a specific value.
+ */
 export const WithValue: Story = {
   render: () => <Slider value={50} />,
 };
 
+/**
+ * WithMarks Story
+ * 
+ * Shows slider with default marks and step values.
+ */
 export const WithMarks: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -81,6 +103,11 @@ export const WithMarks: Story = {
   ),
 };
 
+/**
+ * CustomMarks Story
+ * 
+ * Demonstrates slider with custom mark labels.
+ */
 export const CustomMarks: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -99,6 +126,11 @@ export const CustomMarks: Story = {
   ),
 };
 
+/**
+ * DifferentSizes Story
+ * 
+ * Shows sliders in different sizes (small and medium).
+ */
 export const DifferentSizes: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -108,6 +140,11 @@ export const DifferentSizes: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Demonstrates sliders with various theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -121,6 +158,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * Disabled Story
+ * 
+ * Shows slider in disabled state.
+ */
 export const Disabled: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -130,6 +172,11 @@ export const Disabled: Story = {
   ),
 };
 
+/**
+ * Vertical Story
+ * 
+ * Demonstrates vertically oriented slider.
+ */
 export const Vertical: Story = {
   render: () => (
     <div style={{ height: 300, padding: '16px 0' }}>
@@ -138,6 +185,11 @@ export const Vertical: Story = {
   ),
 };
 
+/**
+ * RangeSlider Story
+ * 
+ * Shows slider with range selection capability.
+ */
 export const RangeSlider: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -149,6 +201,11 @@ export const RangeSlider: Story = {
   ),
 };
 
+/**
+ * CustomStep Story
+ * 
+ * Demonstrates slider with custom step value and marks.
+ */
 export const CustomStep: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -162,6 +219,11 @@ export const CustomStep: Story = {
   ),
 };
 
+/**
+ * CustomRange Story
+ * 
+ * Shows slider with custom min, max, and step values.
+ */
 export const CustomRange: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -177,6 +239,11 @@ export const CustomRange: Story = {
   ),
 };
 
+/**
+ * CustomValueLabel Story
+ * 
+ * Demonstrates slider with custom value label formatting.
+ */
 export const CustomValueLabel: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>
@@ -189,6 +256,11 @@ export const CustomValueLabel: Story = {
   ),
 };
 
+/**
+ * CustomStyle Story
+ * 
+ * Shows slider with custom styling for thumb and track.
+ */
 export const CustomStyle: Story = {
   render: () => (
     <div style={{ width: '100%', padding: '0 16px' }}>

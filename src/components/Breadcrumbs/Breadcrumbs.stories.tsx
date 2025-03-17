@@ -3,6 +3,13 @@ import { Breadcrumbs } from './index';
 import { Link, Typography } from '@mui/material';
 import { NavigateNext as NavigateNextIcon } from '@mui/icons-material';
 
+/**
+ * Breadcrumbs Component Stories
+ * 
+ * This file contains all the stories for the Breadcrumbs component, showcasing different separators, collapsed items, and styling options.
+ * 
+ * https://mui.com/material-ui/react-breadcrumbs/
+ */
 const meta: Meta<typeof Breadcrumbs> = {
   title: 'Molecules/Breadcrumbs',
   component: Breadcrumbs,
@@ -30,6 +37,11 @@ const meta: Meta<typeof Breadcrumbs> = {
 export default meta;
 type Story = StoryObj<typeof Breadcrumbs>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic breadcrumb navigation with default separator.
+ */
 export const Default: Story = {
   args: {
     children: (
@@ -46,6 +58,11 @@ export const Default: Story = {
   },
 };
 
+/**
+ * WithCustomSeparator Story
+ * 
+ * Demonstrates breadcrumbs with a custom icon separator.
+ */
 export const WithCustomSeparator: Story = {
   args: {
     separator: <NavigateNextIcon fontSize="small" />,
@@ -63,6 +80,11 @@ export const WithCustomSeparator: Story = {
   },
 };
 
+/**
+ * WithCollapsedItems Story
+ * 
+ * Shows breadcrumbs with collapsed items and ellipsis.
+ */
 export const WithCollapsedItems: Story = {
   args: {
     maxItems: 2,
@@ -91,6 +113,11 @@ export const WithCollapsedItems: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Demonstrates breadcrumbs with custom styling applied.
+ */
 export const WithCustomStyle: Story = {
   args: {
     sx: {

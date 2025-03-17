@@ -3,6 +3,13 @@ import { Switch } from './index';
 import { useState } from 'react';
 import { FormControlLabel } from '@mui/material';
 
+/**
+ * Switch Component Stories
+ * 
+ * This file contains all the stories for the Switch component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-switch/
+ */
 const meta: Meta<typeof Switch> = {
   title: 'Molecules/Switch',
   component: Switch,
@@ -22,6 +29,11 @@ const meta: Meta<typeof Switch> = {
 export default meta;
 type Story = StoryObj<typeof Switch>;
 
+/**
+ * SwitchWithState Component
+ * 
+ * A wrapper component that demonstrates controlled switch functionality.
+ */
 const SwitchWithState = ({ ...rest }: any) => {
   const [checked, setChecked] = useState(false);
 
@@ -43,10 +55,20 @@ const SwitchWithState = ({ ...rest }: any) => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows basic switch with default styling and functionality.
+ */
 export const Default: Story = {
   render: () => <SwitchWithState />,
 };
 
+/**
+ * DifferentSizes Story
+ * 
+ * Demonstrates switches in different sizes (small and medium).
+ */
 export const DifferentSizes: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -56,6 +78,11 @@ export const DifferentSizes: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Shows switches with various theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -69,6 +96,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * Disabled Story
+ * 
+ * Demonstrates switches in disabled state, both checked and unchecked.
+ */
 export const Disabled: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -78,12 +110,22 @@ export const Disabled: Story = {
   ),
 };
 
+/**
+ * Required Story
+ * 
+ * Shows a required switch with validation.
+ */
 export const Required: Story = {
   render: () => (
     <SwitchWithState required />
   ),
 };
 
+/**
+ * WithEdge Story
+ * 
+ * Demonstrates switches with different edge alignments.
+ */
 export const WithEdge: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -94,6 +136,11 @@ export const WithEdge: Story = {
   ),
 };
 
+/**
+ * WithCustomStyling Story
+ * 
+ * Shows switch with custom styling for thumb and track.
+ */
 export const WithCustomStyling: Story = {
   render: () => (
     <SwitchWithState
@@ -117,6 +164,11 @@ export const WithCustomStyling: Story = {
   ),
 };
 
+/**
+ * WithCustomInputProps Story
+ * 
+ * Demonstrates switch with custom input properties for accessibility and testing.
+ */
 export const WithCustomInputProps: Story = {
   render: () => (
     <SwitchWithState

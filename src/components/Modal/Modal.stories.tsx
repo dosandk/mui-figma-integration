@@ -15,6 +15,13 @@ const style = {
   borderRadius: 1,
 };
 
+/**
+ * Modal Component Stories
+ * 
+ * This file contains all the stories for the Modal component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-modal/
+ */
 const meta: Meta<typeof Modal> = {
   title: 'Molecules/Modal',
   component: Modal,
@@ -54,6 +61,11 @@ const meta: Meta<typeof Modal> = {
 export default meta;
 type Story = StoryObj<typeof Modal>;
 
+/**
+ * ModalDemo Component
+ * 
+ * A wrapper component that demonstrates the basic modal functionality.
+ */
 const ModalDemo = () => {
   const [open, setOpen] = useState(false);
 
@@ -85,10 +97,20 @@ const ModalDemo = () => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic modal with default configuration and backdrop.
+ */
 export const Default: Story = {
   render: () => <ModalDemo />,
 };
 
+/**
+ * WithoutBackdrop Story
+ * 
+ * Demonstrates a modal without a backdrop overlay.
+ */
 export const WithoutBackdrop: Story = {
   render: () => {
     const [open, setOpen] = useState(false);
@@ -123,6 +145,11 @@ export const WithoutBackdrop: Story = {
   },
 };
 
+/**
+ * DisableEscapeKey Story
+ * 
+ * Shows a modal that cannot be closed using the escape key.
+ */
 export const DisableEscapeKey: Story = {
   render: () => {
     const [open, setOpen] = useState(false);
@@ -157,6 +184,11 @@ export const DisableEscapeKey: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Demonstrates a modal with custom styling for both backdrop and content.
+ */
 export const WithCustomStyle: Story = {
   render: () => {
     const [open, setOpen] = useState(false);

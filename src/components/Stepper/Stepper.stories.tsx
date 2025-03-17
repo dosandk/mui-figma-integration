@@ -3,6 +3,13 @@ import { Stepper } from './index';
 import { useState } from 'react';
 import { Button, Box, Typography } from '@mui/material';
 
+/**
+ * Stepper Component Stories
+ * 
+ * This file contains all the stories for the Stepper component, showcasing different step configurations and layouts.
+ * 
+ * https://mui.com/material-ui/react-stepper/
+ */
 const meta: Meta<typeof Stepper> = {
   title: 'Molecules/Stepper',
   component: Stepper,
@@ -98,22 +105,47 @@ const StepperWithState = ({ orientation, alternativeLabel, nonLinear }: any) => 
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic stepper component with horizontal orientation and three steps.
+ */
 export const Default: Story = {
   render: () => <StepperWithState />,
 };
 
+/**
+ * Vertical Story
+ * 
+ * Demonstrates a stepper component with vertical orientation.
+ */
 export const Vertical: Story = {
   render: () => <StepperWithState orientation="vertical" />,
 };
 
+/**
+ * AlternativeLabel Story
+ * 
+ * Shows a stepper component with alternative label placement.
+ */
 export const AlternativeLabel: Story = {
   render: () => <StepperWithState alternativeLabel={true} />,
 };
 
+/**
+ * NonLinear Story
+ * 
+ * Demonstrates a stepper component that allows non-linear navigation between steps.
+ */
 export const NonLinear: Story = {
   render: () => <StepperWithState nonLinear={true} />,
 };
 
+/**
+ * WithCustomStepProps Story
+ * 
+ * Shows a stepper component with custom step properties, including completed state.
+ */
 export const WithCustomStepProps: Story = {
   render: () => (
     <StepperWithState
@@ -128,6 +160,11 @@ export const WithCustomStepProps: Story = {
   ),
 };
 
+/**
+ * WithCustomStepLabelProps Story
+ * 
+ * Demonstrates a stepper component with custom step label properties, including error state.
+ */
 export const WithCustomStepLabelProps: Story = {
   render: () => (
     <StepperWithState
@@ -142,6 +179,11 @@ export const WithCustomStepLabelProps: Story = {
   ),
 };
 
+/**
+ * WithCustomStepContentProps Story
+ * 
+ * Shows a stepper component with custom step content styling.
+ */
 export const WithCustomStepContentProps: Story = {
   render: () => (
     <StepperWithState

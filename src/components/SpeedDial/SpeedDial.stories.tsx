@@ -10,6 +10,13 @@ import {
 } from '@mui/icons-material';
 import { useState } from 'react';
 
+/**
+ * SpeedDial Component Stories
+ * 
+ * This file contains all the stories for the SpeedDial component, showcasing different configurations and animations.
+ * 
+ * https://mui.com/material-ui/react-speed-dial/
+ */
 const meta: Meta<typeof SpeedDial> = {
   title: 'Molecules/SpeedDial',
   component: SpeedDial,
@@ -61,10 +68,20 @@ const SpeedDialWithState = ({ direction, hidden, transitionDuration }: any) => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic speed dial component with default settings and three actions.
+ */
 export const Default: Story = {
   render: () => <SpeedDialWithState />,
 };
 
+/**
+ * DifferentDirections Story
+ * 
+ * Demonstrates speed dial components with different opening directions: up, down, left, and right.
+ */
 export const DifferentDirections: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '20px', padding: '20px' }}>
@@ -76,6 +93,11 @@ export const DifferentDirections: Story = {
   ),
 };
 
+/**
+ * WithMoreActions Story
+ * 
+ * Shows a speed dial component with additional actions for more complex use cases.
+ */
 export const WithMoreActions: Story = {
   render: () => (
     <SpeedDialWithState
@@ -89,14 +111,29 @@ export const WithMoreActions: Story = {
   ),
 };
 
+/**
+ * Hidden Story
+ * 
+ * Demonstrates a speed dial component that is initially hidden.
+ */
 export const Hidden: Story = {
   render: () => <SpeedDialWithState hidden={true} />,
 };
 
+/**
+ * CustomTransitionDuration Story
+ * 
+ * Shows a speed dial component with a custom animation duration.
+ */
 export const CustomTransitionDuration: Story = {
   render: () => <SpeedDialWithState transitionDuration={500} />,
 };
 
+/**
+ * CustomStyle Story
+ * 
+ * Demonstrates a speed dial component with custom styling for the main button.
+ */
 export const CustomStyle: Story = {
   render: () => (
     <SpeedDialWithState

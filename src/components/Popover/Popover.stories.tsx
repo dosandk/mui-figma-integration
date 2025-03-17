@@ -3,6 +3,13 @@ import { useState } from 'react';
 import { Button, Box, Typography, Paper } from '@mui/material';
 import { Popover } from './index';
 
+/**
+ * Popover Component Stories
+ * 
+ * This file contains all the stories for the Popover component, showcasing different anchor positions, content styles, and interactive features.
+ * 
+ * https://mui.com/material-ui/react-popover/
+ */
 const meta: Meta<typeof Popover> = {
   title: 'Molecules/Popover',
   component: Popover,
@@ -26,6 +33,11 @@ const meta: Meta<typeof Popover> = {
 export default meta;
 type Story = StoryObj<typeof Popover>;
 
+/**
+ * PopoverDemo Component
+ * 
+ * A wrapper component that provides the open/close functionality for popover stories.
+ */
 const PopoverDemo = () => {
   const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
   const open = Boolean(anchorEl);
@@ -54,10 +66,20 @@ const PopoverDemo = () => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic popover with default positioning and content.
+ */
 export const Default: Story = {
   render: () => <PopoverDemo />,
 };
 
+/**
+ * DifferentAnchors Story
+ * 
+ * Demonstrates popovers with different anchor positions and transformations.
+ */
 export const DifferentAnchors: Story = {
   render: () => {
     const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
@@ -135,6 +157,11 @@ export const DifferentAnchors: Story = {
   },
 };
 
+/**
+ * WithPaper Story
+ * 
+ * Shows a popover with Paper component for enhanced styling and elevation.
+ */
 export const WithPaper: Story = {
   render: () => {
     const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);
@@ -170,6 +197,11 @@ export const WithPaper: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Demonstrates a popover with custom styling applied to its components.
+ */
 export const WithCustomStyle: Story = {
   render: () => {
     const [anchorEl, setAnchorEl] = useState<HTMLElement | null>(null);

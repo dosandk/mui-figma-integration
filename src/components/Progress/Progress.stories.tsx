@@ -3,6 +3,13 @@ import { useState, useEffect } from 'react';
 import { Box, Stack } from '@mui/material';
 import { CircularProgress, LinearProgress } from './index';
 
+/**
+ * Progress Component Stories
+ * 
+ * This file contains all the stories for the Progress components (Circular and Linear), showcasing different variants, colors, sizes, and interactive features.
+ * 
+ * https://mui.com/material-ui/react-progress/
+ */
 const meta: Meta<typeof CircularProgress> = {
   title: 'Molecules/Progress',
   component: CircularProgress,
@@ -55,12 +62,22 @@ const useProgress = (initialValue = 0) => {
   return progress;
 };
 
+/**
+ * CircularIndeterminate Story
+ * 
+ * Shows a circular progress indicator in indeterminate state.
+ */
 export const CircularIndeterminate: CircularStory = {
   render: () => (
     <CircularProgress />
   ),
 };
 
+/**
+ * CircularDeterminate Story
+ * 
+ * Demonstrates a circular progress indicator with simulated progress.
+ */
 export const CircularDeterminate: CircularStory = {
   render: () => {
     const progress = useProgress();
@@ -68,6 +85,11 @@ export const CircularDeterminate: CircularStory = {
   },
 };
 
+/**
+ * CircularSizes Story
+ * 
+ * Shows circular progress indicators in different sizes.
+ */
 export const CircularSizes: CircularStory = {
   render: () => (
     <Stack direction="row" spacing={2}>
@@ -78,6 +100,11 @@ export const CircularSizes: CircularStory = {
   ),
 };
 
+/**
+ * CircularColors Story
+ * 
+ * Demonstrates circular progress indicators with different theme colors.
+ */
 export const CircularColors: CircularStory = {
   render: () => (
     <Stack direction="row" spacing={2}>
@@ -91,6 +118,11 @@ export const CircularColors: CircularStory = {
   ),
 };
 
+/**
+ * LinearIndeterminate Story
+ * 
+ * Shows a linear progress indicator in indeterminate state.
+ */
 export const LinearIndeterminate: LinearStory = {
   render: () => (
     <Box sx={{ width: '100%' }}>
@@ -99,6 +131,11 @@ export const LinearIndeterminate: LinearStory = {
   ),
 };
 
+/**
+ * LinearDeterminate Story
+ * 
+ * Demonstrates a linear progress indicator with simulated progress.
+ */
 export const LinearDeterminate: LinearStory = {
   render: () => {
     const progress = useProgress();
@@ -110,6 +147,11 @@ export const LinearDeterminate: LinearStory = {
   },
 };
 
+/**
+ * LinearBuffer Story
+ * 
+ * Shows a linear progress indicator with buffer effect.
+ */
 export const LinearBuffer: LinearStory = {
   render: () => {
     const progress = useProgress();
@@ -126,6 +168,11 @@ export const LinearBuffer: LinearStory = {
   },
 };
 
+/**
+ * LinearColors Story
+ * 
+ * Demonstrates linear progress indicators with different theme colors.
+ */
 export const LinearColors: LinearStory = {
   render: () => (
     <Stack spacing={2}>
@@ -139,6 +186,11 @@ export const LinearColors: LinearStory = {
   ),
 };
 
+/**
+ * CustomStyles Story
+ * 
+ * Shows both circular and linear progress indicators with custom styling.
+ */
 export const CustomStyles: CircularStory = {
   render: () => {
     const progress = useProgress();

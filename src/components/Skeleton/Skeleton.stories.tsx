@@ -1,6 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Skeleton } from './index';
 
+/**
+ * Skeleton Component Stories
+ * 
+ * This file contains all the stories for the Skeleton component, showcasing different loading states and animations.
+ * 
+ * https://mui.com/material-ui/react-skeleton/
+ */
 const meta: Meta<typeof Skeleton> = {
   title: 'Molecules/Skeleton',
   component: Skeleton,
@@ -36,10 +43,20 @@ export default meta;
 
 type Story = StoryObj<typeof Skeleton>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic skeleton component with default settings.
+ */
 export const Default: Story = {
   render: () => <Skeleton />,
 };
 
+/**
+ * TextVariant Story
+ * 
+ * Demonstrates skeleton components in text variant with different widths.
+ */
 export const TextVariant: Story = {
   render: () => (
     <div style={{ width: '100%' }}>
@@ -50,6 +67,11 @@ export const TextVariant: Story = {
   ),
 };
 
+/**
+ * RectangularVariant Story
+ * 
+ * Shows skeleton components in rectangular variant for image placeholders.
+ */
 export const RectangularVariant: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '1rem' }}>
@@ -59,6 +81,11 @@ export const RectangularVariant: Story = {
   ),
 };
 
+/**
+ * CircularVariant Story
+ * 
+ * Demonstrates skeleton components in circular variant for avatar placeholders.
+ */
 export const CircularVariant: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '1rem' }}>
@@ -68,6 +95,11 @@ export const CircularVariant: Story = {
   ),
 };
 
+/**
+ * DifferentAnimations Story
+ * 
+ * Shows skeleton components with different animation styles: pulse, wave, and no animation.
+ */
 export const DifferentAnimations: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
@@ -78,6 +110,11 @@ export const DifferentAnimations: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Demonstrates skeleton components with various theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -92,6 +129,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * CardSkeleton Story
+ * 
+ * Shows a complete card skeleton layout with image and text placeholders.
+ */
 export const CardSkeleton: Story = {
   render: () => (
     <div style={{ width: 300, padding: 16, border: '1px solid #e0e0e0', borderRadius: 8 }}>
@@ -105,6 +147,11 @@ export const CardSkeleton: Story = {
   ),
 };
 
+/**
+ * AvatarWithText Story
+ * 
+ * Demonstrates a skeleton layout combining circular avatar with text placeholders.
+ */
 export const AvatarWithText: Story = {
   render: () => (
     <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
@@ -117,6 +164,11 @@ export const AvatarWithText: Story = {
   ),
 };
 
+/**
+ * CustomStyle Story
+ * 
+ * Shows a skeleton component with custom styling and gradient animation.
+ */
 export const CustomStyle: Story = {
   render: () => (
     <Skeleton

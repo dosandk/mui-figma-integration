@@ -3,6 +3,13 @@ import { Dialog } from './index';
 import { Button, DialogContentText } from '@mui/material';
 import { useState } from 'react';
 
+/**
+ * Dialog Component Stories
+ * 
+ * This file contains all the stories for the Dialog component, showcasing different sizes, styles, and interactive features.
+ * 
+ * https://mui.com/material-ui/react-dialog/
+ */
 const meta: Meta<typeof Dialog> = {
   title: 'Molecules/Dialog',
   component: Dialog,
@@ -31,6 +38,11 @@ const meta: Meta<typeof Dialog> = {
 export default meta;
 type Story = StoryObj<typeof Dialog>;
 
+/**
+ * DialogDemo Component
+ * 
+ * A wrapper component that provides the open/close functionality for dialog stories.
+ */
 const DialogDemo = ({ args }: { args: any }) => {
   const [open, setOpen] = useState(false);
 
@@ -56,6 +68,11 @@ const DialogDemo = ({ args }: { args: any }) => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic dialog with title, content, and action buttons.
+ */
 export const Default: Story = {
   render: (args) => <DialogDemo args={args} />,
   args: {
@@ -76,6 +93,11 @@ export const Default: Story = {
   },
 };
 
+/**
+ * WithCustomWidth Story
+ * 
+ * Demonstrates a dialog with custom width and full-width option.
+ */
 export const WithCustomWidth: Story = {
   render: (args) => <DialogDemo args={args} />,
   args: {
@@ -98,6 +120,11 @@ export const WithCustomWidth: Story = {
   },
 };
 
+/**
+ * FullScreen Story
+ * 
+ * Shows a dialog that takes up the full screen.
+ */
 export const FullScreen: Story = {
   render: (args) => <DialogDemo args={args} />,
   args: {
@@ -119,6 +146,11 @@ export const FullScreen: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Demonstrates a dialog with custom styling applied to its components.
+ */
 export const WithCustomStyle: Story = {
   render: (args) => <DialogDemo args={args} />,
   args: {

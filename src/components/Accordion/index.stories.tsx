@@ -7,7 +7,13 @@ import { FIGMA_PATH } from "../figma.config";
 const FIGMA_COMPONENT_NODE = "node-id=6583-45995";
 const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
 
-// More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
+/**
+ * Accordion Component Stories
+ * 
+ * This file contains all the stories for the Accordion component, showcasing different configurations and states.
+ * 
+ * https://mui.com/material-ui/react-accordion/
+ */
 const meta = {
   title: 'Components/Accordion',
   component: Accordion,
@@ -19,7 +25,7 @@ const meta = {
   tags: ['autodocs'],
   // More on argTypes: https://storybook.js.org/docs/api/argtypes
   argTypes: {
-    backgroundColor: { control: 'color' },
+    // backgroundColor: { control: 'color' },
   },
   // Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
   args: { onClick: fn() },
@@ -29,7 +35,11 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-// More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
+/**
+ * DefaultAccordion Story
+ * 
+ * Shows a basic accordion component with default settings and Figma integration.
+ */
 export const DefaultAccordion: Story = {
   parameters: {
     design: {
@@ -44,6 +54,11 @@ export const DefaultAccordion: Story = {
   },
 };
 
+/**
+ * Expanded Story
+ * 
+ * Demonstrates an accordion component that is expanded by default.
+ */
 export const Expanded: Story = {
   args: {
     title: 'Expanded Accordion',
@@ -52,6 +67,11 @@ export const Expanded: Story = {
   },
 };
 
+/**
+ * Disabled Story
+ * 
+ * Shows an accordion component in its disabled state.
+ */
 export const Disabled: Story = {
   args: {
     title: 'Disabled Accordion',

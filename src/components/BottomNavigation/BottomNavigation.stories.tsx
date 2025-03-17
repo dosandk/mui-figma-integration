@@ -3,6 +3,13 @@ import { BottomNavigation } from './index';
 import { BottomNavigationAction } from '@mui/material';
 import { Restore as RestoreIcon, Favorite as FavoriteIcon, LocationOn as LocationOnIcon } from '@mui/icons-material';
 
+/**
+ * BottomNavigation Component Stories
+ * 
+ * This file contains all the stories for the BottomNavigation component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-bottom-navigation/
+ */
 const meta: Meta<typeof BottomNavigation> = {
   title: 'Molecules/BottomNavigation',
   component: BottomNavigation,
@@ -27,6 +34,11 @@ const meta: Meta<typeof BottomNavigation> = {
 export default meta;
 type Story = StoryObj<typeof BottomNavigation>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic bottom navigation with icons and labels.
+ */
 export const Default: Story = {
   args: {
     children: (
@@ -39,6 +51,11 @@ export const Default: Story = {
   },
 };
 
+/**
+ * WithoutLabels Story
+ * 
+ * Demonstrates bottom navigation with icons only.
+ */
 export const WithoutLabels: Story = {
   args: {
     showLabels: false,
@@ -52,6 +69,11 @@ export const WithoutLabels: Story = {
   },
 };
 
+/**
+ * WithCustomColor Story
+ * 
+ * Shows bottom navigation with custom theme color.
+ */
 export const WithCustomColor: Story = {
   args: {
     color: 'secondary',
@@ -65,6 +87,11 @@ export const WithCustomColor: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Demonstrates bottom navigation with custom styling.
+ */
 export const WithCustomStyle: Story = {
   args: {
     sx: {

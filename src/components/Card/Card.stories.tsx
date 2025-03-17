@@ -3,6 +3,13 @@ import { Card } from './index';
 import { CardContent, CardActions, Button, Typography, CardMedia, CardHeader, Avatar, IconButton } from '@mui/material';
 import { MoreVert as MoreVertIcon } from '@mui/icons-material';
 
+/**
+ * Card Component Stories
+ * 
+ * This file contains all the stories for the Card component, showcasing different variants, media content, headers, and styling options.
+ * 
+ * https://mui.com/material-ui/react-card/
+ */
 const meta: Meta<typeof Card> = {
   title: 'Molecules/Card',
   component: Card,
@@ -27,6 +34,11 @@ const meta: Meta<typeof Card> = {
 export default meta;
 type Story = StoryObj<typeof Card>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic card with content and action buttons.
+ */
 export const Default: Story = {
   args: {
     children: (
@@ -48,6 +60,11 @@ export const Default: Story = {
   },
 };
 
+/**
+ * WithMedia Story
+ * 
+ * Demonstrates a card with media content (image).
+ */
 export const WithMedia: Story = {
   args: {
     children: (
@@ -75,6 +92,11 @@ export const WithMedia: Story = {
   },
 };
 
+/**
+ * WithHeader Story
+ * 
+ * Shows a card with a header containing an avatar and action buttons.
+ */
 export const WithHeader: Story = {
   args: {
     children: (
@@ -105,6 +127,11 @@ export const WithHeader: Story = {
   },
 };
 
+/**
+ * Outlined Story
+ * 
+ * Demonstrates a card with the outlined variant.
+ */
 export const Outlined: Story = {
   args: {
     variant: 'outlined',
@@ -127,6 +154,11 @@ export const Outlined: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Shows a card with custom styling applied.
+ */
 export const WithCustomStyle: Story = {
   args: {
     sx: {

@@ -2,6 +2,13 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Checkbox } from './index';
 import { FormControlLabel } from '@mui/material';
 
+/**
+ * Checkbox Component Stories
+ * 
+ * This file contains all the stories for the Checkbox component, showcasing different states, colors, sizes, and interactive features.
+ * 
+ * https://mui.com/material-ui/react-checkbox/
+ */
 const meta: Meta<typeof Checkbox> = {
   title: 'Molecules/Checkbox',
   component: Checkbox,
@@ -35,6 +42,11 @@ const meta: Meta<typeof Checkbox> = {
 export default meta;
 type Story = StoryObj<typeof Checkbox>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic checkbox with a label.
+ */
 export const Default: Story = {
   args: {
     label: 'Default Checkbox',
@@ -47,6 +59,11 @@ export const Default: Story = {
   ),
 };
 
+/**
+ * Checked Story
+ * 
+ * Demonstrates a checkbox in the checked state.
+ */
 export const Checked: Story = {
   args: {
     checked: true,
@@ -60,6 +77,11 @@ export const Checked: Story = {
   ),
 };
 
+/**
+ * Indeterminate Story
+ * 
+ * Shows a checkbox in the indeterminate state.
+ */
 export const Indeterminate: Story = {
   args: {
     indeterminate: true,
@@ -73,6 +95,11 @@ export const Indeterminate: Story = {
   ),
 };
 
+/**
+ * Disabled Story
+ * 
+ * Demonstrates a disabled checkbox.
+ */
 export const Disabled: Story = {
   args: {
     disabled: true,
@@ -86,6 +113,11 @@ export const Disabled: Story = {
   ),
 };
 
+/**
+ * DisabledChecked Story
+ * 
+ * Shows a disabled checkbox in the checked state.
+ */
 export const DisabledChecked: Story = {
   args: {
     disabled: true,
@@ -100,6 +132,11 @@ export const DisabledChecked: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Demonstrates checkboxes with different theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
@@ -134,6 +171,11 @@ export const DifferentColors: Story = {
   },
 };
 
+/**
+ * DifferentSizes Story
+ * 
+ * Shows checkboxes in different sizes.
+ */
 export const DifferentSizes: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>

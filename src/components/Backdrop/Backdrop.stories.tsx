@@ -2,6 +2,13 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Backdrop } from './index';
 import { CircularProgress } from '@mui/material';
 
+/**
+ * Backdrop Component Stories
+ * 
+ * This file contains all the stories for the Backdrop component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-backdrop/
+ */
 const meta: Meta<typeof Backdrop> = {
   title: 'Molecules/Backdrop',
   component: Backdrop,
@@ -25,6 +32,11 @@ const meta: Meta<typeof Backdrop> = {
 export default meta;
 type Story = StoryObj<typeof Backdrop>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic backdrop with loading spinner.
+ */
 export const Default: Story = {
   args: {
     open: true,
@@ -32,6 +44,11 @@ export const Default: Story = {
   },
 };
 
+/**
+ * Invisible Story
+ * 
+ * Demonstrates an invisible backdrop with loading spinner.
+ */
 export const Invisible: Story = {
   args: {
     open: true,
@@ -40,6 +57,11 @@ export const Invisible: Story = {
   },
 };
 
+/**
+ * WithCustomTransition Story
+ * 
+ * Shows a backdrop with custom transition duration.
+ */
 export const WithCustomTransition: Story = {
   args: {
     open: true,
@@ -48,6 +70,11 @@ export const WithCustomTransition: Story = {
   },
 };
 
+/**
+ * WithCustomContent Story
+ * 
+ * Demonstrates a backdrop with custom styled content.
+ */
 export const WithCustomContent: Story = {
   args: {
     open: true,

@@ -1,6 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Select, SelectItem } from './index';
 
+/**
+ * Select Component Stories
+ * 
+ * This file contains all the stories for the Select component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-select/
+ */
 const meta: Meta<typeof Select> = {
   title: 'Molecules/Select',
   component: Select,
@@ -48,6 +55,9 @@ export default meta;
 
 type Story = StoryObj<typeof Select>;
 
+/**
+ * Default options for select components
+ */
 const options = [
   { value: 'option1', label: 'Option 1' },
   { value: 'option2', label: 'Option 2' },
@@ -55,6 +65,11 @@ const options = [
   { value: 'option4', label: 'Option 4' },
 ];
 
+/**
+ * Default Story
+ * 
+ * Shows basic select with default styling and options.
+ */
 export const Default: Story = {
   render: () => (
     <Select>
@@ -67,6 +82,11 @@ export const Default: Story = {
   ),
 };
 
+/**
+ * WithLabel Story
+ * 
+ * Demonstrates select with a label above the input.
+ */
 export const WithLabel: Story = {
   render: () => (
     <Select label="Select an option">
@@ -79,6 +99,11 @@ export const WithLabel: Story = {
   ),
 };
 
+/**
+ * DifferentVariants Story
+ * 
+ * Shows select components with different variants (outlined, filled, standard).
+ */
 export const DifferentVariants: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
@@ -107,6 +132,11 @@ export const DifferentVariants: Story = {
   ),
 };
 
+/**
+ * DifferentSizes Story
+ * 
+ * Demonstrates select components in different sizes (small and medium).
+ */
 export const DifferentSizes: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
@@ -128,6 +158,11 @@ export const DifferentSizes: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Shows select components with various theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
@@ -177,6 +212,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * WithHelperText Story
+ * 
+ * Demonstrates select with helper text below the input.
+ */
 export const WithHelperText: Story = {
   render: () => (
     <Select label="Select an option" helperText="Please select one option">
@@ -189,6 +229,11 @@ export const WithHelperText: Story = {
   ),
 };
 
+/**
+ * WithError Story
+ * 
+ * Shows select in error state with error message.
+ */
 export const WithError: Story = {
   render: () => (
     <Select
@@ -205,6 +250,11 @@ export const WithError: Story = {
   ),
 };
 
+/**
+ * Required Story
+ * 
+ * Demonstrates required select with asterisk indicator.
+ */
 export const Required: Story = {
   render: () => (
     <Select label="Select an option" required>
@@ -217,6 +267,11 @@ export const Required: Story = {
   ),
 };
 
+/**
+ * Disabled Story
+ * 
+ * Shows select in disabled state.
+ */
 export const Disabled: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
@@ -238,6 +293,11 @@ export const Disabled: Story = {
   ),
 };
 
+/**
+ * CustomStyle Story
+ * 
+ * Demonstrates select with custom styling.
+ */
 export const CustomStyle: Story = {
   render: () => (
     <Select
@@ -247,12 +307,6 @@ export const CustomStyle: Story = {
           borderRadius: '8px',
           '&:hover fieldset': {
             borderColor: 'primary.main',
-          },
-        },
-        '& .MuiInputLabel-root': {
-          color: 'primary.main',
-          '&.Mui-focused': {
-            color: 'primary.main',
           },
         },
       }}

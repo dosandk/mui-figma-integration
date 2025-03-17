@@ -46,6 +46,13 @@ const rows = [
   { id: 9, lastName: 'Roxie', firstName: 'Harvey', age: 65 },
 ];
 
+/**
+ * DataGrid Component Stories
+ * 
+ * This file contains all the stories for the DataGrid component, showcasing different features like sorting, filtering, pagination, and row selection.
+ * 
+ * https://mui.com/x/react-data-grid/
+ */
 const meta: Meta<typeof DataGrid> = {
   title: 'Molecules/DataGrid',
   component: DataGrid,
@@ -101,6 +108,11 @@ const meta: Meta<typeof DataGrid> = {
 export default meta;
 type Story = StoryObj<typeof DataGrid>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic data grid with default configuration.
+ */
 export const Default: Story = {
   args: {
     columns,
@@ -108,6 +120,11 @@ export const Default: Story = {
   },
 };
 
+/**
+ * WithCheckboxSelection Story
+ * 
+ * Demonstrates a data grid with row selection enabled via checkboxes.
+ */
 export const WithCheckboxSelection: Story = {
   args: {
     columns,
@@ -116,6 +133,11 @@ export const WithCheckboxSelection: Story = {
   },
 };
 
+/**
+ * WithColumnMenu Story
+ * 
+ * Shows a data grid with column menu functionality enabled.
+ */
 export const WithColumnMenu: Story = {
   args: {
     columns,
@@ -124,6 +146,11 @@ export const WithColumnMenu: Story = {
   },
 };
 
+/**
+ * WithPagination Story
+ * 
+ * Demonstrates a data grid with pagination controls.
+ */
 export const WithPagination: Story = {
   args: {
     columns,
@@ -137,6 +164,11 @@ export const WithPagination: Story = {
   },
 };
 
+/**
+ * WithoutFooter Story
+ * 
+ * Shows a data grid without the footer component.
+ */
 export const WithoutFooter: Story = {
   args: {
     columns,
@@ -145,6 +177,11 @@ export const WithoutFooter: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Demonstrates a data grid with custom styling applied to cells and headers.
+ */
 export const WithCustomStyle: Story = {
   args: {
     columns,
@@ -163,6 +200,11 @@ export const WithCustomStyle: Story = {
   },
 };
 
+/**
+ * WithEditableCells Story
+ * 
+ * Shows a data grid with editable cells based on custom conditions.
+ */
 export const WithEditableCells: Story = {
   args: {
     columns,

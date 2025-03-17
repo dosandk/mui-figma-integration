@@ -2,6 +2,13 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Box, Typography } from '@mui/material';
 import { Paper } from './index';
 
+/**
+ * Paper Component Stories
+ * 
+ * This file contains all the stories for the Paper component, showcasing different elevations, variants, and styling options.
+ * 
+ * https://mui.com/material-ui/react-paper/
+ */
 const meta: Meta<typeof Paper> = {
   title: 'Molecules/Paper',
   component: Paper,
@@ -26,6 +33,11 @@ const meta: Meta<typeof Paper> = {
 export default meta;
 type Story = StoryObj<typeof Paper>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic paper with default elevation and rounded corners.
+ */
 export const Default: Story = {
   args: {
     children: (
@@ -39,6 +51,11 @@ export const Default: Story = {
   },
 };
 
+/**
+ * DifferentElevations Story
+ * 
+ * Demonstrates papers with different elevation levels.
+ */
 export const DifferentElevations: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap' }}>
@@ -54,6 +71,11 @@ export const DifferentElevations: Story = {
   ),
 };
 
+/**
+ * Square Story
+ * 
+ * Shows a paper with square corners instead of rounded ones.
+ */
 export const Square: Story = {
   args: {
     square: true,
@@ -68,6 +90,11 @@ export const Square: Story = {
   },
 };
 
+/**
+ * Outlined Story
+ * 
+ * Demonstrates a paper with outlined variant instead of elevation.
+ */
 export const Outlined: Story = {
   args: {
     variant: 'outlined',
@@ -82,6 +109,11 @@ export const Outlined: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Shows a paper with custom styling and hover effects.
+ */
 export const WithCustomStyle: Story = {
   args: {
     sx: {
@@ -105,6 +137,11 @@ export const WithCustomStyle: Story = {
   },
 };
 
+/**
+ * WithContent Story
+ * 
+ * Demonstrates a paper component with rich content layout.
+ */
 export const WithContent: Story = {
   render: () => (
     <Paper sx={{ maxWidth: 600 }}>

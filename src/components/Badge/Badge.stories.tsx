@@ -3,6 +3,13 @@ import { Badge } from './index';
 import { Box } from '@mui/material';
 import { Mail as MailIcon } from '@mui/icons-material';
 
+/**
+ * Badge Component Stories
+ * 
+ * This file contains all the stories for the Badge component, showcasing different variants, colors, positions, and interactive features.
+ * 
+ * https://mui.com/material-ui/react-badge/
+ */
 const meta: Meta<typeof Badge> = {
   title: 'Molecules/Badge',
   component: Badge,
@@ -26,6 +33,11 @@ const meta: Meta<typeof Badge> = {
 export default meta;
 type Story = StoryObj<typeof Badge>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic badge with a numeric content.
+ */
 export const Default: Story = {
   render: () => (
     <Badge badgeContent={4}>
@@ -34,6 +46,11 @@ export const Default: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Demonstrates badges with different theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2 }}>
@@ -59,6 +76,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * DotVariant Story
+ * 
+ * Shows a badge with the dot variant instead of numeric content.
+ */
 export const DotVariant: Story = {
   render: () => (
     <Badge variant="dot" color="error">
@@ -67,6 +89,11 @@ export const DotVariant: Story = {
   ),
 };
 
+/**
+ * WithMaxValue Story
+ * 
+ * Demonstrates a badge with a maximum value limit.
+ */
 export const WithMaxValue: Story = {
   render: () => (
     <Badge badgeContent={100} max={99}>
@@ -75,6 +102,11 @@ export const WithMaxValue: Story = {
   ),
 };
 
+/**
+ * ShowZero Story
+ * 
+ * Shows a badge that displays zero instead of hiding it.
+ */
 export const ShowZero: Story = {
   render: () => (
     <Badge badgeContent={0} showZero>
@@ -83,6 +115,11 @@ export const ShowZero: Story = {
   ),
 };
 
+/**
+ * DifferentPositions Story
+ * 
+ * Demonstrates badges positioned at different corners of the content.
+ */
 export const DifferentPositions: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2 }}>
@@ -102,6 +139,11 @@ export const DifferentPositions: Story = {
   ),
 };
 
+/**
+ * WithCustomContent Story
+ * 
+ * Shows a badge with custom content instead of a number.
+ */
 export const WithCustomContent: Story = {
   render: () => (
     <Badge
@@ -117,6 +159,11 @@ export const WithCustomContent: Story = {
   ),
 };
 
+/**
+ * WithOverlap Story
+ * 
+ * Demonstrates different badge overlap styles.
+ */
 export const WithOverlap: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2 }}>
@@ -130,6 +177,11 @@ export const WithOverlap: Story = {
   ),
 };
 
+/**
+ * Invisible Story
+ * 
+ * Shows a badge that is invisible but still present in the DOM.
+ */
 export const Invisible: Story = {
   render: () => (
     <Badge badgeContent={4} invisible>
@@ -138,6 +190,11 @@ export const Invisible: Story = {
   ),
 };
 
+/**
+ * WithCustomStyling Story
+ * 
+ * Demonstrates a badge with custom styling and hover effects.
+ */
 export const WithCustomStyling: Story = {
   render: () => (
     <Badge

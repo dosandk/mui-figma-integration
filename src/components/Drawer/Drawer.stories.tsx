@@ -4,6 +4,13 @@ import { Button, List, ListItem, ListItemIcon, ListItemText, Box } from '@mui/ma
 import { Home, Person, Settings } from '@mui/icons-material';
 import { useState } from 'react';
 
+/**
+ * Drawer Component Stories
+ * 
+ * This file contains all the stories for the Drawer component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-drawer/
+ */
 const meta: Meta<typeof Drawer> = {
   title: 'Molecules/Drawer',
   component: Drawer,
@@ -33,6 +40,11 @@ const meta: Meta<typeof Drawer> = {
 export default meta;
 type Story = StoryObj<typeof Drawer>;
 
+/**
+ * DrawerDemo Component
+ * 
+ * A wrapper component that demonstrates the Drawer functionality with a list of menu items.
+ */
 const DrawerDemo = ({ args }: { args: any }) => {
   const [open, setOpen] = useState(false);
 
@@ -75,10 +87,20 @@ const DrawerDemo = ({ args }: { args: any }) => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic temporary drawer that can be opened and closed.
+ */
 export const Default: Story = {
   render: (args) => <DrawerDemo args={args} />,
 };
 
+/**
+ * Permanent Story
+ * 
+ * Demonstrates a permanent drawer that is always visible.
+ */
 export const Permanent: Story = {
   render: (args) => <DrawerDemo args={args} />,
   args: {
@@ -87,6 +109,11 @@ export const Permanent: Story = {
   },
 };
 
+/**
+ * Persistent Story
+ * 
+ * Shows a persistent drawer that stays open until explicitly closed.
+ */
 export const Persistent: Story = {
   render: (args) => <DrawerDemo args={args} />,
   args: {
@@ -95,6 +122,11 @@ export const Persistent: Story = {
   },
 };
 
+/**
+ * RightAnchored Story
+ * 
+ * Demonstrates a drawer anchored to the right side of the screen.
+ */
 export const RightAnchored: Story = {
   render: (args) => <DrawerDemo args={args} />,
   args: {
@@ -102,6 +134,11 @@ export const RightAnchored: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Shows a drawer with custom styling for the paper and list items.
+ */
 export const WithCustomStyle: Story = {
   render: (args) => <DrawerDemo args={args} />,
   args: {

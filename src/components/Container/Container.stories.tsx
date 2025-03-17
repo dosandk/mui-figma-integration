@@ -2,6 +2,13 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Container } from './index';
 import { Box, Typography } from '@mui/material';
 
+/**
+ * Container Component Stories
+ * 
+ * This file contains all the stories for the Container component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-container/
+ */
 const meta: Meta<typeof Container> = {
   title: 'Molecules/Container',
   component: Container,
@@ -26,6 +33,9 @@ const meta: Meta<typeof Container> = {
 export default meta;
 type Story = StoryObj<typeof Container>;
 
+/**
+ * Sample content component for container stories
+ */
 const Content = () => (
   <Box sx={{ bgcolor: '#cfe8fc', height: '100vh', p: 2 }}>
     <Typography variant="h4" gutterBottom>
@@ -37,12 +47,22 @@ const Content = () => (
   </Box>
 );
 
+/**
+ * Default Story
+ * 
+ * Shows a basic container with default settings.
+ */
 export const Default: Story = {
   args: {
     children: <Content />,
   },
 };
 
+/**
+ * Fixed Story
+ * 
+ * Demonstrates a container with fixed max-width based on breakpoint.
+ */
 export const Fixed: Story = {
   args: {
     fixed: true,
@@ -50,6 +70,11 @@ export const Fixed: Story = {
   },
 };
 
+/**
+ * WithoutGutters Story
+ * 
+ * Shows a container without horizontal padding.
+ */
 export const WithoutGutters: Story = {
   args: {
     disableGutters: true,
@@ -57,6 +82,11 @@ export const WithoutGutters: Story = {
   },
 };
 
+/**
+ * DifferentMaxWidths Story
+ * 
+ * Demonstrates containers with various max-width options.
+ */
 export const DifferentMaxWidths: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
@@ -92,6 +122,11 @@ export const DifferentMaxWidths: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Shows a container with custom styling.
+ */
 export const WithCustomStyle: Story = {
   args: {
     sx: {

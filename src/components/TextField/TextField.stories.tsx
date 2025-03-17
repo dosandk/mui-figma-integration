@@ -4,6 +4,13 @@ import { useState } from 'react';
 import { Box } from '@mui/material';
 import { Search, Visibility, VisibilityOff } from '@mui/icons-material';
 
+/**
+ * TextField Component Stories
+ * 
+ * This file contains all the stories for the TextField component, showcasing different variants, states, and styling options.
+ * 
+ * https://mui.com/material-ui/react-text-field/
+ */
 const meta: Meta<typeof TextField> = {
   title: 'Molecules/TextField',
   component: TextField,
@@ -27,6 +34,11 @@ const meta: Meta<typeof TextField> = {
 export default meta;
 type Story = StoryObj<typeof TextField>;
 
+/**
+ * TextFieldWithState Component
+ * 
+ * A wrapper component that demonstrates controlled input functionality.
+ */
 const TextFieldWithState = ({ ...rest }: any) => {
   const [value, setValue] = useState('');
 
@@ -43,10 +55,20 @@ const TextFieldWithState = ({ ...rest }: any) => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic text field with default styling.
+ */
 export const Default: Story = {
   render: () => <TextFieldWithState label="Default TextField" />,
 };
 
+/**
+ * WithHelperText Story
+ * 
+ * Demonstrates a text field with helper text below.
+ */
 export const WithHelperText: Story = {
   render: () => (
     <TextFieldWithState
@@ -56,6 +78,11 @@ export const WithHelperText: Story = {
   ),
 };
 
+/**
+ * WithError Story
+ * 
+ * Shows a text field in error state with error message.
+ */
 export const WithError: Story = {
   render: () => (
     <TextFieldWithState
@@ -66,6 +93,11 @@ export const WithError: Story = {
   ),
 };
 
+/**
+ * Required Story
+ * 
+ * Demonstrates a required text field with validation message.
+ */
 export const Required: Story = {
   render: () => (
     <TextFieldWithState
@@ -76,6 +108,11 @@ export const Required: Story = {
   ),
 };
 
+/**
+ * Disabled Story
+ * 
+ * Shows a disabled text field with pre-filled value.
+ */
 export const Disabled: Story = {
   render: () => (
     <TextFieldWithState
@@ -86,6 +123,11 @@ export const Disabled: Story = {
   ),
 };
 
+/**
+ * WithPlaceholder Story
+ * 
+ * Demonstrates a text field with placeholder text.
+ */
 export const WithPlaceholder: Story = {
   render: () => (
     <TextFieldWithState
@@ -95,6 +137,11 @@ export const WithPlaceholder: Story = {
   ),
 };
 
+/**
+ * DifferentVariants Story
+ * 
+ * Shows text fields with different variants: outlined, filled, and standard.
+ */
 export const DifferentVariants: Story = {
   render: () => (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -114,6 +161,11 @@ export const DifferentVariants: Story = {
   ),
 };
 
+/**
+ * DifferentSizes Story
+ * 
+ * Demonstrates text fields in different sizes.
+ */
 export const DifferentSizes: Story = {
   render: () => (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -129,6 +181,11 @@ export const DifferentSizes: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Shows text fields with different theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -160,6 +217,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * WithIcons Story
+ * 
+ * Demonstrates text fields with start and end icons.
+ */
 export const WithIcons: Story = {
   render: () => (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
@@ -179,6 +241,11 @@ export const WithIcons: Story = {
   ),
 };
 
+/**
+ * PasswordField Story
+ * 
+ * Shows a password field with show/hide password functionality.
+ */
 export const PasswordField: Story = {
   render: () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -214,6 +281,11 @@ export const PasswordField: Story = {
   },
 };
 
+/**
+ * WithCustomStyling Story
+ * 
+ * Demonstrates a text field with custom styling for hover effects and colors.
+ */
 export const WithCustomStyling: Story = {
   render: () => (
     <TextFieldWithState

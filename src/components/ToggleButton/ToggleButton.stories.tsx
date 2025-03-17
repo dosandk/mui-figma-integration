@@ -4,6 +4,13 @@ import { ToggleButtonGroup } from '@mui/material';
 import { FormatBold, FormatItalic, FormatUnderlined, FormatAlignLeft, FormatAlignCenter, FormatAlignRight, FormatAlignJustify } from '@mui/icons-material';
 import { useState } from 'react';
 
+/**
+ * ToggleButton Component Stories
+ * 
+ * This file contains all the stories for the ToggleButton component, showcasing different configurations and group behaviors.
+ * 
+ * https://mui.com/material-ui/react-toggle-button/
+ */
 const meta: Meta<typeof ToggleButton> = {
   title: 'Molecules/ToggleButton',
   component: ToggleButton,
@@ -42,10 +49,20 @@ const ToggleButtonWithState = ({ ...rest }: any) => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic toggle button with default settings.
+ */
 export const Default: Story = {
   render: () => <ToggleButtonWithState />,
 };
 
+/**
+ * WithIcon Story
+ * 
+ * Demonstrates a toggle button with an icon instead of text.
+ */
 export const WithIcon: Story = {
   render: () => (
     <ToggleButtonWithState>
@@ -54,6 +71,11 @@ export const WithIcon: Story = {
   ),
 };
 
+/**
+ * DifferentSizes Story
+ * 
+ * Shows toggle buttons in different sizes: small, medium, and large.
+ */
 export const DifferentSizes: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
@@ -64,6 +86,11 @@ export const DifferentSizes: Story = {
   ),
 };
 
+/**
+ * DifferentColors Story
+ * 
+ * Demonstrates toggle buttons with various theme colors.
+ */
 export const DifferentColors: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
@@ -77,6 +104,11 @@ export const DifferentColors: Story = {
   ),
 };
 
+/**
+ * Disabled Story
+ * 
+ * Shows toggle buttons in disabled states, both selected and unselected.
+ */
 export const Disabled: Story = {
   render: () => (
     <div style={{ display: 'flex', gap: '1rem' }}>
@@ -86,6 +118,11 @@ export const Disabled: Story = {
   ),
 };
 
+/**
+ * TextFormattingGroup Story
+ * 
+ * Demonstrates a group of toggle buttons for text formatting options.
+ */
 export const TextFormattingGroup: Story = {
   render: () => {
     const [formats, setFormats] = useState<string[]>([]);
@@ -114,6 +151,11 @@ export const TextFormattingGroup: Story = {
   },
 };
 
+/**
+ * TextAlignmentGroup Story
+ * 
+ * Shows a group of exclusive toggle buttons for text alignment options.
+ */
 export const TextAlignmentGroup: Story = {
   render: () => {
     const [alignment, setAlignment] = useState<string | null>('left');
@@ -146,6 +188,11 @@ export const TextAlignmentGroup: Story = {
   },
 };
 
+/**
+ * WithCustomStyling Story
+ * 
+ * Demonstrates a toggle button with custom styling for selected and hover states.
+ */
 export const WithCustomStyling: Story = {
   render: () => (
     <ToggleButtonWithState

@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Autocomplete } from './index';
 import { TextField } from '@mui/material';
 
+/**
+ * Sample data for autocomplete options
+ */
 const top100Films = [
   { label: 'The Shawshank Redemption', year: 1994 },
   { label: 'The Godfather', year: 1972 },
@@ -15,6 +18,13 @@ const top100Films = [
   { label: 'Fight Club', year: 1999 },
 ];
 
+/**
+ * Autocomplete Component Stories
+ * 
+ * This file contains all the stories for the Autocomplete component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-autocomplete/
+ */
 const meta: Meta<typeof Autocomplete> = {
   title: 'Molecules/Autocomplete',
   component: Autocomplete,
@@ -47,6 +57,11 @@ const meta: Meta<typeof Autocomplete> = {
 export default meta;
 type Story = StoryObj<typeof Autocomplete>;
 
+/**
+ * Default Story
+ * 
+ * Shows a basic autocomplete with movie options.
+ */
 export const Default: Story = {
   args: {
     options: top100Films,
@@ -54,6 +69,11 @@ export const Default: Story = {
   },
 };
 
+/**
+ * Multiple Story
+ * 
+ * Demonstrates autocomplete with multiple selection enabled.
+ */
 export const Multiple: Story = {
   args: {
     multiple: true,
@@ -62,6 +82,11 @@ export const Multiple: Story = {
   },
 };
 
+/**
+ * FreeSolo Story
+ * 
+ * Shows autocomplete that accepts any input value.
+ */
 export const FreeSolo: Story = {
   args: {
     freeSolo: true,
@@ -70,6 +95,11 @@ export const FreeSolo: Story = {
   },
 };
 
+/**
+ * Disabled Story
+ * 
+ * Demonstrates autocomplete in disabled state.
+ */
 export const Disabled: Story = {
   args: {
     disabled: true,
@@ -78,6 +108,11 @@ export const Disabled: Story = {
   },
 };
 
+/**
+ * ReadOnly Story
+ * 
+ * Shows autocomplete in read-only state with pre-selected value.
+ */
 export const ReadOnly: Story = {
   args: {
     readOnly: true,
@@ -87,6 +122,11 @@ export const ReadOnly: Story = {
   },
 };
 
+/**
+ * Small Story
+ * 
+ * Demonstrates autocomplete in small size variant.
+ */
 export const Small: Story = {
   args: {
     size: 'small',

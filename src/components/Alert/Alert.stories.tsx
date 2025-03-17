@@ -4,6 +4,13 @@ import { useState } from 'react';
 import { Button } from '@mui/material';
 import { Close as CloseIcon } from '@mui/icons-material';
 
+/**
+ * Alert Component Stories
+ * 
+ * This file contains all the stories for the Alert component, showcasing different variants, severities, and interactive features.
+ * 
+ * https://mui.com/material-ui/react-alert/
+ */
 const meta: Meta<typeof Alert> = {
   title: 'Molecules/Alert',
   component: Alert,
@@ -14,12 +21,18 @@ const meta: Meta<typeof Alert> = {
       options: ['error', 'warning', 'info', 'success'],
     },
     severity: {
+      description: 'The severity of the alert.',
       control: 'select',
       options: ['error', 'warning', 'info', 'success'],
     },
     variant: {
+      description: 'The variant to use for the alert.',
       control: 'select',
       options: ['filled', 'outlined', 'standard'],
+    },
+    onClose: {
+      description: 'Callback fired when the close button is clicked.',
+      action: 'clicked',
     },
   },
 };
@@ -27,6 +40,11 @@ const meta: Meta<typeof Alert> = {
 export default meta;
 type Story = StoryObj<typeof Alert>;
 
+/**
+ * AlertWithClose Component
+ * 
+ * A wrapper component that adds close functionality to the Alert component.
+ */
 const AlertWithClose = ({ ...rest }: any) => {
   const [open, setOpen] = useState(true);
 
@@ -50,6 +68,11 @@ const AlertWithClose = ({ ...rest }: any) => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic info alert with default styling.
+ */
 export const Default: Story = {
   render: () => (
     <Alert severity="info">
@@ -58,6 +81,11 @@ export const Default: Story = {
   ),
 };
 
+/**
+ * DifferentSeverities Story
+ * 
+ * Demonstrates all available alert severities: error, warning, info, and success.
+ */
 export const DifferentSeverities: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -69,6 +97,11 @@ export const DifferentSeverities: Story = {
   ),
 };
 
+/**
+ * DifferentVariants Story
+ * 
+ * Shows the three available alert variants: filled, outlined, and standard.
+ */
 export const DifferentVariants: Story = {
   render: () => (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
@@ -79,6 +112,11 @@ export const DifferentVariants: Story = {
   ),
 };
 
+/**
+ * WithCloseButton Story
+ * 
+ * Demonstrates an alert with a close button functionality.
+ */
 export const WithCloseButton: Story = {
   render: () => (
     <AlertWithClose severity="info">
@@ -87,6 +125,11 @@ export const WithCloseButton: Story = {
   ),
 };
 
+/**
+ * WithCustomIcon Story
+ * 
+ * Shows an alert with a custom icon instead of the default severity icon.
+ */
 export const WithCustomIcon: Story = {
   render: () => (
     <Alert severity="info" icon={<CloseIcon />}>
@@ -95,6 +138,11 @@ export const WithCustomIcon: Story = {
   ),
 };
 
+/**
+ * WithAction Story
+ * 
+ * Displays an alert with an action button.
+ */
 export const WithAction: Story = {
   render: () => (
     <Alert
@@ -110,6 +158,11 @@ export const WithAction: Story = {
   ),
 };
 
+/**
+ * WithCustomStyling Story
+ * 
+ * Shows an alert with custom styling applied to its components.
+ */
 export const WithCustomStyling: Story = {
   render: () => (
     <Alert

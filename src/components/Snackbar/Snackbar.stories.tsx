@@ -3,6 +3,13 @@ import { Snackbar } from './index';
 import { Button } from '@mui/material';
 import { useState } from 'react';
 
+/**
+ * Snackbar Component Stories
+ * 
+ * This file contains all the stories for the Snackbar component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-snackbar/
+ */
 const meta: Meta<typeof Snackbar> = {
   title: 'Molecules/Snackbar',
   component: Snackbar,
@@ -34,6 +41,11 @@ const meta: Meta<typeof Snackbar> = {
 export default meta;
 type Story = StoryObj<typeof Snackbar>;
 
+/**
+ * SnackbarWithButton Component
+ * 
+ * A wrapper component that demonstrates controlled snackbar functionality with a trigger button.
+ */
 const SnackbarWithButton = ({ message, color, severity, autoHideDuration, anchorOrigin }: any) => {
   const [open, setOpen] = useState(false);
 
@@ -66,10 +78,20 @@ const SnackbarWithButton = ({ message, color, severity, autoHideDuration, anchor
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows basic snackbar with default styling and message.
+ */
 export const Default: Story = {
   render: () => <SnackbarWithButton message="This is a default snackbar message" />,
 };
 
+/**
+ * Success Story
+ * 
+ * Demonstrates snackbar with success styling and message.
+ */
 export const Success: Story = {
   render: () => (
     <SnackbarWithButton
@@ -80,6 +102,11 @@ export const Success: Story = {
   ),
 };
 
+/**
+ * Error Story
+ * 
+ * Shows snackbar with error styling and message.
+ */
 export const Error: Story = {
   render: () => (
     <SnackbarWithButton
@@ -90,6 +117,11 @@ export const Error: Story = {
   ),
 };
 
+/**
+ * Warning Story
+ * 
+ * Demonstrates snackbar with warning styling and message.
+ */
 export const Warning: Story = {
   render: () => (
     <SnackbarWithButton
@@ -100,6 +132,11 @@ export const Warning: Story = {
   ),
 };
 
+/**
+ * Info Story
+ * 
+ * Shows snackbar with info styling and message.
+ */
 export const Info: Story = {
   render: () => (
     <SnackbarWithButton
@@ -110,6 +147,11 @@ export const Info: Story = {
   ),
 };
 
+/**
+ * CustomDuration Story
+ * 
+ * Demonstrates snackbar with custom auto-hide duration.
+ */
 export const CustomDuration: Story = {
   render: () => (
     <SnackbarWithButton
@@ -119,6 +161,11 @@ export const CustomDuration: Story = {
   ),
 };
 
+/**
+ * TopRight Story
+ * 
+ * Shows snackbar positioned in the top-right corner.
+ */
 export const TopRight: Story = {
   render: () => (
     <SnackbarWithButton
@@ -131,6 +178,11 @@ export const TopRight: Story = {
   ),
 };
 
+/**
+ * BottomLeft Story
+ * 
+ * Demonstrates snackbar positioned in the bottom-left corner.
+ */
 export const BottomLeft: Story = {
   render: () => (
     <SnackbarWithButton
@@ -143,6 +195,11 @@ export const BottomLeft: Story = {
   ),
 };
 
+/**
+ * WithCustomAlertProps Story
+ * 
+ * Shows snackbar with custom alert styling properties.
+ */
 export const WithCustomAlertProps: Story = {
   render: () => (
     <SnackbarWithButton

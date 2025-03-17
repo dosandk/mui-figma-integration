@@ -13,6 +13,13 @@ import {
   ContentPaste as ContentPasteIcon,
 } from '@mui/icons-material';
 
+/**
+ * Menu Component Stories
+ * 
+ * This file contains all the stories for the Menu component, showcasing different configurations and styling options.
+ * 
+ * https://mui.com/material-ui/react-menu/
+ */
 const meta: Meta<typeof Menu> = {
   title: 'Molecules/Menu',
   component: Menu,
@@ -36,6 +43,11 @@ const meta: Meta<typeof Menu> = {
 export default meta;
 type Story = StoryObj<typeof Menu>;
 
+/**
+ * MenuDemo Component
+ * 
+ * A wrapper component that demonstrates the basic menu functionality with icons.
+ */
 const MenuDemo = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
@@ -84,10 +96,20 @@ const MenuDemo = () => {
   );
 };
 
+/**
+ * Default Story
+ * 
+ * Shows a basic menu with icons and default styling.
+ */
 export const Default: Story = {
   render: () => <MenuDemo />,
 };
 
+/**
+ * WithDivider Story
+ * 
+ * Demonstrates a menu with a divider between menu items.
+ */
 export const WithDivider: Story = {
   render: () => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -130,6 +152,11 @@ export const WithDivider: Story = {
   },
 };
 
+/**
+ * WithCustomStyle Story
+ * 
+ * Shows a menu with custom styling for hover effects and dimensions.
+ */
 export const WithCustomStyle: Story = {
   render: () => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);

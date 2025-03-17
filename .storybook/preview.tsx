@@ -5,6 +5,8 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 
 import { eleksTheme } from './eleks-theme';
 
+import './globals.css';
+
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
