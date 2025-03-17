@@ -2,6 +2,11 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 import { Accordion } from './index';
 
+import { FIGMA_PATH } from "../../figma.config";
+
+const FIGMA_COMPONENT_NODE = "node-id=6583-45995";
+const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
+
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
   title: 'Components/Accordion',
@@ -30,9 +35,7 @@ export const DefaultAccordion: Story = {
     design: {
       // type: "figspec",
       type: "figma",
-      // url: "https://www.figma.com/design/cwXEuR3Mbo0Me3HHLFNdKG/MUI-for-Figma-v6.1.0---Material-UI?node-id=6583-45995&p=f&m=dev",
-      url: "https://www.figma.com/design/cwXEuR3Mbo0Me3HHLFNdKG/MUI-for-Figma-v6.1.0---Material-UI?node-id=6583-45995&m=dev"
-      // url: "https://www.figma.com/design/cwXEuR3Mbo0Me3HHLFNdKG/MUI-for-Figma-v6.1.0---Material-UI?node-id=11048-147515&m=dev"
+      url: FIGMA_COPMONENT_URL
     },
   },
   args: {
