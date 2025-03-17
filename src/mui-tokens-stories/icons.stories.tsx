@@ -8,8 +8,8 @@ import Typography from '@mui/material/Typography';
 import Stack from '@mui/material/Stack';
 import Pagination from '@mui/material/Pagination';
 
-
-import { AcUnitOutlined } from "@mui/icons-material";
+// NOTE: temp commented 
+// import { AcUnitOutlined } from "@mui/icons-material";
 
 export default {
   title: 'MUI/Icons',
@@ -18,8 +18,6 @@ export default {
 const icons = Object.entries(MuiIcons);
 const iconsPerPage = 30; // Кількість іконок на сторінку
 const totalPages = Math.ceil(icons.length / iconsPerPage);
-
-console.table(icons)
 
 const Template: StoryFn = () => {
   const [page, setPage] = useState(1);
