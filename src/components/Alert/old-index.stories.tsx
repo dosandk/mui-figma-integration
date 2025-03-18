@@ -4,11 +4,6 @@ import Stack from '@mui/material/Stack';
 import { fn } from '@storybook/test';
 import { Alert, AlertProps } from './index';
 
-import { FIGMA_PATH } from "../figma.config";
-
-const FIGMA_COMPONENT_NODE = "";
-const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
-
 const meta = {
   title: 'Molecules/Alert',
   component: Alert,

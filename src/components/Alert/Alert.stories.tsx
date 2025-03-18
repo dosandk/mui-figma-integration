@@ -4,6 +4,11 @@ import { useState } from 'react';
 import { Button } from '@mui/material';
 import { Close as CloseIcon } from '@mui/icons-material';
 
+import { FIGMA_PATH } from "../figma.config";
+
+const FIGMA_COMPONENT_NODE = "";
+const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
+
 /**
  * Alert Component Stories
  * 

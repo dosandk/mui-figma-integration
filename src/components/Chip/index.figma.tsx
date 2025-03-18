@@ -1,5 +1,5 @@
 import React from "react"
-import { IconButton } from "./index"
+import { Chip } from "./index"
 import figma from "@figma/code-connect"
 
 /**
@@ -10,15 +10,13 @@ import figma from "@figma/code-connect"
  */
 
 figma.connect(
-  IconButton,
-  // "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components?node-id=11701-35971",
-  // "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components?node-id=11701-40662",
-  "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components?node-id=11701-40562&m=dev",
+  Chip,
+  "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components?node-id=6588%3A47683",
   {
     props: {
       // These props were automatically mapped based on your linked code:
+      label: figma.string("Label"),
       color: figma.enum("Color", {
-        Inherit: "inherit",
         Default: "default",
         Primary: "primary",
         Secondary: "secondary",
@@ -33,17 +31,18 @@ figma.connect(
       size: figma.enum("Size", {
         Small: "small",
         Medium: "medium",
-        Large: "large",
+      }),
+      variant: figma.enum("Variant", {
+        Outlined: "outlined",
+        Filled: "filled",
       }),
       // No matching props could be found for these Figma properties:
-      iconInstance: figma.instance('Icon Instance'),
-      type: figma.enum('Type', {
-        "SVG Icon": "svg-icon",
-        "Font Icon": "font-icon"
-      })
+      // "label": figma.string('Label'),
+      // "delete": figma.boolean('Delete?'),
+      // "thumbnail": figma.boolean('Thumbnail?')
     },
     example: (props) => (
-      <IconButton {...props} />
+      <Chip {...props} />
     ),
   },
 )

@@ -10,7 +10,7 @@ export interface AlertProps extends Omit<MuiAlertProps, 'color'> {
   onClose?: (event: React.SyntheticEvent) => void;
   action?: React.ReactNode;
   icon?: React.ReactNode;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export const Alert = ({

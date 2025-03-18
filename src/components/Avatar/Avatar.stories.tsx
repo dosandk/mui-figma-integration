@@ -1,6 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { fn } from '@storybook/test';
 import { Avatar } from './index';
 import { Box } from '@mui/material';
+import { green, pink, red, yellow, blue, deepOrange } from '@mui/material/colors';
+
+import { FIGMA_PATH } from "../figma.config";
+
+const FIGMA_COMPONENT_NODE = "";
+const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
 
 /**
  * Avatar Component Stories
@@ -14,18 +21,24 @@ const meta: Meta<typeof Avatar> = {
   component: Avatar,
   tags: ['autodocs'],
   argTypes: {
-    color: {
-      control: 'select',
-      options: ['primary', 'secondary', 'error', 'info', 'success', 'warning'],
-    },
+    src: { control: 'text' },
+    alt: { control: 'text' },
     variant: {
       control: 'select',
       options: ['circular', 'rounded', 'square'],
     },
+    sizes: {
+      control: 'select',
+      options: ['small', 'medium', 'large'],
+    },
+  },
+  args: {
+    onClick: fn(),
   },
 };
 
 export default meta;
+
 type Story = StoryObj<typeof Avatar>;
 
 /**
@@ -76,12 +89,12 @@ export const DifferentVariants: Story = {
 export const DifferentColors: Story = {
   render: () => (
     <Box sx={{ display: 'flex', gap: 2 }}>
-      <Avatar color="primary">P</Avatar>
-      <Avatar color="secondary">S</Avatar>
-      <Avatar color="error">E</Avatar>
-      <Avatar color="info">I</Avatar>
-      <Avatar color="success">S</Avatar>
-      <Avatar color="warning">W</Avatar>
+      <Avatar sx={{ bgcolor: pink[500] }}>P</Avatar>
+      <Avatar sx={{ bgcolor: green[500] }}>S</Avatar>
+      <Avatar sx={{ bgcolor: yellow[500] }}>E</Avatar>
+      <Avatar sx={{ bgcolor: red[500] }}>I</Avatar>
+      <Avatar sx={{ bgcolor: blue[500] }}>S</Avatar>
+      <Avatar sx={{ bgcolor: deepOrange[500] }}>W</Avatar>
     </Box>
   ),
 };
