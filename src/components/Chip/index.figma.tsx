@@ -1,5 +1,5 @@
 import React from "react"
-import { Chip } from "./index"
+import { Chip, ChipProps } from "./index"
 import figma from "@figma/code-connect"
 
 /**
@@ -37,11 +37,17 @@ figma.connect(
         Filled: "filled",
       }),
       // No matching props could be found for these Figma properties:
-      // "label": figma.string('Label'),
-      // "delete": figma.boolean('Delete?'),
-      // "thumbnail": figma.boolean('Thumbnail?')
+      onDelete: figma.boolean('Delete?', {
+        true: figma.children('*'),
+        // true: () => { },
+        false: undefined
+      }),
+      thumbnail: figma.boolean('Thumbnail?', {
+        true: figma.children('*'),
+        false: undefined
+      }),
     },
-    example: (props) => (
+    example: (props: ChipProps) => (
       <Chip {...props} />
     ),
   },

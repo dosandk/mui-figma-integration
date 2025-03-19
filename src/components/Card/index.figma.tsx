@@ -1,4 +1,4 @@
-import React from "react"
+import React, { Children } from "react"
 import { Card } from "./index"
 import figma from "@figma/code-connect"
 
@@ -18,7 +18,8 @@ figma.connect(
       // No matching props could be found for these Figma properties:
       // "smallScreen": figma.boolean('Small Screen'),
       // "blank": figma.boolean('Blank')
+      children: figma.children("*")
     },
-    example: (props) => <Card />,
+    example: ({ children, ...props }) => <Card {...props}>{children}</Card>,
   },
 )

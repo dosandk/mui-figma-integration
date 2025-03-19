@@ -1,5 +1,6 @@
 import React from "react"
 import { Avatar } from "./index"
+import { Badge } from "@mui/material"
 import figma from "@figma/code-connect"
 
 /**
@@ -22,20 +23,24 @@ figma.connect(
       }),
       alt: figma.string("Initials"),
       // No matching props could be found for these Figma properties:
-      // "initials": figma.string('Initials'),
-      // "badge": figma.boolean('Badge'),
-      // "size": figma.enum('Size', {
-      //   "40px": "40px",
-      //   "32px": "32px",
-      //   "24px": "24px",
-      //   "18px": "18px"
-      // }),
-      // "content": figma.enum('Content', {
-      //   "Text": "text",
-      //   "Icon": "icon",
-      //   "Image": "image"
-      // })
+      initials: figma.string('Initials'),
+      badge: figma.boolean('Badge', {
+        // true: figma.children('*'),
+        true: <Badge />,
+        false: undefined
+      }),
+      size: figma.enum('Size', {
+        "40px": "40px",
+        "32px": "32px",
+        "24px": "24px",
+        "18px": "18px"
+      }),
+      content: figma.enum('Content', {
+        "Text": "text",
+        "Icon": "icon",
+        "Image": "image"
+      })
     },
-    example: (props) => <Avatar variant={props.variant} alt={props.alt} />,
+    example: (props) => <Avatar {...props} />,
   },
 )

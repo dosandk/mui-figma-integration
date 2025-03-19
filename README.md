@@ -1,9 +1,16 @@
 # ELEKS UI
 
-[Figma](https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components)
-[MUI Theme Creator](https://bareynol.github.io/mui-theme-creator)
-[Figma code connect example](https://github.com/figma/sds)
-[ELEKS Design System](https://elekscloud.sharepoint.com/sites/DesignSystem)
+- [Figma](https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components)
+- [Figma API](https://www.figma.com/developers/api)
+- [Figma Developer Resources (Community)](<https://www.figma.com/board/ISUGx1ZwpfKDXgd5EKLAop/Figma-Developer-Resources-(Community)?node-id=0-1&p=f&t=PlI2VyQ4x4xQFjQu-0>)
+- [MUI Theme Creator](https://bareynol.github.io/mui-theme-creator)
+- [ELEKS Design System](https://elekscloud.sharepoint.com/sites/DesignSystem)
+
+## Examples
+
+- [Figma code connect demo](https://github.com/jake-figma/code-connect-demo)
+- [Focus Demo](https://github.com/jake-figma/focus-demo)
+- [Figma SDS project](https://github.com/figma/sds)
 
 ## ELEKS UI Components list
 
@@ -218,3 +225,10 @@
 - "@storybook/addon-essentials"
 - "@storybook/addon-designs"
 - "@storybook/addon-a11y"
+
+## TODO:
+
+- Add all "API components" from MUI
+- Add all icons from material icons
+- Make link to the figma file dinamic
+- Add link to figma for each story file

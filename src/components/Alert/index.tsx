@@ -1,38 +1,20 @@
 import {
   Alert as MuiAlert,
+  AlertTitle,
   AlertProps as MuiAlertProps,
 } from "@mui/material";
 
-export interface AlertProps extends Omit<MuiAlertProps, 'color'> {
-  color?: 'error' | 'warning' | 'info' | 'success';
-  severity?: 'error' | 'warning' | 'info' | 'success';
-  variant?: 'filled' | 'outlined' | 'standard';
-  onClose?: (event: React.SyntheticEvent) => void;
-  action?: React.ReactNode;
-  icon?: React.ReactNode;
+export interface AlertProps extends MuiAlertProps {
   children?: React.ReactNode;
+  title?: string;
 }
 
-export const Alert = ({
-  color = 'info',
-  severity = 'info',
-  variant = 'standard',
-  onClose,
-  action,
-  icon,
-  children,
-  ...rest
-}: AlertProps) => {
+export const Alert = ({ children, title, ...props }: AlertProps) => {
+  const alertTitle = title ? <AlertTitle>{title}</AlertTitle> : null;
+
   return (
-    <MuiAlert
-      color={color}
-      severity={severity}
-      variant={variant}
-      onClose={onClose}
-      action={action}
-      icon={icon}
-      {...rest}
-    >
+    <MuiAlert {...props}>
+      {alertTitle}
       {children}
     </MuiAlert>
   );

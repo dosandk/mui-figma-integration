@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { fn } from '@storybook/test';
 import { Avatar } from './index';
-import { Box } from '@mui/material';
+import { Box, Badge } from '@mui/material';
 import { green, pink, red, yellow, blue, deepOrange } from '@mui/material/colors';
 
 import { FIGMA_PATH } from "../figma.config";
@@ -156,4 +156,12 @@ export const WithClickHandler: Story = {
       C
     </Avatar>
   ),
-}; 
+};
+
+export const WithBadge: Story = {
+  render: () => {
+    return (
+      <Avatar alt="with badge" Foo={(props: any) => <Badge badgeContent={4} color="primary">{props.children}</Badge>} />
+    );
+  }
+};
