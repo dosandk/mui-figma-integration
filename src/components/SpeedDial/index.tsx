@@ -5,20 +5,21 @@ import {
   SpeedDialActionProps,
 } from "@mui/material";
 
-export interface SpeedDialActionItem extends Omit<SpeedDialActionProps, 'onClick'> {
+export interface SpeedDialActionItem
+  extends Omit<SpeedDialActionProps, "onClick"> {
   name: string;
   icon: React.ReactNode;
   onClick?: () => void;
 }
 
-export interface SpeedDialProps extends Omit<MuiSpeedDialProps, 'onClick'> {
+export interface SpeedDialProps extends Omit<MuiSpeedDialProps, "onClick"> {
   open?: boolean;
   icon: React.ReactNode;
   actions: SpeedDialActionItem[];
   onClick?: () => void;
   onClose?: () => void;
   onOpen?: () => void;
-  direction?: 'up' | 'down' | 'left' | 'right';
+  direction?: "up" | "down" | "left" | "right";
   ariaLabel: string;
   hidden?: boolean;
   transitionDuration?: number | { enter: number; exit: number };
@@ -31,7 +32,7 @@ export const SpeedDial = ({
   onClick,
   onClose,
   onOpen,
-  direction = 'up',
+  direction = "up",
   ariaLabel,
   hidden = false,
   transitionDuration = 200,
@@ -58,4 +59,6 @@ export const SpeedDial = ({
           onClick={action.onClick}
         />
       ))}
- 
+    </MuiSpeedDial>
+  );
+};
