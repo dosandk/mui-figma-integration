@@ -11,7 +11,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "figma:connect": "figma connect",
-    "figma:publish": "figma connect publish"
+    "figma:publish": "figma connect publish",
+    "figma:unpublish": "figma connect unpublish"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

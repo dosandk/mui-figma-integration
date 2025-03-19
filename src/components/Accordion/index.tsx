@@ -3,19 +3,23 @@ import {
   AccordionProps as MuiAccordionProps,
   AccordionSummary,
   AccordionDetails,
+  Typography,
 } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export interface AccordionProps extends MuiAccordionProps {
-  children: React.ReactNode;
+  title: string;
+  content: string;
 }
 
-export const Accordion = ({ children, ...rest }: AccordionProps) => (
-  <MuiAccordion {...rest}>
-    <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+export const Accordion = ({ title, content, ...props }: AccordionProps) => (
+  <MuiAccordion {...props}>
+    <AccordionSummary>
+      <Typography>{title}</Typography>
     </AccordionSummary>
     <AccordionDetails>
-      {children}
+      <Typography>
+        {content}
+      </Typography>
     </AccordionDetails>
   </MuiAccordion>
 );

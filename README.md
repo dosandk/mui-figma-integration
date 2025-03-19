@@ -10,7 +10,8 @@
 
 - [Figma code connect demo](https://github.com/jake-figma/code-connect-demo)
 - [Focus Demo](https://github.com/jake-figma/focus-demo)
-- [Figma SDS project](https://github.com/figma/sds)
+- [SDS Figma project](https://github.com/figma/sds)
+- [SDS Storybook](https://figma.github.io/sds/storybook)
 
 ## ELEKS UI Components list
 
