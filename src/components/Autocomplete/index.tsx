@@ -3,15 +3,10 @@ import {
   AutocompleteProps as MuiAutocompleteProps
 } from "@mui/material";
 
-export interface AutocompleteProps<T = any> extends MuiAutocompleteProps<T, boolean | undefined, boolean | undefined, boolean | undefined> {
-  options: T[];
-}
+export interface AutocompleteProps extends MuiAutocompleteProps { }
 
-export const Autocomplete = <T extends any>({ options, ...rest }: AutocompleteProps<T>) => {
+export const Autocomplete = (props: AutocompleteProps) => {
   return (
-    <MuiAutocomplete
-      options={options}
-      {...rest}
-    />
+    <MuiAutocomplete {...props} />
   );
 } 

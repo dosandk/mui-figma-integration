@@ -5,23 +5,18 @@ import {
   FormControlLabelProps,
 } from "@mui/material";
 
-export interface RadioProps extends Omit<MuiRadioProps, 'color'> {
+export interface RadioProps extends MuiRadioProps {
+  FormControlLabelProps?: FormControlLabelProps;
   label?: string;
-  color?: 'primary' | 'secondary' | 'error' | 'info' | 'success' | 'warning' | 'default';
-  FormControlLabelProps?: Omit<FormControlLabelProps, 'control' | 'label'>;
 }
 
 export const Radio = ({
   label,
-  color = 'primary',
   FormControlLabelProps,
   ...rest
 }: RadioProps) => {
   const radio = (
-    <MuiRadio
-      color={color}
-      {...rest}
-    />
+    <MuiRadio {...rest} />
   );
 
   if (label) {

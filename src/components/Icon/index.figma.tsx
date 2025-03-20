@@ -3,7 +3,7 @@ import figma from "@figma/code-connect"
 
 figma.connect(
   Icon,
-  "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components?node-id=6594-47648",
+  "<FIGMA_ICON>",
   {
     props: {
       size: figma.enum("Size", {

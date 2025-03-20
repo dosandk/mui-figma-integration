@@ -1,14 +1,6 @@
 import {
   List as MuiList,
   ListProps as MuiListProps,
-  ListItem,
-  ListItemText,
-  ListItemIcon,
-  ListItemButton,
-  ListItemAvatar,
-  ListItemSecondaryAction,
-  ListSubheader,
-  Divider,
 } from "@mui/material";
 
 export interface ListProps extends MuiListProps {
@@ -23,13 +15,3 @@ export const List = ({ children, ...rest }: ListProps) => {
   );
 };
 
-export {
-  ListItem,
-  ListItemText,
-  ListItemIcon,
-  ListItemButton,
-  ListItemAvatar,
-  ListItemSecondaryAction,
-  ListSubheader,
-  Divider,
-}; 

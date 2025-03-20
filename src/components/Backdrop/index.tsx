@@ -5,6 +5,7 @@ import {
 
 export interface BackdropProps extends MuiBackdropProps {
   children?: React.ReactNode;
+  open?: () => void;
 }
 
 export const Backdrop = ({ children, ...rest }: BackdropProps) => {

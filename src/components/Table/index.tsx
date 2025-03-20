@@ -112,8 +112,8 @@ export const Table = <T extends { id: string | number }>({
                   {column.render
                     ? column.render(row)
                     : column.format
-                    ? column.format(row[column.id as keyof T])
-                    : String(row[column.id as keyof T])}
+                      ? column.format(row[column.id as keyof T])
+                      : String(row[column.id as keyof T])}
                 </TableCell>
               ))}
             </TableRow>

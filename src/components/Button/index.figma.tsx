@@ -3,7 +3,7 @@ import figma from "@figma/code-connect";
 
 figma.connect(
   Button,
-  "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components?node-id=6543%3A36744",
+  "<FIGMA_BUTTON>",
   {
     props: {
       color: figma.enum("Color", {

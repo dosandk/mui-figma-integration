@@ -1,47 +1,16 @@
 import {
   Dialog as MuiDialog,
   DialogProps as MuiDialogProps,
-  DialogTitle,
-  DialogContent,
-  DialogActions,
-  DialogContentText,
 } from "@mui/material";
 
-export interface DialogProps {
-  open: boolean;
-  onClose: () => void;
-  title?: string;
-  content?: React.ReactNode;
-  actions?: React.ReactNode;
-  children?: React.ReactNode;
-  maxWidth?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
-  fullWidth?: boolean;
-  fullScreen?: boolean;
-  PaperProps?: MuiDialogProps['PaperProps'];
-  TransitionComponent?: MuiDialogProps['TransitionComponent'];
-  TransitionProps?: MuiDialogProps['TransitionProps'];
-  sx?: MuiDialogProps['sx'];
+export interface DialogProps extends MuiDialogProps {
+  children: React.ReactNode;
 }
 
-export const Dialog = ({ 
-  open, 
-  onClose, 
-  title, 
-  content, 
-  actions,
-  children,
-  ...rest 
-}: DialogProps) => {
+export const Dialog = ({ children, ...rest }: DialogProps) => {
   return (
-    <MuiDialog
-      open={open}
-      onClose={onClose}
-      {...rest}
-    >
-      {title && <DialogTitle>{title}</DialogTitle>}
-      {content && <DialogContent>{content}</DialogContent>}
+    <MuiDialog {...rest}>
       {children}
-      {actions && <DialogActions>{actions}</DialogActions>}
     </MuiDialog>
   );
 }; 

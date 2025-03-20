@@ -4,7 +4,7 @@ import {
 } from "@mui/material";
 
 export interface AppBarProps extends MuiAppBarProps {
-  // children?: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export const AppBar = ({ children, ...rest }: AppBarProps) => {

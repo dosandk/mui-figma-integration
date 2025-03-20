@@ -1,9 +1,6 @@
 import {
   Menu as MuiMenu,
   MenuProps as MuiMenuProps,
-  MenuItem,
-  MenuList,
-  Divider,
 } from "@mui/material";
 
 export interface MenuProps extends MuiMenuProps {
@@ -18,8 +15,3 @@ export const Menu = ({ children, ...rest }: MenuProps) => {
   );
 };
 
-export {
-  MenuItem,
-  MenuList,
-  Divider as MenuDivider,
-}; 
