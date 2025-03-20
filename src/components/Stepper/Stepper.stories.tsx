@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Stepper } from './index';
 import { useState } from 'react';
 import { Button, Box, Typography } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Stepper");
 
 /**
  * Stepper Component Stories
@@ -11,8 +14,15 @@ import { Button, Box, Typography } from '@mui/material';
  * https://mui.com/material-ui/react-stepper/
  */
 const meta: Meta<typeof Stepper> = {
-  title: 'Molecules/Stepper',
+  title: "Molecules/Stepper",
   component: Stepper,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     activeStep: {

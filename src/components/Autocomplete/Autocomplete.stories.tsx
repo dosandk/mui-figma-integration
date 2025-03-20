@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Autocomplete } from './index';
 import { TextField } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Autocomplete");
 
 /**
  * Sample data for autocomplete options
@@ -28,6 +31,13 @@ const top100Films = [
 const meta: Meta<typeof Autocomplete> = {
   title: 'Molecules/Autocomplete',
   component: Autocomplete,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     multiple: {

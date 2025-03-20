@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { BottomNavigation } from './index';
 import { BottomNavigationAction } from '@mui/material';
 import { Restore as RestoreIcon, Favorite as FavoriteIcon, LocationOn as LocationOnIcon } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("BottomNavigation");
 
 /**
  * BottomNavigation Component Stories
@@ -13,6 +16,13 @@ import { Restore as RestoreIcon, Favorite as FavoriteIcon, LocationOn as Locatio
 const meta: Meta<typeof BottomNavigation> = {
   title: 'Organisms/BottomNavigation',
   component: BottomNavigation,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {

@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Card } from './index';
 import { CardContent, CardActions, Button, Typography, CardMedia, CardHeader, Avatar, IconButton } from '@mui/material';
 import { MoreVert as MoreVertIcon } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Card");
 
 /**
  * Card Component Stories
@@ -13,6 +16,13 @@ import { MoreVert as MoreVertIcon } from '@mui/icons-material';
 const meta: Meta<typeof Card> = {
   title: 'Molecules/Card',
   component: Card,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     variant: {

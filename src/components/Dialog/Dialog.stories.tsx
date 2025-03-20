@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Dialog } from './index';
 import { Button, DialogContentText } from '@mui/material';
 import { useState } from 'react';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Dialog");
 
 /**
  * Dialog Component Stories
@@ -13,6 +16,13 @@ import { useState } from 'react';
 const meta: Meta<typeof Dialog> = {
   title: 'Organisms/Dialog',
   component: Dialog,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     open: {

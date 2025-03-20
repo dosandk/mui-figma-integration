@@ -9,6 +9,9 @@ import {
   Save as SaveIcon,
 } from '@mui/icons-material';
 import { useState } from 'react';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("SpeedDial");
 
 /**
  * SpeedDial Component Stories
@@ -18,8 +21,15 @@ import { useState } from 'react';
  * https://mui.com/material-ui/react-speed-dial/
  */
 const meta: Meta<typeof SpeedDial> = {
-  title: 'Molecules/SpeedDial',
+  title: "Molecules/SpeedDial",
   component: SpeedDial,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     open: {

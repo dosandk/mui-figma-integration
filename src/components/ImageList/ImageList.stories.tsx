@@ -1,5 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { ImageList, ImageListItemComponent, ImageListItemBarComponent } from './index';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("ImageList");
 
 /**
  * Sample image data for the ImageList stories
@@ -88,6 +91,13 @@ const itemData = [
 const meta: Meta<typeof ImageList> = {
   title: 'Molecules/ImageList',
   component: ImageList,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     cols: {

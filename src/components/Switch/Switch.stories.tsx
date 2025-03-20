@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Switch } from './index';
 import { useState } from 'react';
 import { FormControlLabel } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Switch");
 
 /**
  * Switch Component Stories
@@ -11,8 +14,15 @@ import { FormControlLabel } from '@mui/material';
  * https://mui.com/material-ui/react-switch/
  */
 const meta: Meta<typeof Switch> = {
-  title: 'Atoms/Switch',
+  title: "Atoms/Switch",
   component: Switch,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {

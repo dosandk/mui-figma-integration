@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Table } from './index';
 import { useState } from 'react';
 import { Button } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Table");
 
 /**
  * Table Component Stories
@@ -11,7 +14,7 @@ import { Button } from '@mui/material';
  * https://mui.com/material-ui/react-table/
  */
 const meta: Meta<typeof Table<Data>> = {
-  title: 'Organisms/Table',
+  title: "Organisms/Table",
   component: Table,
   tags: ['autodocs'],
   argTypes: {

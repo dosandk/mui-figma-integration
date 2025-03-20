@@ -1,6 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Typography } from './index';
 
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Typography");
+
 /**
  * Typography Component Stories
  * 
@@ -9,8 +13,15 @@ import { Typography } from './index';
  * https://mui.com/material-ui/react-typography/
  */
 const meta: Meta<typeof Typography> = {
-  title: 'Atoms/Typography',
+  title: "Atoms/Typography",
   component: Typography,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     variant: {

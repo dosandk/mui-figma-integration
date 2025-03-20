@@ -1,21 +1,31 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Skeleton } from './index';
+import { Skeleton } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Skeleton");
 
 /**
  * Skeleton Component Stories
  * 
- * This file contains all the stories for the Skeleton component, showcasing different loading states and animations.
+ * This file contains all the stories for the Skeleton component, showcasing different configurations and states.
  * 
  * https://mui.com/material-ui/react-skeleton/
  */
 const meta: Meta<typeof Skeleton> = {
   title: 'Atoms/Skeleton',
   component: Skeleton,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     variant: {
       control: 'select',
-      options: ['text', 'rectangular', 'circular'],
+      options: ['text', 'rectangular', 'circular', 'rounded'],
       description: 'The variant to use',
     },
     width: {
@@ -28,69 +38,38 @@ const meta: Meta<typeof Skeleton> = {
     },
     animation: {
       control: 'select',
-      options: ['pulse', 'wave', false],
+      options: ['pulse', 'wave', 'false'],
       description: 'The animation to use',
-    },
-    color: {
-      control: 'select',
-      options: ['primary', 'secondary', 'error', 'info', 'success', 'warning', 'inherit'],
-      description: 'The color of the component',
     },
   },
 };
 
 export default meta;
-
 type Story = StoryObj<typeof Skeleton>;
 
 /**
  * Default Story
  * 
- * Shows a basic skeleton component with default settings.
+ * Shows a basic skeleton with default settings.
  */
 export const Default: Story = {
-  render: () => <Skeleton />,
+  args: {
+    variant: 'text',
+  },
 };
 
 /**
- * TextVariant Story
+ * DifferentVariants Story
  * 
- * Demonstrates skeleton components in text variant with different widths.
+ * Shows skeleton components with different variants.
  */
-export const TextVariant: Story = {
+export const DifferentVariants: Story = {
   render: () => (
-    <div style={{ width: '100%' }}>
-      <Skeleton variant="text" />
-      <Skeleton variant="text" width="60%" />
-      <Skeleton variant="text" width="80%" />
-    </div>
-  ),
-};
-
-/**
- * RectangularVariant Story
- * 
- * Shows skeleton components in rectangular variant for image placeholders.
- */
-export const RectangularVariant: Story = {
-  render: () => (
-    <div style={{ display: 'flex', gap: '1rem' }}>
-      <Skeleton variant="rectangular" width={210} height={118} />
-      <Skeleton variant="rectangular" width={210} height={118} />
-    </div>
-  ),
-};
-
-/**
- * CircularVariant Story
- * 
- * Demonstrates skeleton components in circular variant for avatar placeholders.
- */
-export const CircularVariant: Story = {
-  render: () => (
-    <div style={{ display: 'flex', gap: '1rem' }}>
+    <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+      <Skeleton variant="text" width={200} />
+      <Skeleton variant="rectangular" width={100} height={100} />
       <Skeleton variant="circular" width={40} height={40} />
-      <Skeleton variant="circular" width={60} height={60} />
+      <Skeleton variant="rounded" width={100} height={100} />
     </div>
   ),
 };
@@ -98,90 +77,51 @@ export const CircularVariant: Story = {
 /**
  * DifferentAnimations Story
  * 
- * Shows skeleton components with different animation styles: pulse, wave, and no animation.
+ * Demonstrates skeleton components with different animations.
  */
 export const DifferentAnimations: Story = {
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-      <Skeleton variant="text" animation="pulse" />
-      <Skeleton variant="text" animation="wave" />
-      <Skeleton variant="text" animation={false} />
+    <div style={{ display: 'flex', gap: '16px', flexDirection: 'column' }}>
+      <Skeleton variant="text" width={200} animation="pulse" />
+      <Skeleton variant="text" width={200} animation="wave" />
+      <Skeleton variant="text" width={200} animation={false} />
     </div>
   ),
 };
 
 /**
- * DifferentColors Story
+ * ContentPlaceholder Story
  * 
- * Demonstrates skeleton components with various theme colors.
+ * Shows how to use skeleton as a content placeholder.
  */
-export const DifferentColors: Story = {
+export const ContentPlaceholder: Story = {
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-      <Skeleton variant="text" color="primary" />
-      <Skeleton variant="text" color="secondary" />
-      <Skeleton variant="text" color="success" />
-      <Skeleton variant="text" color="error" />
-      <Skeleton variant="text" color="info" />
-      <Skeleton variant="text" color="warning" />
-      <Skeleton variant="text" color="inherit" />
+    <div style={{ width: '300px' }}>
+      <Skeleton variant="text" width="60%" />
+      <Skeleton variant="text" width="80%" />
+      <Skeleton variant="text" width="40%" />
+      <Skeleton variant="rectangular" width="100%" height={200} sx={{ my: 2 }} />
+      <Skeleton variant="text" width="70%" />
+      <Skeleton variant="text" width="50%" />
     </div>
   ),
 };
 
 /**
- * CardSkeleton Story
+ * WithCustomStyle Story
  * 
- * Shows a complete card skeleton layout with image and text placeholders.
+ * Shows a skeleton component with custom styling.
  */
-export const CardSkeleton: Story = {
-  render: () => (
-    <div style={{ width: 300, padding: 16, border: '1px solid #e0e0e0', borderRadius: 8 }}>
-      <Skeleton variant="rectangular" height={140} />
-      <div style={{ padding: 16 }}>
-        <Skeleton variant="text" width="60%" />
-        <Skeleton variant="text" width="40%" />
-        <Skeleton variant="text" width="80%" />
-      </div>
-    </div>
-  ),
-};
-
-/**
- * AvatarWithText Story
- * 
- * Demonstrates a skeleton layout combining circular avatar with text placeholders.
- */
-export const AvatarWithText: Story = {
-  render: () => (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-      <Skeleton variant="circular" width={40} height={40} />
-      <div style={{ flex: 1 }}>
-        <Skeleton variant="text" width="60%" />
-        <Skeleton variant="text" width="40%" />
-      </div>
-    </div>
-  ),
-};
-
-/**
- * CustomStyle Story
- * 
- * Shows a skeleton component with custom styling and gradient animation.
- */
-export const CustomStyle: Story = {
-  render: () => (
-    <Skeleton
-      variant="rectangular"
-      width={200}
-      height={100}
-      sx={{
-        borderRadius: 2,
-        bgcolor: 'primary.main',
-        '&::after': {
-          backgroundImage: 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent)',
-        },
-      }}
-    />
-  ),
+export const WithCustomStyle: Story = {
+  args: {
+    variant: 'rectangular',
+    width: 200,
+    height: 100,
+    sx: {
+      bgcolor: 'primary.main',
+      '&::after': {
+        background: 'linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent)',
+      },
+    },
+  },
 }; 

@@ -1,226 +1,135 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { useState, useEffect } from 'react';
-import { Box, Stack } from '@mui/material';
-import { CircularProgress, LinearProgress } from './index';
+import { LinearProgress } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+import { Box } from '@mui/material';
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Progress");
 
 /**
  * Progress Component Stories
  * 
- * This file contains all the stories for the Progress components (Circular and Linear), showcasing different variants, colors, sizes, and interactive features.
+ * This file contains all the stories for the Progress component, showcasing different configurations and states.
  * 
  * https://mui.com/material-ui/react-progress/
  */
-const meta: Meta<typeof CircularProgress> = {
+const meta: Meta<typeof LinearProgress> = {
   title: 'Atoms/Progress',
-  component: CircularProgress,
+  component: LinearProgress,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     variant: {
       control: 'select',
-      options: ['determinate', 'indeterminate'],
+      options: ['determinate', 'indeterminate', 'buffer', 'query'],
       description: 'The variant to use',
     },
     color: {
       control: 'select',
-      options: ['primary', 'secondary', 'error', 'info', 'success', 'warning', 'inherit'],
+      options: ['primary', 'secondary', 'error', 'info', 'success', 'warning'],
       description: 'The color of the component',
-    },
-    size: {
-      control: 'number',
-      description: 'The size of the circle',
-    },
-    thickness: {
-      control: 'number',
-      description: 'The thickness of the circle',
     },
     value: {
       control: 'number',
-      description: 'The value of the progress indicator for the determinate variant',
+      description: 'The value of the progress indicator for the determinate and buffer variants',
+    },
+    valueBuffer: {
+      control: 'number',
+      description: 'The value for the buffer variant',
     },
   },
 };
 
 export default meta;
-
-type CircularStory = StoryObj<typeof CircularProgress>;
-type LinearStory = StoryObj<typeof LinearProgress>;
-
-// Progress simulation hook
-const useProgress = (initialValue = 0) => {
-  const [progress, setProgress] = useState(initialValue);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setProgress((prevProgress) => (prevProgress >= 100 ? 0 : prevProgress + 10));
-    }, 800);
-
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
-
-  return progress;
-};
+type Story = StoryObj<typeof LinearProgress>;
 
 /**
- * CircularIndeterminate Story
+ * Default Story
  * 
- * Shows a circular progress indicator in indeterminate state.
+ * Shows a basic progress indicator with default settings.
  */
-export const CircularIndeterminate: CircularStory = {
-  render: () => (
-    <CircularProgress />
-  ),
-};
-
-/**
- * CircularDeterminate Story
- * 
- * Demonstrates a circular progress indicator with simulated progress.
- */
-export const CircularDeterminate: CircularStory = {
-  render: () => {
-    const progress = useProgress();
-    return <CircularProgress variant="determinate" value={progress} />;
+export const Default: Story = {
+  args: {
+    variant: 'determinate',
+    value: 60,
   },
 };
 
 /**
- * CircularSizes Story
+ * Indeterminate Story
  * 
- * Shows circular progress indicators in different sizes.
+ * Demonstrates an indeterminate progress indicator.
  */
-export const CircularSizes: CircularStory = {
-  render: () => (
-    <Stack direction="row" spacing={2}>
-      <CircularProgress size={24} />
-      <CircularProgress size={40} />
-      <CircularProgress size={56} />
-    </Stack>
-  ),
+export const Indeterminate: Story = {
+  args: {
+    variant: 'indeterminate',
+  },
 };
 
 /**
- * CircularColors Story
+ * DifferentColors Story
  * 
- * Demonstrates circular progress indicators with different theme colors.
+ * Shows progress indicators with different colors.
  */
-export const CircularColors: CircularStory = {
+export const DifferentColors: Story = {
   render: () => (
-    <Stack direction="row" spacing={2}>
-      <CircularProgress color="primary" />
-      <CircularProgress color="secondary" />
-      <CircularProgress color="success" />
-      <CircularProgress color="error" />
-      <CircularProgress color="info" />
-      <CircularProgress color="warning" />
-    </Stack>
-  ),
-};
-
-/**
- * LinearIndeterminate Story
- * 
- * Shows a linear progress indicator in indeterminate state.
- */
-export const LinearIndeterminate: LinearStory = {
-  render: () => (
-    <Box sx={{ width: '100%' }}>
-      <LinearProgress />
+    <Box sx={{ width: '100%', display: 'flex', flexDirection: 'column', gap: 2 }}>
+      <LinearProgress variant="determinate" value={60} color="primary" />
+      <LinearProgress variant="determinate" value={60} color="secondary" />
+      <LinearProgress variant="determinate" value={60} color="error" />
+      <LinearProgress variant="determinate" value={60} color="info" />
+      <LinearProgress variant="determinate" value={60} color="success" />
+      <LinearProgress variant="determinate" value={60} color="warning" />
     </Box>
   ),
 };
 
 /**
- * LinearDeterminate Story
+ * Buffer Story
  * 
- * Demonstrates a linear progress indicator with simulated progress.
+ * Shows a buffer progress indicator.
  */
-export const LinearDeterminate: LinearStory = {
-  render: () => {
-    const progress = useProgress();
-    return (
-      <Box sx={{ width: '100%' }}>
-        <LinearProgress variant="determinate" value={progress} />
-      </Box>
-    );
+export const Buffer: Story = {
+  args: {
+    variant: 'buffer',
+    value: 60,
+    valueBuffer: 80,
   },
 };
 
 /**
- * LinearBuffer Story
+ * Query Story
  * 
- * Shows a linear progress indicator with buffer effect.
+ * Demonstrates a query progress indicator.
  */
-export const LinearBuffer: LinearStory = {
-  render: () => {
-    const progress = useProgress();
-    const buffer = useProgress(10);
-    return (
-      <Box sx={{ width: '100%' }}>
-        <LinearProgress
-          variant="buffer"
-          value={progress}
-          valueBuffer={buffer}
-        />
-      </Box>
-    );
+export const Query: Story = {
+  args: {
+    variant: 'query',
   },
 };
 
 /**
- * LinearColors Story
+ * WithCustomStyle Story
  * 
- * Demonstrates linear progress indicators with different theme colors.
+ * Shows a progress indicator with custom styling.
  */
-export const LinearColors: LinearStory = {
-  render: () => (
-    <Stack spacing={2}>
-      <LinearProgress color="primary" />
-      <LinearProgress color="secondary" />
-      <LinearProgress color="success" />
-      <LinearProgress color="error" />
-      <LinearProgress color="info" />
-      <LinearProgress color="warning" />
-    </Stack>
-  ),
-};
-
-/**
- * CustomStyles Story
- * 
- * Shows both circular and linear progress indicators with custom styling.
- */
-export const CustomStyles: CircularStory = {
-  render: () => {
-    const progress = useProgress();
-    return (
-      <Stack spacing={3}>
-        <CircularProgress
-          variant="determinate"
-          value={progress}
-          sx={{
-            color: 'success.main',
-            '& .MuiCircularProgress-circle': {
-              strokeLinecap: 'round',
-            },
-          }}
-          size={60}
-          thickness={5}
-        />
-        <LinearProgress
-          variant="determinate"
-          value={progress}
-          sx={{
-            height: 10,
-            borderRadius: 5,
-            '& .MuiLinearProgress-bar': {
-              borderRadius: 5,
-              backgroundColor: 'success.main',
-            },
-          }}
-        />
-      </Stack>
-    );
+export const WithCustomStyle: Story = {
+  args: {
+    variant: 'determinate',
+    value: 60,
+    sx: {
+      height: 10,
+      borderRadius: 5,
+      backgroundColor: 'grey.200',
+      '& .MuiLinearProgress-bar': {
+        borderRadius: 5,
+        backgroundColor: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+      },
+    },
   },
 }; 

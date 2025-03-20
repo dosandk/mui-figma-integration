@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Backdrop } from './index';
 import { CircularProgress } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Backdrop");
 
 /**
  * Backdrop Component Stories
@@ -12,6 +15,13 @@ import { CircularProgress } from '@mui/material';
 const meta: Meta<typeof Backdrop> = {
   title: 'Atoms/Backdrop',
   component: Backdrop,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     open: {

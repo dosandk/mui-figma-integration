@@ -3,6 +3,10 @@ import { Tooltip } from './index';
 import { Box, Button, IconButton, Typography } from '@mui/material';
 import { Info, Delete, Edit, Add } from '@mui/icons-material';
 
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Tootip");
+
 /**
  * Tooltip Component Stories
  * 
@@ -11,8 +15,15 @@ import { Info, Delete, Edit, Add } from '@mui/icons-material';
  * https://mui.com/material-ui/react-tooltip/
  */
 const meta: Meta<typeof Tooltip> = {
-  title: 'Atoms/Tooltip',
+  title: "Atoms/Tooltip",
   component: Tooltip,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     placement: {

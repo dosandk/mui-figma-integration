@@ -3,6 +3,9 @@ import { Drawer } from './index';
 import { Button, List, ListItem, ListItemIcon, ListItemText, Box } from '@mui/material';
 import { Home, Person, Settings } from '@mui/icons-material';
 import { useState } from 'react';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Drawer");
 
 /**
  * Drawer Component Stories
@@ -14,6 +17,13 @@ import { useState } from 'react';
 const meta: Meta<typeof Drawer> = {
   title: 'Atoms/Drawer',
   component: Drawer,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     open: {

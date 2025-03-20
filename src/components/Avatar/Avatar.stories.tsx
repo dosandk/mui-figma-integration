@@ -3,11 +3,9 @@ import { fn } from '@storybook/test';
 import { Avatar } from './index';
 import { Box, Badge } from '@mui/material';
 import { green, pink, red, yellow, blue, deepOrange } from '@mui/material/colors';
+import { getFigmaPath } from "../figma.config";
 
-import { FIGMA_PATH } from "../figma.config";
-
-const FIGMA_COMPONENT_NODE = "";
-const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
+const FIGMA_COMPONENT_URL = getFigmaPath("Avatar");
 
 /**
  * Avatar Component Stories
@@ -19,6 +17,13 @@ const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
 const meta: Meta<typeof Avatar> = {
   title: 'Atoms/Avatar',
   component: Avatar,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     src: { control: 'text' },

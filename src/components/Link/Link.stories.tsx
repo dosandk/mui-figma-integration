@@ -1,5 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Link } from './index';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Link");
 
 /**
  * Link Component Stories
@@ -11,6 +14,13 @@ import { Link } from './index';
 const meta: Meta<typeof Link> = {
   title: 'Atoms/Link',
   component: Link,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     underline: {

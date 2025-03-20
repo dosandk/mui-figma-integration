@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Checkbox } from './index';
 import { FormControlLabel } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Checkbox");
 
 /**
  * Checkbox Component Stories
@@ -12,6 +15,13 @@ import { FormControlLabel } from '@mui/material';
 const meta: Meta<typeof Checkbox> = {
   title: 'Molecules/Checkbox',
   component: Checkbox,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {

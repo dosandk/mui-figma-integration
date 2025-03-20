@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { AppBar } from './index';
 import { Toolbar, Typography, Button, IconButton } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("AppBar");
 
 /**
  * AppBar Component Stories
@@ -13,6 +16,13 @@ import { Menu as MenuIcon } from '@mui/icons-material';
 const meta: Meta<typeof AppBar> = {
   title: 'Molecules/AppBar',
   component: AppBar,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {

@@ -1,17 +1,26 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Rating } from './index';
-import { Favorite, FavoriteBorder } from '@mui/icons-material';
+import { Rating } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Rating");
 
 /**
  * Rating Component Stories
  * 
- * This file contains all the stories for the Rating component, showcasing different configurations and styling options.
+ * This file contains all the stories for the Rating component, showcasing different configurations and states.
  * 
  * https://mui.com/material-ui/react-rating/
  */
 const meta: Meta<typeof Rating> = {
-  title: 'Molecules/Rating',
+  title: 'Atoms/Rating',
   component: Rating,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     value: {
@@ -25,20 +34,15 @@ const meta: Meta<typeof Rating> = {
     size: {
       control: 'select',
       options: ['small', 'medium', 'large'],
-      description: 'The size of the component',
-    },
-    color: {
-      control: 'select',
-      options: ['primary', 'secondary', 'error', 'info', 'success', 'warning', 'inherit'],
-      description: 'The color of the component',
-    },
-    readOnly: {
-      control: 'boolean',
-      description: 'If true, the rating will be read-only',
+      description: 'The size of the rating',
     },
     disabled: {
       control: 'boolean',
       description: 'If true, the rating will be disabled',
+    },
+    readOnly: {
+      control: 'boolean',
+      description: 'If true, the rating will be read-only',
     },
     max: {
       control: 'number',
@@ -48,7 +52,6 @@ const meta: Meta<typeof Rating> = {
 };
 
 export default meta;
-
 type Story = StoryObj<typeof Rating>;
 
 /**
@@ -57,130 +60,90 @@ type Story = StoryObj<typeof Rating>;
  * Shows a basic rating component with default settings.
  */
 export const Default: Story = {
-  render: () => <Rating />,
-};
-
-/**
- * WithValue Story
- * 
- * Demonstrates a rating component with a specific value.
- */
-export const WithValue: Story = {
-  render: () => <Rating value={3.5} />,
+  args: {
+    value: 3.5,
+  },
 };
 
 /**
  * DifferentSizes Story
  * 
- * Shows rating components in different sizes.
+ * Shows rating components with different sizes.
  */
 export const DifferentSizes: Story = {
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-      <Rating size="small" value={3} />
-      <Rating size="medium" value={3} />
-      <Rating size="large" value={3} />
+    <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+      <Rating value={3.5} size="small" />
+      <Rating value={3.5} size="medium" />
+      <Rating value={3.5} size="large" />
     </div>
   ),
 };
 
 /**
- * DifferentColors Story
+ * WithPrecision Story
  * 
- * Demonstrates rating components with various theme colors.
+ * Demonstrates a rating component with decimal precision.
  */
-export const DifferentColors: Story = {
-  render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-      <Rating color="primary" value={3} />
-      <Rating color="secondary" value={3} />
-      <Rating color="success" value={3} />
-      <Rating color="error" value={3} />
-      <Rating color="info" value={3} />
-      <Rating color="warning" value={3} />
-    </div>
-  ),
+export const WithPrecision: Story = {
+  args: {
+    value: 3.5,
+    precision: 0.5,
+  },
 };
 
 /**
  * ReadOnly Story
  * 
- * Shows read-only rating components with different values.
+ * Shows a read-only rating component.
  */
 export const ReadOnly: Story = {
-  render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-      <Rating value={3} readOnly />
-      <Rating value={3.5} readOnly />
-    </div>
-  ),
+  args: {
+    value: 4,
+    readOnly: true,
+  },
 };
 
 /**
  * Disabled Story
  * 
- * Demonstrates disabled rating components.
+ * Shows a disabled rating component.
  */
 export const Disabled: Story = {
-  render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-      <Rating value={3} disabled />
-      <Rating value={3.5} disabled />
-    </div>
-  ),
+  args: {
+    value: 3.5,
+    disabled: true,
+  },
 };
 
 /**
  * CustomMax Story
  * 
- * Shows a rating component with a custom maximum value.
+ * Demonstrates a rating component with a custom maximum value.
  */
 export const CustomMax: Story = {
-  render: () => <Rating max={10} value={7} />,
+  args: {
+    value: 7,
+    max: 10,
+  },
 };
 
 /**
- * CustomPrecision Story
+ * WithCustomStyle Story
  * 
- * Demonstrates a rating component with custom precision for half-stars.
+ * Shows a rating component with custom styling.
  */
-export const CustomPrecision: Story = {
-  render: () => <Rating precision={0.5} value={3.5} />,
-};
-
-/**
- * CustomIcons Story
- * 
- * Shows a rating component with custom heart icons.
- */
-export const CustomIcons: Story = {
-  render: () => (
-    <Rating
-      icon={<Favorite />}
-      emptyIcon={<FavoriteBorder />}
-      value={3}
-      sx={{ color: 'error.main' }}
-    />
-  ),
-};
-
-/**
- * CustomStyle Story
- * 
- * Demonstrates a rating component with custom styling for filled and hover states.
- */
-export const CustomStyle: Story = {
-  render: () => (
-    <Rating
-      value={4}
-      sx={{
-        '& .MuiRating-iconFilled': {
-          color: 'success.main',
-        },
-        '& .MuiRating-iconHover': {
-          color: 'success.light',
-        },
-      }}
-    />
-  ),
+export const WithCustomStyle: Story = {
+  args: {
+    value: 3.5,
+    sx: {
+      '& .MuiRating-icon': {
+        fontSize: 48,
+        color: 'primary.main',
+      },
+      '& .MuiRating-iconFilled': {
+        color: 'secondary.main',
+      },
+    },
+  },
 }; 

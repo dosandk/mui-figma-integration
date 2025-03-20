@@ -1,7 +1,54 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { useState } from 'react';
-import { Button, Box, Typography } from '@mui/material';
 import { Modal } from './index';
+import { getFigmaPath } from "../figma.config";
+import { Box, Typography, Button } from '@mui/material';
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Modal");
+
+/**
+ * Modal Component Stories
+ * 
+ * This file contains all the stories for the Modal component, showcasing different configurations and states.
+ * 
+ * https://mui.com/material-ui/react-modal/
+ */
+const meta: Meta<typeof Modal> = {
+  title: 'Molecules/Modal',
+  component: Modal,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
+  tags: ['autodocs'],
+  argTypes: {
+    open: {
+      control: 'boolean',
+      description: 'If true, the modal is open',
+    },
+    disablePortal: {
+      control: 'boolean',
+      description: 'Disable the portal behavior',
+    },
+    disableScrollLock: {
+      control: 'boolean',
+      description: 'Disable the scroll lock behavior',
+    },
+    hideBackdrop: {
+      control: 'boolean',
+      description: 'Do not render the backdrop',
+    },
+    keepMounted: {
+      control: 'boolean',
+      description: 'Always keep the children in the DOM',
+    },
+  },
+};
+
+export default meta;
+type Story = StoryObj<typeof Modal>;
 
 const style = {
   position: 'absolute' as 'absolute',
@@ -10,231 +57,111 @@ const style = {
   transform: 'translate(-50%, -50%)',
   width: 400,
   bgcolor: 'background.paper',
+  border: '2px solid #000',
   boxShadow: 24,
   p: 4,
-  borderRadius: 1,
-};
-
-/**
- * Modal Component Stories
- * 
- * This file contains all the stories for the Modal component, showcasing different configurations and styling options.
- * 
- * https://mui.com/material-ui/react-modal/
- */
-const meta: Meta<typeof Modal> = {
-  title: 'Molecules/Modal',
-  component: Modal,
-  tags: ['autodocs'],
-  argTypes: {
-    open: {
-      control: 'boolean',
-      description: 'If true, the modal is shown',
-    },
-    onClose: {
-      control: false,
-      description: 'Callback fired when the modal is closed',
-    },
-    closeAfterTransition: {
-      control: 'boolean',
-      description: 'If true, the modal will close after the transition',
-    },
-    disableEscapeKeyDown: {
-      control: 'boolean',
-      description: 'If true, the modal will not close when pressing the escape key',
-    },
-    disablePortal: {
-      control: 'boolean',
-      description: 'If true, the modal will not be rendered in a portal',
-    },
-    hideBackdrop: {
-      control: 'boolean',
-      description: 'If true, the backdrop will not be rendered',
-    },
-    keepMounted: {
-      control: 'boolean',
-      description: 'If true, the modal will be kept mounted in the DOM',
-    },
-  },
-};
-
-export default meta;
-type Story = StoryObj<typeof Modal>;
-
-/**
- * ModalDemo Component
- * 
- * A wrapper component that demonstrates the basic modal functionality.
- */
-const ModalDemo = () => {
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
-
-  return (
-    <div>
-      <Button onClick={handleOpen}>Open Modal</Button>
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-title"
-        aria-describedby="modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-title" variant="h6" component="h2">
-            Modal Title
-          </Typography>
-          <Typography id="modal-description" sx={{ mt: 2 }}>
-            This is a modal description. You can put any content here.
-          </Typography>
-          <Button onClick={handleClose} sx={{ mt: 2 }}>
-            Close
-          </Button>
-        </Box>
-      </Modal>
-    </div>
-  );
 };
 
 /**
  * Default Story
  * 
- * Shows a basic modal with default configuration and backdrop.
+ * Shows a basic modal with default settings.
  */
 export const Default: Story = {
-  render: () => <ModalDemo />,
-};
-
-/**
- * WithoutBackdrop Story
- * 
- * Demonstrates a modal without a backdrop overlay.
- */
-export const WithoutBackdrop: Story = {
-  render: () => {
-    const [open, setOpen] = useState(false);
-
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
-
-    return (
-      <div>
-        <Button onClick={handleOpen}>Open Modal</Button>
-        <Modal
-          open={open}
-          onClose={handleClose}
-          hideBackdrop
-          aria-labelledby="modal-title"
-          aria-describedby="modal-description"
-        >
-          <Box sx={style}>
-            <Typography id="modal-title" variant="h6" component="h2">
-              Modal Without Backdrop
-            </Typography>
-            <Typography id="modal-description" sx={{ mt: 2 }}>
-              This modal has no backdrop.
-            </Typography>
-            <Button onClick={handleClose} sx={{ mt: 2 }}>
-              Close
-            </Button>
-          </Box>
-        </Modal>
-      </div>
-    );
+  args: {
+    open: true,
+    children: (
+      <Box sx={style}>
+        <Typography variant="h6" component="h2">
+          Basic Modal
+        </Typography>
+        <Typography sx={{ mt: 2 }}>
+          This is a basic modal with default settings.
+        </Typography>
+        <Button sx={{ mt: 2 }}>Close</Button>
+      </Box>
+    ),
   },
 };
 
 /**
- * DisableEscapeKey Story
+ * WithCustomBackdrop Story
  * 
- * Shows a modal that cannot be closed using the escape key.
+ * Demonstrates a modal with a custom backdrop color.
  */
-export const DisableEscapeKey: Story = {
-  render: () => {
-    const [open, setOpen] = useState(false);
+export const WithCustomBackdrop: Story = {
+  args: {
+    open: true,
+    children: (
+      <Box sx={style}>
+        <Typography variant="h6" component="h2">
+          Custom Backdrop Modal
+        </Typography>
+        <Typography sx={{ mt: 2 }}>
+          This modal has a custom backdrop color.
+        </Typography>
+        <Button sx={{ mt: 2 }}>Close</Button>
+      </Box>
+    ),
+    sx: {
+      '& .MuiBackdrop-root': {
+        backgroundColor: 'rgba(0, 0, 255, 0.2)',
+      },
+    },
+  },
+};
 
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
-
-    return (
-      <div>
-        <Button onClick={handleOpen}>Open Modal</Button>
-        <Modal
-          open={open}
-          onClose={handleClose}
-          disableEscapeKeyDown
-          aria-labelledby="modal-title"
-          aria-describedby="modal-description"
-        >
-          <Box sx={style}>
-            <Typography id="modal-title" variant="h6" component="h2">
-              Modal Without Escape Key
-            </Typography>
-            <Typography id="modal-description" sx={{ mt: 2 }}>
-              This modal cannot be closed with the escape key.
-            </Typography>
-            <Button onClick={handleClose} sx={{ mt: 2 }}>
-              Close
-            </Button>
-          </Box>
-        </Modal>
-      </div>
-    );
+/**
+ * DisablePortal Story
+ * 
+ * Shows a modal without portal behavior.
+ */
+export const DisablePortal: Story = {
+  args: {
+    open: true,
+    disablePortal: true,
+    children: (
+      <Box sx={style}>
+        <Typography variant="h6" component="h2">
+          Non-Portal Modal
+        </Typography>
+        <Typography sx={{ mt: 2 }}>
+          This modal is rendered without using a portal.
+        </Typography>
+        <Button sx={{ mt: 2 }}>Close</Button>
+      </Box>
+    ),
   },
 };
 
 /**
  * WithCustomStyle Story
  * 
- * Demonstrates a modal with custom styling for both backdrop and content.
+ * Demonstrates a modal with custom styling.
  */
 export const WithCustomStyle: Story = {
-  render: () => {
-    const [open, setOpen] = useState(false);
-
-    const handleOpen = () => setOpen(true);
-    const handleClose = () => setOpen(false);
-
-    return (
-      <div>
-        <Button onClick={handleOpen}>Open Modal</Button>
-        <Modal
-          open={open}
-          onClose={handleClose}
-          aria-labelledby="modal-title"
-          aria-describedby="modal-description"
-          sx={{
-            '& .MuiBackdrop-root': {
-              backgroundColor: 'rgba(0, 0, 0, 0.8)',
-            },
-          }}
-        >
-          <Box
-            sx={{
-              ...style,
-              bgcolor: 'primary.main',
-              color: 'primary.contrastText',
-              '& .MuiTypography-root': {
-                color: 'inherit',
-              },
-            }}
-          >
-            <Typography id="modal-title" variant="h6" component="h2">
-              Styled Modal
-            </Typography>
-            <Typography id="modal-description" sx={{ mt: 2 }}>
-              This modal has custom styling.
-            </Typography>
-            <Button
-              onClick={handleClose}
-              sx={{ mt: 2, color: 'inherit', borderColor: 'inherit' }}
-            >
-              Close
-            </Button>
-          </Box>
-        </Modal>
-      </div>
-    );
+  args: {
+    open: true,
+    children: (
+      <Box
+        sx={{
+          ...style,
+          borderRadius: 2,
+          border: 'none',
+          boxShadow: '0 4px 20px rgba(0, 0, 0, 0.15)',
+          '& .MuiTypography-root': {
+            color: 'primary.main',
+          },
+        }}
+      >
+        <Typography variant="h6" component="h2">
+          Styled Modal
+        </Typography>
+        <Typography sx={{ mt: 2 }}>
+          This modal has custom styling applied.
+        </Typography>
+        <Button sx={{ mt: 2 }}>Close</Button>
+      </Box>
+    ),
   },
 }; 

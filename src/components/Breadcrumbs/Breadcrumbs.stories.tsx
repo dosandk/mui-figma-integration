@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Breadcrumbs } from './index';
 import { Link, Typography } from '@mui/material';
 import { NavigateNext as NavigateNextIcon } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Breadcrumbs");
 
 /**
  * Breadcrumbs Component Stories
@@ -13,6 +16,13 @@ import { NavigateNext as NavigateNextIcon } from '@mui/icons-material';
 const meta: Meta<typeof Breadcrumbs> = {
   title: 'Molecules/Breadcrumbs',
   component: Breadcrumbs,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     separator: {

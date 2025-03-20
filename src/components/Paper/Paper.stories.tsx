@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Box, Typography } from '@mui/material';
 import { Paper } from './index';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Paper");
 
 /**
  * Paper Component Stories
@@ -12,6 +15,13 @@ import { Paper } from './index';
 const meta: Meta<typeof Paper> = {
   title: 'Atoms/Paper',
   component: Paper,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     elevation: {

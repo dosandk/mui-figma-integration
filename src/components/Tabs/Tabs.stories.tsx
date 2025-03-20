@@ -4,6 +4,10 @@ import { useState } from 'react';
 import { Box, Typography } from '@mui/material';
 import { Home, Person, Settings } from '@mui/icons-material';
 
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Tabs");
+
 /**
  * Tabs Component Stories
  * 
@@ -12,8 +16,15 @@ import { Home, Person, Settings } from '@mui/icons-material';
  * https://mui.com/material-ui/react-tabs/
  */
 const meta: Meta<typeof Tabs> = {
-  title: 'Molecules/Tabs',
+  title: "Molecules/Tabs",
   component: Tabs,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     value: {

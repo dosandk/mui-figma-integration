@@ -12,6 +12,9 @@ import {
   ContentCut as ContentCutIcon,
   ContentPaste as ContentPasteIcon,
 } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Menu");
 
 /**
  * Menu Component Stories
@@ -23,6 +26,13 @@ import {
 const meta: Meta<typeof Menu> = {
   title: 'Molecules/Menu',
   component: Menu,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     anchorEl: {

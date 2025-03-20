@@ -3,6 +3,9 @@ import { ToggleButton } from './index';
 import { ToggleButtonGroup } from '@mui/material';
 import { FormatBold, FormatItalic, FormatUnderlined, FormatAlignLeft, FormatAlignCenter, FormatAlignRight, FormatAlignJustify } from '@mui/icons-material';
 import { useState } from 'react';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("ToggleButton");
 
 /**
  * ToggleButton Component Stories
@@ -12,8 +15,15 @@ import { useState } from 'react';
  * https://mui.com/material-ui/react-toggle-button/
  */
 const meta: Meta<typeof ToggleButton> = {
-  title: 'Atoms/ToggleButton',
+  title: "Atoms/ToggleButton",
   component: ToggleButton,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {

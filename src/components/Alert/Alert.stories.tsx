@@ -3,11 +3,9 @@ import { Alert } from './index';
 import { useState } from 'react';
 import { Button } from '@mui/material';
 import { Close as CloseIcon } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
 
-import { FIGMA_PATH } from "../figma.config";
-
-const FIGMA_COMPONENT_NODE = "";
-const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
+const FIGMA_COMPONENT_URL = getFigmaPath("Alert");
 
 /**
  * Alert Component Stories
@@ -19,6 +17,13 @@ const FIGMA_COPMONENT_URL = `${FIGMA_PATH}?${FIGMA_COMPONENT_NODE}`;
 const meta: Meta<typeof Alert> = {
   title: 'Molecules/Alert',
   component: Alert,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {

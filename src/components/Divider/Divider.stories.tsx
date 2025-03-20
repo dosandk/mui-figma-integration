@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Divider } from './index';
 import { Box, Typography } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Divider");
 
 /**
  * Divider Component Stories
@@ -12,6 +15,13 @@ import { Box, Typography } from '@mui/material';
 const meta: Meta<typeof Divider> = {
   title: 'Atoms/Divider',
   component: Divider,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     textAlign: {

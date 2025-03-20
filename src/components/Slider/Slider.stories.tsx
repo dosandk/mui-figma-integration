@@ -1,25 +1,31 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Slider } from './index';
+import { Slider } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Slider");
 
 /**
  * Slider Component Stories
  * 
- * This file contains all the stories for the Slider component, showcasing different configurations and styling options.
+ * This file contains all the stories for the Slider component, showcasing different configurations and states.
  * 
  * https://mui.com/material-ui/react-slider/
  */
 const meta: Meta<typeof Slider> = {
   title: 'Atoms/Slider',
   component: Slider,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     value: {
       control: 'number',
       description: 'The value of the slider',
-    },
-    defaultValue: {
-      control: 'number',
-      description: 'The default value of the slider',
     },
     min: {
       control: 'number',
@@ -46,238 +52,120 @@ const meta: Meta<typeof Slider> = {
       options: ['horizontal', 'vertical'],
       description: 'The orientation of the slider',
     },
-    color: {
-      control: 'select',
-      options: ['primary', 'secondary', 'error', 'info', 'success', 'warning'],
-      description: 'The color of the component',
-    },
-    size: {
-      control: 'select',
-      options: ['small', 'medium'],
-      description: 'The size of the slider',
-    },
-    valueLabelDisplay: {
-      control: 'select',
-      options: ['auto', 'on', 'off'],
-      description: 'Controls when the value label is displayed',
-    },
   },
 };
 
 export default meta;
-
 type Story = StoryObj<typeof Slider>;
 
 /**
  * Default Story
  * 
- * Shows basic slider with default styling and functionality.
+ * Shows a basic slider with default settings.
  */
 export const Default: Story = {
-  render: () => <Slider />,
-};
-
-/**
- * WithValue Story
- * 
- * Demonstrates slider with a specific value.
- */
-export const WithValue: Story = {
-  render: () => <Slider value={50} />,
+  args: {
+    defaultValue: 50,
+  },
 };
 
 /**
  * WithMarks Story
  * 
- * Shows slider with default marks and step values.
+ * Shows a slider with marks on the track.
  */
 export const WithMarks: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider
-        marks
-        step={10}
-        valueLabelDisplay="auto"
-      />
-    </div>
-  ),
+  args: {
+    defaultValue: 50,
+    marks: true,
+  },
 };
 
 /**
  * CustomMarks Story
  * 
- * Demonstrates slider with custom mark labels.
+ * Demonstrates a slider with custom marks.
  */
 export const CustomMarks: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider
-        marks={[
-          { value: 0, label: '0°C' },
-          { value: 20, label: '20°C' },
-          { value: 40, label: '40°C' },
-          { value: 60, label: '60°C' },
-          { value: 80, label: '80°C' },
-          { value: 100, label: '100°C' },
-        ]}
-        valueLabelDisplay="auto"
-      />
-    </div>
-  ),
-};
-
-/**
- * DifferentSizes Story
- * 
- * Shows sliders in different sizes (small and medium).
- */
-export const DifferentSizes: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider size="small" defaultValue={50} />
-      <Slider size="medium" defaultValue={50} />
-    </div>
-  ),
-};
-
-/**
- * DifferentColors Story
- * 
- * Demonstrates sliders with various theme colors.
- */
-export const DifferentColors: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider color="primary" defaultValue={50} />
-      <Slider color="secondary" defaultValue={50} />
-      <Slider color="success" defaultValue={50} />
-      <Slider color="error" defaultValue={50} />
-      <Slider color="info" defaultValue={50} />
-      <Slider color="warning" defaultValue={50} />
-    </div>
-  ),
-};
-
-/**
- * Disabled Story
- * 
- * Shows slider in disabled state.
- */
-export const Disabled: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider defaultValue={50} />
-      <Slider defaultValue={50} disabled />
-    </div>
-  ),
-};
-
-/**
- * Vertical Story
- * 
- * Demonstrates vertically oriented slider.
- */
-export const Vertical: Story = {
-  render: () => (
-    <div style={{ height: 300, padding: '16px 0' }}>
-      <Slider orientation="vertical" defaultValue={50} />
-    </div>
-  ),
+  args: {
+    defaultValue: 50,
+    marks: [
+      { value: 0, label: '0°C' },
+      { value: 20, label: '20°C' },
+      { value: 40, label: '40°C' },
+      { value: 60, label: '60°C' },
+      { value: 80, label: '80°C' },
+      { value: 100, label: '100°C' },
+    ],
+  },
 };
 
 /**
  * RangeSlider Story
  * 
- * Shows slider with range selection capability.
+ * Shows a range slider with two thumbs.
  */
 export const RangeSlider: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider
-        defaultValue={[20, 80]}
-        valueLabelDisplay="auto"
-      />
-    </div>
-  ),
+  args: {
+    defaultValue: [20, 80],
+    marks: true,
+  },
 };
 
 /**
- * CustomStep Story
+ * Disabled Story
  * 
- * Demonstrates slider with custom step value and marks.
+ * Shows a disabled slider.
  */
-export const CustomStep: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider
-        defaultValue={50}
-        step={10}
-        marks
-        valueLabelDisplay="auto"
-      />
-    </div>
-  ),
+export const Disabled: Story = {
+  args: {
+    defaultValue: 50,
+    disabled: true,
+  },
 };
 
 /**
- * CustomRange Story
+ * Vertical Story
  * 
- * Shows slider with custom min, max, and step values.
+ * Demonstrates a vertical slider.
  */
-export const CustomRange: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider
-        defaultValue={50}
-        min={0}
-        max={200}
-        step={10}
-        marks
-        valueLabelDisplay="auto"
-      />
-    </div>
-  ),
+export const Vertical: Story = {
+  args: {
+    defaultValue: 50,
+    orientation: 'vertical',
+    sx: { height: 200 },
+  },
 };
 
 /**
- * CustomValueLabel Story
+ * WithCustomStyle Story
  * 
- * Demonstrates slider with custom value label formatting.
+ * Shows a slider with custom styling.
  */
-export const CustomValueLabel: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider
-        defaultValue={50}
-        valueLabelDisplay="on"
-        valueLabelFormat={(value) => `${value}°C`}
-      />
-    </div>
-  ),
-};
-
-/**
- * CustomStyle Story
- * 
- * Shows slider with custom styling for thumb and track.
- */
-export const CustomStyle: Story = {
-  render: () => (
-    <div style={{ width: '100%', padding: '0 16px' }}>
-      <Slider
-        defaultValue={50}
-        sx={{
-          color: 'success.main',
-          '& .MuiSlider-thumb': {
-            '&:hover, &.Mui-focusVisible': {
-              boxShadow: '0 0 0 8px rgba(25, 118, 210, 0.16)',
-            },
-            '&.Mui-active': {
-              boxShadow: '0 0 0 14px rgba(25, 118, 210, 0.16)',
-            },
-          },
-        }}
-      />
-    </div>
-  ),
+export const WithCustomStyle: Story = {
+  args: {
+    defaultValue: 50,
+    marks: true,
+    sx: {
+      color: 'primary.main',
+      '& .MuiSlider-thumb': {
+        backgroundColor: '#fff',
+        border: '2px solid currentColor',
+        '&:focus, &:hover, &.Mui-active, &.Mui-focusVisible': {
+          boxShadow: 'inherit',
+        },
+        '&:before': {
+          display: 'none',
+        },
+      },
+      '& .MuiSlider-track': {
+        height: 8,
+        borderRadius: 4,
+      },
+      '& .MuiSlider-rail': {
+        height: 8,
+        borderRadius: 4,
+      },
+    },
+  },
 }; 

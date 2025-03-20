@@ -4,6 +4,10 @@ import { useState } from 'react';
 import { Box } from '@mui/material';
 import { Search, Visibility, VisibilityOff } from '@mui/icons-material';
 
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("TextField");
+
 /**
  * TextField Component Stories
  * 
@@ -12,8 +16,15 @@ import { Search, Visibility, VisibilityOff } from '@mui/icons-material';
  * https://mui.com/material-ui/react-text-field/
  */
 const meta: Meta<typeof TextField> = {
-  title: 'Molecules/TextField',
+  title: "Molecules/TextField",
   component: TextField,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {

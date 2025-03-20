@@ -1,8 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
-
 import { ButtonGroup } from './index';
 import { Button } from '../Button';
 import { Save as SaveIcon, Delete as DeleteIcon, Send as SendIcon } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("ButtonGroup");
 
 /**
  * ButtonGroup Component Stories
@@ -14,6 +16,13 @@ import { Save as SaveIcon, Delete as DeleteIcon, Send as SendIcon } from '@mui/i
 const meta: Meta<typeof ButtonGroup> = {
   title: 'Molecules/ButtonGroup',
   component: ButtonGroup,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     variant: {

@@ -1,133 +1,106 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Select, SelectItem } from './index';
+import { Select, MenuItem, FormControl, InputLabel } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Select");
 
 /**
  * Select Component Stories
  * 
- * This file contains all the stories for the Select component, showcasing different configurations and styling options.
+ * This file contains all the stories for the Select component, showcasing different configurations and states.
  * 
  * https://mui.com/material-ui/react-select/
  */
 const meta: Meta<typeof Select> = {
   title: 'Molecules/Select',
   component: Select,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
-    label: {
-      control: 'text',
-      description: 'The label text to display above the select',
-    },
-    color: {
+    variant: {
       control: 'select',
-      options: ['primary', 'secondary', 'error', 'info', 'success', 'warning'],
-      description: 'The color of the component',
+      options: ['outlined', 'filled', 'standard'],
+      description: 'The variant to use',
     },
     size: {
       control: 'select',
       options: ['small', 'medium'],
       description: 'The size of the component',
     },
-    variant: {
-      control: 'select',
-      options: ['outlined', 'filled', 'standard'],
-      description: 'The variant to use',
-    },
     disabled: {
       control: 'boolean',
       description: 'If true, the component will be disabled',
     },
-    required: {
-      control: 'boolean',
-      description: 'If true, the label will be displayed with an asterisk',
-    },
     error: {
       control: 'boolean',
-      description: 'If true, the component will be displayed in an error state',
+      description: 'If true, the label will be displayed in an error state',
     },
-    helperText: {
-      control: 'text',
-      description: 'The helper text to display below the select',
+    multiple: {
+      control: 'boolean',
+      description: 'If true, the component will be a multiple select',
     },
   },
 };
 
 export default meta;
-
 type Story = StoryObj<typeof Select>;
-
-/**
- * Default options for select components
- */
-const options = [
-  { value: 'option1', label: 'Option 1' },
-  { value: 'option2', label: 'Option 2' },
-  { value: 'option3', label: 'Option 3' },
-  { value: 'option4', label: 'Option 4' },
-];
 
 /**
  * Default Story
  * 
- * Shows basic select with default styling and options.
+ * Shows a basic select component with default settings.
  */
 export const Default: Story = {
   render: () => (
-    <Select>
-      {options.map((option) => (
-        <SelectItem key={option.value} value={option.value}>
-          {option.label}
-        </SelectItem>
-      ))}
-    </Select>
-  ),
-};
-
-/**
- * WithLabel Story
- * 
- * Demonstrates select with a label above the input.
- */
-export const WithLabel: Story = {
-  render: () => (
-    <Select label="Select an option">
-      {options.map((option) => (
-        <SelectItem key={option.value} value={option.value}>
-          {option.label}
-        </SelectItem>
-      ))}
-    </Select>
+    <FormControl fullWidth>
+      <InputLabel>Age</InputLabel>
+      <Select label="Age" defaultValue={10}>
+        <MenuItem value={10}>Ten</MenuItem>
+        <MenuItem value={20}>Twenty</MenuItem>
+        <MenuItem value={30}>Thirty</MenuItem>
+      </Select>
+    </FormControl>
   ),
 };
 
 /**
  * DifferentVariants Story
  * 
- * Shows select components with different variants (outlined, filled, standard).
+ * Shows select components with different variants.
  */
 export const DifferentVariants: Story = {
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-      <Select label="Outlined" variant="outlined">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-      <Select label="Filled" variant="filled">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-      <Select label="Standard" variant="standard">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
+    <div style={{ display: 'flex', gap: '16px', flexDirection: 'column', width: '300px' }}>
+      <FormControl>
+        <InputLabel>Outlined</InputLabel>
+        <Select label="Outlined" defaultValue={10} variant="outlined">
+          <MenuItem value={10}>Ten</MenuItem>
+          <MenuItem value={20}>Twenty</MenuItem>
+          <MenuItem value={30}>Thirty</MenuItem>
+        </Select>
+      </FormControl>
+      <FormControl>
+        <InputLabel>Filled</InputLabel>
+        <Select label="Filled" defaultValue={10} variant="filled">
+          <MenuItem value={10}>Ten</MenuItem>
+          <MenuItem value={20}>Twenty</MenuItem>
+          <MenuItem value={30}>Thirty</MenuItem>
+        </Select>
+      </FormControl>
+      <FormControl>
+        <InputLabel>Standard</InputLabel>
+        <Select label="Standard" defaultValue={10} variant="standard">
+          <MenuItem value={10}>Ten</MenuItem>
+          <MenuItem value={20}>Twenty</MenuItem>
+          <MenuItem value={30}>Thirty</MenuItem>
+        </Select>
+      </FormControl>
     </div>
   ),
 };
@@ -135,187 +108,121 @@ export const DifferentVariants: Story = {
 /**
  * DifferentSizes Story
  * 
- * Demonstrates select components in different sizes (small and medium).
+ * Demonstrates select components with different sizes.
  */
 export const DifferentSizes: Story = {
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-      <Select label="Small" size="small">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-      <Select label="Medium" size="medium">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
+    <div style={{ display: 'flex', gap: '16px', flexDirection: 'column', width: '300px' }}>
+      <FormControl size="small">
+        <InputLabel>Small</InputLabel>
+        <Select label="Small" defaultValue={10} size="small">
+          <MenuItem value={10}>Ten</MenuItem>
+          <MenuItem value={20}>Twenty</MenuItem>
+          <MenuItem value={30}>Thirty</MenuItem>
+        </Select>
+      </FormControl>
+      <FormControl size="medium">
+        <InputLabel>Medium</InputLabel>
+        <Select label="Medium" defaultValue={10} size="medium">
+          <MenuItem value={10}>Ten</MenuItem>
+          <MenuItem value={20}>Twenty</MenuItem>
+          <MenuItem value={30}>Thirty</MenuItem>
+        </Select>
+      </FormControl>
     </div>
   ),
 };
 
 /**
- * DifferentColors Story
+ * Multiple Story
  * 
- * Shows select components with various theme colors.
+ * Shows a multiple select component.
  */
-export const DifferentColors: Story = {
+export const Multiple: Story = {
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-      <Select label="Primary" color="primary">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
+    <FormControl fullWidth>
+      <InputLabel>Multiple</InputLabel>
+      <Select
+        multiple
+        label="Multiple"
+        defaultValue={[10, 20]}
+        sx={{ minHeight: '100px' }}
+      >
+        <MenuItem value={10}>Ten</MenuItem>
+        <MenuItem value={20}>Twenty</MenuItem>
+        <MenuItem value={30}>Thirty</MenuItem>
+        <MenuItem value={40}>Forty</MenuItem>
+        <MenuItem value={50}>Fifty</MenuItem>
       </Select>
-      <Select label="Secondary" color="secondary">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-      <Select label="Success" color="success">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-      <Select label="Error" color="error">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-      <Select label="Info" color="info">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-      <Select label="Warning" color="warning">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-    </div>
-  ),
-};
-
-/**
- * WithHelperText Story
- * 
- * Demonstrates select with helper text below the input.
- */
-export const WithHelperText: Story = {
-  render: () => (
-    <Select label="Select an option" helperText="Please select one option">
-      {options.map((option) => (
-        <SelectItem key={option.value} value={option.value}>
-          {option.label}
-        </SelectItem>
-      ))}
-    </Select>
-  ),
-};
-
-/**
- * WithError Story
- * 
- * Shows select in error state with error message.
- */
-export const WithError: Story = {
-  render: () => (
-    <Select
-      label="Select an option"
-      error
-      helperText="This field is required"
-    >
-      {options.map((option) => (
-        <SelectItem key={option.value} value={option.value}>
-          {option.label}
-        </SelectItem>
-      ))}
-    </Select>
-  ),
-};
-
-/**
- * Required Story
- * 
- * Demonstrates required select with asterisk indicator.
- */
-export const Required: Story = {
-  render: () => (
-    <Select label="Select an option" required>
-      {options.map((option) => (
-        <SelectItem key={option.value} value={option.value}>
-          {option.label}
-        </SelectItem>
-      ))}
-    </Select>
+    </FormControl>
   ),
 };
 
 /**
  * Disabled Story
  * 
- * Shows select in disabled state.
+ * Shows a disabled select component.
  */
 export const Disabled: Story = {
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-      <Select label="Enabled">
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
+    <FormControl fullWidth>
+      <InputLabel>Disabled</InputLabel>
+      <Select label="Disabled" defaultValue={10} disabled>
+        <MenuItem value={10}>Ten</MenuItem>
+        <MenuItem value={20}>Twenty</MenuItem>
+        <MenuItem value={30}>Thirty</MenuItem>
       </Select>
-      <Select label="Disabled" disabled>
-        {options.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            {option.label}
-          </SelectItem>
-        ))}
-      </Select>
-    </div>
+    </FormControl>
   ),
 };
 
 /**
- * CustomStyle Story
+ * WithError Story
  * 
- * Demonstrates select with custom styling.
+ * Demonstrates a select component with error state.
  */
-export const CustomStyle: Story = {
+export const WithError: Story = {
   render: () => (
-    <Select
-      label="Custom Styled"
-      sx={{
-        '& .MuiOutlinedInput-root': {
-          borderRadius: '8px',
-          '&:hover fieldset': {
+    <FormControl fullWidth error>
+      <InputLabel>Error</InputLabel>
+      <Select label="Error" defaultValue={10}>
+        <MenuItem value={10}>Ten</MenuItem>
+        <MenuItem value={20}>Twenty</MenuItem>
+        <MenuItem value={30}>Thirty</MenuItem>
+      </Select>
+    </FormControl>
+  ),
+};
+
+/**
+ * WithCustomStyle Story
+ * 
+ * Shows a select component with custom styling.
+ */
+export const WithCustomStyle: Story = {
+  render: () => (
+    <FormControl fullWidth>
+      <InputLabel>Custom Style</InputLabel>
+      <Select
+        label="Custom Style"
+        defaultValue={10}
+        sx={{
+          '& .MuiOutlinedInput-notchedOutline': {
             borderColor: 'primary.main',
+            borderWidth: 2,
           },
-        },
-      }}
-    >
-      {options.map((option) => (
-        <SelectItem key={option.value} value={option.value}>
-          {option.label}
-        </SelectItem>
-      ))}
-    </Select>
+          '&:hover .MuiOutlinedInput-notchedOutline': {
+            borderColor: 'secondary.main',
+          },
+          '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
+            borderColor: 'error.main',
+          },
+        }}
+      >
+        <MenuItem value={10}>Ten</MenuItem>
+        <MenuItem value={20}>Twenty</MenuItem>
+        <MenuItem value={30}>Thirty</MenuItem>
+      </Select>
+    </FormControl>
   ),
 }; 

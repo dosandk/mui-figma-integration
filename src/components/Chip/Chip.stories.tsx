@@ -1,6 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { Chip } from './index';
 import { Delete as DeleteIcon } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Chip");
 
 /**
  * Chip Component Stories
@@ -12,6 +15,13 @@ import { Delete as DeleteIcon } from '@mui/icons-material';
 const meta: Meta<typeof Chip> = {
   title: 'Molecules/Chip',
   component: Chip,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     variant: {

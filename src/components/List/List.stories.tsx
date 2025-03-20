@@ -18,6 +18,9 @@ import {
   Delete as DeleteIcon,
   Person as PersonIcon,
 } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("List");
 
 /**
  * List Component Stories
@@ -29,6 +32,13 @@ import {
 const meta: Meta<typeof List> = {
   title: 'Molecules/List',
   component: List,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     dense: {

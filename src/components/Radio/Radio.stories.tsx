@@ -1,71 +1,74 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Radio } from './index';
+import { Radio, RadioGroup, FormControlLabel, FormControl, FormLabel } from '@mui/material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Radio");
 
 /**
  * Radio Component Stories
  * 
- * This file contains all the stories for the Radio component, showcasing different configurations and styling options.
+ * This file contains all the stories for the Radio component, showcasing different configurations and states.
  * 
- * https://mui.com/material-ui/react-radio-button/
+ * https://mui.com/material-ui/react-radio/
  */
 const meta: Meta<typeof Radio> = {
   title: 'Atoms/Radio',
   component: Radio,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {
       control: 'select',
-      options: ['primary', 'secondary', 'error', 'info', 'success', 'warning', 'default'],
+      options: ['default', 'primary', 'secondary', 'error', 'info', 'success', 'warning'],
       description: 'The color of the component',
-    },
-    disabled: {
-      control: 'boolean',
-      description: 'If true, the component will be disabled',
     },
     size: {
       control: 'select',
       options: ['small', 'medium'],
       description: 'The size of the component',
     },
-    label: {
-      control: 'text',
-      description: 'The label text to display next to the radio button',
+    disabled: {
+      control: 'boolean',
+      description: 'If true, the component will be disabled',
     },
   },
 };
 
 export default meta;
-
 type Story = StoryObj<typeof Radio>;
 
 /**
  * Default Story
  * 
- * Shows basic radio button with default styling.
+ * Shows a basic radio button with default settings.
  */
 export const Default: Story = {
-  render: () => <Radio />,
+  args: {
+    checked: true,
+  },
 };
 
 /**
- * WithLabel Story
+ * DifferentColors Story
  * 
- * Demonstrates radio button with a label.
+ * Shows radio buttons with different colors.
  */
-export const WithLabel: Story = {
-  render: () => <Radio label="Radio Label" />,
-};
-
-/**
- * Disabled Story
- * 
- * Shows radio buttons in enabled and disabled states.
- */
-export const Disabled: Story = {
+export const DifferentColors: Story = {
   render: () => (
-    <div>
-      <Radio label="Enabled" />
-      <Radio label="Disabled" disabled />
+    <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+      <Radio checked color="default" />
+      <Radio checked color="primary" />
+      <Radio checked color="secondary" />
+      <Radio checked color="error" />
+      <Radio checked color="info" />
+      <Radio checked color="success" />
+      <Radio checked color="warning" />
     </div>
   ),
 };
@@ -73,54 +76,65 @@ export const Disabled: Story = {
 /**
  * DifferentSizes Story
  * 
- * Demonstrates radio buttons in different sizes (small and medium).
+ * Demonstrates radio buttons with different sizes.
  */
 export const DifferentSizes: Story = {
   render: () => (
-    <div>
-      <Radio label="Small" size="small" />
-      <Radio label="Medium" size="medium" />
+    <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+      <Radio checked size="small" />
+      <Radio checked size="medium" />
     </div>
   ),
 };
 
 /**
- * DifferentColors Story
+ * WithLabels Story
  * 
- * Shows radio buttons with various theme colors.
+ * Shows radio buttons with labels using RadioGroup.
  */
-export const DifferentColors: Story = {
+export const WithLabels: Story = {
   render: () => (
-    <div>
-      <Radio label="Primary" color="primary" />
-      <Radio label="Secondary" color="secondary" />
-      <Radio label="Success" color="success" />
-      <Radio label="Error" color="error" />
-      <Radio label="Info" color="info" />
-      <Radio label="Warning" color="warning" />
-      <Radio label="Default" color="default" />
+    <FormControl>
+      <FormLabel>Gender</FormLabel>
+      <RadioGroup defaultValue="female">
+        <FormControlLabel value="female" control={<Radio />} label="Female" />
+        <FormControlLabel value="male" control={<Radio />} label="Male" />
+        <FormControlLabel value="other" control={<Radio />} label="Other" />
+      </RadioGroup>
+    </FormControl>
+  ),
+};
+
+/**
+ * Disabled Story
+ * 
+ * Shows radio buttons in disabled state.
+ */
+export const Disabled: Story = {
+  render: () => (
+    <div style={{ display: 'flex', gap: '16px' }}>
+      <Radio checked disabled />
+      <Radio disabled />
     </div>
   ),
 };
 
 /**
- * CustomStyle Story
+ * WithCustomStyle Story
  * 
- * Demonstrates radio button with custom styling for icon and label.
+ * Shows a radio button with custom styling.
  */
-export const CustomStyle: Story = {
-  render: () => (
-    <Radio
-      label="Custom Styled"
-      sx={{
-        '& .MuiSvgIcon-root': {
-          fontSize: 30,
+export const WithCustomStyle: Story = {
+  args: {
+    checked: true,
+    sx: {
+      '& .MuiSvgIcon-root': {
+        fontSize: 48,
+        color: 'primary.main',
+        '&.Mui-checked': {
+          color: 'secondary.main',
         },
-        '& .MuiFormControlLabel-label': {
-          fontSize: 16,
-          fontWeight: 'bold',
-        },
-      }}
-    />
-  ),
+      },
+    },
+  },
 }; 

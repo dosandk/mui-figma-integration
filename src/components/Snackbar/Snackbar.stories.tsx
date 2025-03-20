@@ -2,7 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Snackbar } from './index';
 import { Button } from '@mui/material';
 import { useState } from 'react';
+import { getFigmaPath } from "../figma.config";
 
+const FIGMA_COMPONENT_URL = getFigmaPath("Snackbar");
 /**
  * Snackbar Component Stories
  * 
@@ -13,6 +15,13 @@ import { useState } from 'react';
 const meta: Meta<typeof Snackbar> = {
   title: 'Molecules/Snackbar',
   component: Snackbar,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     open: {

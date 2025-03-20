@@ -4,7 +4,6 @@ import { Accordion } from './index';
 import { getFigmaPath } from "../figma.config";
 
 const FIGMA_COMPONENT_URL = getFigmaPath("Accordion");
-
 /**
  * Accordion Component Stories
  * 
@@ -13,7 +12,7 @@ const FIGMA_COMPONENT_URL = getFigmaPath("Accordion");
  * https://mui.com/material-ui/react-accordion/
  */
 const meta = {
-  title: 'Molecules/Accordion',
+  title: "Molecules/Accordion",
   component: Accordion,
   parameters: {
     design: {

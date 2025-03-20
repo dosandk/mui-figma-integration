@@ -2,6 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Badge } from './index';
 import { Box } from '@mui/material';
 import { Mail as MailIcon } from '@mui/icons-material';
+import { getFigmaPath } from "../figma.config";
+
+const FIGMA_COMPONENT_URL = getFigmaPath("Badge");
 
 /**
  * Badge Component Stories
@@ -13,6 +16,13 @@ import { Mail as MailIcon } from '@mui/icons-material';
 const meta: Meta<typeof Badge> = {
   title: 'Atoms/Badge',
   component: Badge,
+  parameters: {
+    design: {
+      type: "figma",
+      url: FIGMA_COMPONENT_URL
+    },
+    layout: 'centered',
+  },
   tags: ['autodocs'],
   argTypes: {
     color: {
