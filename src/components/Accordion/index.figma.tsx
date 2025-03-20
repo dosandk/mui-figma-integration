@@ -1,20 +1,17 @@
-import { Accordion as AccordionItem } from "./index"
+import { Accordion } from "./index"
 import figma from "@figma/code-connect"
 
 figma.connect(
-  AccordionItem,
-  "<FIGMA_ACCORDION_ITEM>",
+  Accordion,
+  "<FIGMA_ACCORDION>",
   {
     props: {
-      title: figma.string("Title"),
-      content: figma.string("Content"),
-      defaultExpanded: figma.enum("State", {
-        Closed: undefined,
-        Open: true
-      }),
+      disabled: figma.boolean("Disabled"),
+      children: figma.children("*"),
+      expanded: figma.boolean("Expanded?"),
     },
-    example: (props) => (
-      <AccordionItem {...props} />
+    example: ({ children, ...props }) => (
+      <Accordion {...props} />
     ),
   },
 )
