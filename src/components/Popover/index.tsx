@@ -7,9 +7,9 @@ export interface PopoverProps extends MuiPopoverProps {
   children: React.ReactNode;
 }
 
-export const Popover = ({ children, ...rest }: PopoverProps) => {
+export const Popover = ({ children, ...props }: PopoverProps) => {
   return (
-    <MuiPopover {...rest}>
+    <MuiPopover {...props}>
       {children}
     </MuiPopover>
   );

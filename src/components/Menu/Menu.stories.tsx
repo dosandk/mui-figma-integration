@@ -1,11 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { useState } from 'react';
 import { Button } from '@mui/material';
+
+import {
+  MenuItem,
+  Divider,
+} from '@mui/material';
 import {
   Menu,
-  MenuItem,
-  MenuList,
-  MenuDivider,
 } from './index';
 import {
   ContentCopy as ContentCopyIcon,
@@ -154,7 +156,7 @@ export const WithDivider: Story = {
         >
           <MenuItem onClick={handleClose}>Profile</MenuItem>
           <MenuItem onClick={handleClose}>My account</MenuItem>
-          <MenuDivider />
+          <Divider />
           <MenuItem onClick={handleClose}>Logout</MenuItem>
         </Menu>
       </div>
@@ -213,7 +215,7 @@ export const WithCustomStyle: Story = {
         >
           <MenuItem onClick={handleClose}>Profile</MenuItem>
           <MenuItem onClick={handleClose}>My account</MenuItem>
-          <MenuDivider />
+          <Divider />
           <MenuItem onClick={handleClose}>Logout</MenuItem>
         </Menu>
       </div>

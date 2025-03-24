@@ -1,5 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { ImageList, ImageListItemComponent, ImageListItemBarComponent } from './index';
+import { ImageListItem, ImageListItemBar } from "@mui/material";
+
+import { ImageList } from './index';
 import { getFigmaPath } from "../figma.config";
 
 const FIGMA_COMPONENT_URL = getFigmaPath("ImageList");
@@ -127,18 +129,18 @@ export const Default: Story = {
   render: () => (
     <ImageList sx={{ width: 500, height: 450 }}>
       {itemData.map((item) => (
-        <ImageListItemComponent key={item.img}>
+        <ImageListItem key={item.img}>
           <img
             src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
             alt={item.title}
             loading="lazy"
           />
-          <ImageListItemBarComponent
+          <ImageListItemBar
             title={item.title}
             subtitle={item.author}
           />
-        </ImageListItemComponent>
+        </ImageListItem>
       ))}
     </ImageList>
   ),
@@ -158,7 +160,7 @@ export const Quilted: Story = {
       rowHeight={121}
     >
       {itemData.map((item) => (
-        <ImageListItemComponent
+        <ImageListItem
           key={item.img}
           cols={item.cols || 1}
           rows={item.rows || 1}
@@ -169,11 +171,11 @@ export const Quilted: Story = {
             alt={item.title}
             loading="lazy"
           />
-          <ImageListItemBarComponent
+          <ImageListItemBar
             title={item.title}
             subtitle={item.author}
           />
-        </ImageListItemComponent>
+        </ImageListItem>
       ))}
     </ImageList>
   ),
@@ -193,7 +195,7 @@ export const Masonry: Story = {
       sx={{ width: 500, height: 450 }}
     >
       {itemData.map((item) => (
-        <ImageListItemComponent key={item.img}>
+        <ImageListItem key={item.img}>
           <img
             src={`${item.img}?w=248&fit=crop&auto=format`}
             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
@@ -201,11 +203,11 @@ export const Masonry: Story = {
             loading="lazy"
             style={{ display: 'block' }}
           />
-          <ImageListItemBarComponent
+          <ImageListItemBar
             title={item.title}
             subtitle={item.author}
           />
-        </ImageListItemComponent>
+        </ImageListItem>
       ))}
     </ImageList>
   ),
@@ -232,18 +234,18 @@ export const WithCustomStyle: Story = {
       }}
     >
       {itemData.slice(0, 4).map((item) => (
-        <ImageListItemComponent key={item.img}>
+        <ImageListItem key={item.img}>
           <img
             src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
             srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
             alt={item.title}
             loading="lazy"
           />
-          <ImageListItemBarComponent
+          <ImageListItemBar
             title={item.title}
             subtitle={item.author}
           />
-        </ImageListItemComponent>
+        </ImageListItem>
       ))}
     </ImageList>
   ),

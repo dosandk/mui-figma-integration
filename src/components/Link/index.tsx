@@ -7,9 +7,9 @@ export interface LinkProps extends MuiLinkProps {
   children: React.ReactNode;
 }
 
-export const Link = ({ children, ...rest }: LinkProps) => {
+export const Link = ({ children, ...props }: LinkProps) => {
   return (
-    <MuiLink {...rest}>
+    <MuiLink {...props}>
       {children}
     </MuiLink>
   );

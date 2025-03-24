@@ -51,7 +51,7 @@ export default meta;
 type Story = StoryObj<typeof Modal>;
 
 const style = {
-  position: 'absolute' as 'absolute',
+  position: 'absolute' as const,
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
@@ -62,6 +62,9 @@ const style = {
   p: 4,
 };
 
+
+// TODO: implement "open" functionality
+
 /**
  * Default Story
  * 
@@ -69,7 +72,7 @@ const style = {
  */
 export const Default: Story = {
   args: {
-    open: true,
+    // open: true,
     children: (
       <Box sx={style}>
         <Typography variant="h6" component="h2">
@@ -91,7 +94,7 @@ export const Default: Story = {
  */
 export const WithCustomBackdrop: Story = {
   args: {
-    open: true,
+    // open: true,
     children: (
       <Box sx={style}>
         <Typography variant="h6" component="h2">
@@ -118,7 +121,7 @@ export const WithCustomBackdrop: Story = {
  */
 export const DisablePortal: Story = {
   args: {
-    open: true,
+    // open: true,
     disablePortal: true,
     children: (
       <Box sx={style}>
@@ -141,7 +144,7 @@ export const DisablePortal: Story = {
  */
 export const WithCustomStyle: Story = {
   args: {
-    open: true,
+    // open: true,
     children: (
       <Box
         sx={{

@@ -7,8 +7,8 @@ export interface SkeletonProps extends MuiSkeletonProps {
   children?: React.ReactNode;
 }
 
-export const Skeleton = ({ children, ...rest }: SkeletonProps) => {
+export const Skeleton = ({ children, ...props }: SkeletonProps) => {
   return (
-    <MuiSkeleton {...rest}>{children}</MuiSkeleton>
+    <MuiSkeleton {...props}>{children}</MuiSkeleton>
   );
 }; 

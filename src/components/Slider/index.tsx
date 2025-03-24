@@ -5,8 +5,8 @@ import {
 
 export interface SliderProps extends MuiSliderProps { }
 
-export const Slider = ({ ...rest }: SliderProps) => {
+export const Slider = ({ ...props }: SliderProps) => {
   return (
-    <MuiSlider {...rest} />
+    <MuiSlider {...props} />
   );
 }; 

@@ -1,15 +1,16 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { List } from './index';
+
 import {
-  List,
   ListItem,
   ListItemText,
   ListItemIcon,
-  ListItemButton,
   ListItemAvatar,
   ListItemSecondaryAction,
   ListSubheader,
   Divider,
-} from './index';
+} from '@mui/material';
+
 import {
   Inbox as InboxIcon,
   Drafts as DraftsIcon,

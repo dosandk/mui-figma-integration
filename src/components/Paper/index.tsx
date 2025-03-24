@@ -5,22 +5,11 @@ import {
 
 export interface PaperProps extends MuiPaperProps {
   children?: React.ReactNode;
-  // elevation?: number;
-  // square?: boolean;
-  // variant?: 'elevation' | 'outlined';
 }
 
-export const Paper = ({
-  children,
-  // elevation = 1,
-  // square = false,
-  // variant = 'elevation',
-  ...rest
-}: PaperProps) => {
+export const Paper = ({ children, ...props }: PaperProps) => {
   return (
-    <MuiPaper
-      {...rest}
-    >
+    <MuiPaper {...props}>
       {children}
     </MuiPaper>
   );

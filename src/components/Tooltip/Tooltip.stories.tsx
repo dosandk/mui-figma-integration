@@ -1,11 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Tooltip } from './index';
 import { Box, Button, IconButton, Typography } from '@mui/material';
 import { Info, Delete, Edit, Add } from '@mui/icons-material';
 
+import { Tooltip } from './index';
 import { getFigmaPath } from "../figma.config";
 
-const FIGMA_COMPONENT_URL = getFigmaPath("Tootip");
+const FIGMA_COMPONENT_URL = getFigmaPath("Tooltip");
 
 /**
  * Tooltip Component Stories

@@ -7,9 +7,9 @@ export interface ListProps extends MuiListProps {
   children: React.ReactNode;
 }
 
-export const List = ({ children, ...rest }: ListProps) => {
+export const List = ({ children, ...props }: ListProps) => {
   return (
-    <MuiList {...rest}>
+    <MuiList {...props}>
       {children}
     </MuiList>
   );

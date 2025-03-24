@@ -13,10 +13,10 @@ export interface RadioProps extends MuiRadioProps {
 export const Radio = ({
   label,
   FormControlLabelProps,
-  ...rest
+  ...props
 }: RadioProps) => {
   const radio = (
-    <MuiRadio {...rest} />
+    <MuiRadio {...props} />
   );
 
   if (label) {

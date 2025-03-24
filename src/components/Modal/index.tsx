@@ -16,37 +16,10 @@ export interface ModalProps extends Omit<MuiModalProps, 'children'> {
   keepMounted?: boolean;
 }
 
-export const Modal = ({
-  children,
-  open,
-  onClose,
-  closeAfterTransition = false,
-  disableEscapeKeyDown = false,
-  disablePortal = false,
-  hideBackdrop = false,
-  keepMounted = false,
-  ...rest
-}: ModalProps) => {
+export const Modal = ({ children, ...props }: ModalProps) => {
   return (
-    <MuiModal
-      open={open}
-      onClose={onClose}
-      closeAfterTransition={closeAfterTransition}
-      disableEscapeKeyDown={disableEscapeKeyDown}
-      disablePortal={disablePortal}
-      hideBackdrop={hideBackdrop}
-      keepMounted={keepMounted}
-      slots={{ backdrop: Backdrop }}
-      slotProps={{
-        backdrop: {
-          timeout: 500,
-        },
-      }}
-      {...rest}
-    >
-      <Fade in={open}>
-        {children}
-      </Fade>
+    <MuiModal {...props}>
+      {children}
     </MuiModal>
   );
 }; 

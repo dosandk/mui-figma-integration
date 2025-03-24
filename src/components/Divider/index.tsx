@@ -4,28 +4,12 @@ import {
 } from "@mui/material";
 
 export interface DividerProps extends MuiDividerProps {
-  textAlign?: 'left' | 'center' | 'right';
-  variant?: 'fullWidth' | 'inset' | 'middle';
-  orientation?: 'horizontal' | 'vertical';
-  flexItem?: boolean;
+  children?: React.ReactNode;
 }
 
-export const Divider = ({ 
-  textAlign = 'center',
-  variant = 'fullWidth',
-  orientation = 'horizontal',
-  flexItem = false,
-  children,
-  ...rest 
-}: DividerProps) => {
+export const Divider = ({ children, ...props }: DividerProps) => {
   return (
-    <MuiDivider
-      textAlign={textAlign}
-      variant={variant}
-      orientation={orientation}
-      flexItem={flexItem}
-      {...rest}
-    >
+    <MuiDivider {...props} >
       {children}
     </MuiDivider>
   );

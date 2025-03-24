@@ -3,8 +3,7 @@ import {
   SwitchProps as MuiSwitchProps,
 } from "@mui/material";
 
-export interface SwitchProps extends MuiSwitchProps {
-}
+export interface SwitchProps extends MuiSwitchProps { }
 
 export const Switch = ({ ...props }: SwitchProps) => {
   return (

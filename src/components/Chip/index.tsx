@@ -9,9 +9,6 @@ export interface ChipProps extends MuiChipProps {
 
 export const Chip = ({ label, ...rest }: ChipProps) => {
   return (
-    <MuiChip
-      label={label}
-      {...rest}
-    />
+    <MuiChip label={label} {...rest} />
   );
 } 

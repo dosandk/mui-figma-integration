@@ -7,9 +7,9 @@ export interface MenuProps extends MuiMenuProps {
   children: React.ReactNode;
 }
 
-export const Menu = ({ children, ...rest }: MenuProps) => {
+export const Menu = ({ children, ...props }: MenuProps) => {
   return (
-    <MuiMenu {...rest}>
+    <MuiMenu {...props}>
       {children}
     </MuiMenu>
   );

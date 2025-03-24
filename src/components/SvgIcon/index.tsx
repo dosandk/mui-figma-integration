@@ -1,4 +1,7 @@
-import { SvgIcon as MuiSvgIcon, SvgIconOwnProps as MuiSvgIconOwnProps } from '@mui/material';
+import {
+  SvgIcon as MuiSvgIcon,
+  SvgIconOwnProps as MuiSvgIconOwnProps
+} from '@mui/material';
 
 export interface SvgIconProps extends MuiSvgIconOwnProps {
   children?: React.ReactNode;

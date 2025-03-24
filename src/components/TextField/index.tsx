@@ -1,10 +1,9 @@
 import {
   TextField as MuiTextField,
-  TextFieldProps as MuiTextFieldProps,
+  BaseTextFieldProps
 } from "@mui/material";
 
-export interface TextFieldProps extends Omit<MuiTextFieldProps, 'color'> {
-}
+export interface TextFieldProps extends BaseTextFieldProps { }
 
 export const TextField = ({ ...props }: TextFieldProps) => {
   return (
