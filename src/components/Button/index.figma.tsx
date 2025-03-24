@@ -1,3 +1,4 @@
+import { Outlined } from "../Card/Card.stories";
 import { Button } from "./index";
 import figma from "@figma/code-connect";
 
@@ -5,6 +6,8 @@ figma.connect(
   Button,
   "<FIGMA_BUTTON>",
   {
+    // NOTE: just example imports
+    // imports: ["import { Button } from '@bugcrowd/bc-elements'"],
     props: {
       color: figma.enum("Color", {
         Inherit: "inherit",

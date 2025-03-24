@@ -1,8 +1,18 @@
 {
   "codeConnect": {
+    "parser": "react",
     "include": [
       "src/components/**/*.{tsx,jsx}"
     ],
+    "exclude": [
+      "src/components/**/*.stories.{tsx,jsx}"
+    ],
+    "importPaths": {
+      "components/**/*": "@components"
+    },
+    "paths": {
+      "@components": "src/components"
+    },
     "label": "React",
     "interactiveSetupFigmaFileUrl": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q/ELEKS-UI---Components",
     "documentUrlSubstitutions": {
@@ -20,6 +30,10 @@
       "<FIGMA_BUTTON>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=6543:36744",
       "<FIGMA_BUTTON_GROUP>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=6543:39843",
       "<FIGMA_CARD>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=11479:243797",
+      "<FIGMA_CARD_HEADER>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=6583:46537",
+      "<FIGMA_CARD_CONTENT>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=6640:52022",
+      "<FIGMA_CARD_ACTIONS>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=6676:48056",
+      "<FIGMA_CARD_MEDIA>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=11480:169332",
       "<FIGMA_CHECKBOX>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=6543:43052",
       "<FIGMA_CHIP>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=6588:47683",
       "<FIGMA_CHEVRON>": "https://www.figma.com/design/BpvKv4FZpzUKLb9nzDLm9Q?node-id=11673:11595",

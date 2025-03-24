@@ -5,6 +5,7 @@
 - [Figma Developer Resources (Community)](<https://www.figma.com/board/ISUGx1ZwpfKDXgd5EKLAop/Figma-Developer-Resources-(Community)?node-id=0-1&p=f&t=PlI2VyQ4x4xQFjQu-0>)
 - [MUI Theme Creator](https://bareynol.github.io/mui-theme-creator)
 - [ELEKS Design System](https://elekscloud.sharepoint.com/sites/DesignSystem)
+- [Code connect configuration](https://www.figma.com/code-connect-docs/api/config-file/#importpaths)
 
 ## Examples
 

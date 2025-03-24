@@ -10,8 +10,8 @@ figma.connect(
       disablePadding: figma.boolean("Dis. Padding"),
       children: figma.children("*"),
     },
-    example: ({children, props}) => (
-      <List>{children}</List>
+    example: ({ children, ...props }) => (
+      <List {...props}>{children}</List>
     ),
   },
 )
