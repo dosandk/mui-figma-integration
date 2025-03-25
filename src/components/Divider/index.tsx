@@ -5,6 +5,7 @@ import {
 
 export interface DividerProps extends MuiDividerProps {
   children?: React.ReactNode;
+  orientation?: "horizontal" | "vertical";
 }
 
 export const Divider = ({ children, ...props }: DividerProps) => {
