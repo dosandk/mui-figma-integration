@@ -28,7 +28,7 @@ const iconsRanges = {
   "Images": "11673:13276",
   "Buildings": "11673:13319"
 };
-const ICONS_SET_NAME = "Buildings"
+const ICONS_SET_NAME = "Arrows"
 const ROOT_TRAVERSE_IDS = ["6594:47638", iconsRanges[ICONS_SET_NAME]]; // Page ID > Section ID
 const SKIP_REST_API = process.argv.includes("--skip-rest-api");
 

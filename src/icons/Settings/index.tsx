@@ -1,16 +1,16 @@
-export { BuildCircleOutlined } from "./BuildCircleOutlined.tsx";
-export { BuildOutlined } from "./BuildOutlined.tsx";
-export { ConstructionOutlined } from "./ConstructionOutlined.tsx";
-export { DesignServicesOutlined } from "./DesignServicesOutlined.tsx";
-export { DisplaySettingsOutlined } from "./DisplaySettingsOutlined.tsx";
-export { HandymanOutlined } from "./HandymanOutlined.tsx";
-export { HardwareOutlined } from "./HardwareOutlined.tsx";
-export { MiscellaneousServicesOutlined } from "./MiscellaneousServicesOutlined.tsx";
-export { RepairCode } from "./RepairCode.tsx";
-export { RepairParts } from "./RepairParts.tsx";
-export { RoomPreferencesOutlined } from "./RoomPreferencesOutlined.tsx";
-export { SettingsApplicationsOutlined } from "./SettingsApplicationsOutlined.tsx";
-export { SettingsOutlined } from "./SettingsOutlined.tsx";
-export { SettingsSuggestOutlined } from "./SettingsSuggestOutlined.tsx";
-export { TuneOutlined } from "./TuneOutlined.tsx";
-export { WarrantyOutlined } from "./WarrantyOutlined.tsx";
+export { BuildCircleOutlined } from "@mui/icons-material";
+export { BuildOutlined } from "@mui/icons-material";
+export { ConstructionOutlined } from "@mui/icons-material";
+export { DesignServicesOutlined } from "@mui/icons-material";
+export { DisplaySettingsOutlined } from "@mui/icons-material";
+export { HandymanOutlined } from "@mui/icons-material";
+export { HardwareOutlined } from "@mui/icons-material";
+export { MiscellaneousServicesOutlined } from "@mui/icons-material";
+export { RepairCode } from "@mui/icons-material";/* TODO: rename */
+export { RepairParts } from "@mui/icons-material";/* TODO: rename */
+export { RoomPreferencesOutlined } from "@mui/icons-material";
+export { SettingsApplicationsOutlined } from "@mui/icons-material";
+export { SettingsOutlined } from "@mui/icons-material";
+export { SettingsSuggestOutlined } from "@mui/icons-material";
+export { TuneOutlined } from "@mui/icons-material";
+export { WarrantyOutlined } from "@mui/icons-material";/* TODO: rename */
