@@ -3,7 +3,7 @@ export { AccessTimeOutlined } from "@mui/icons-material";
 export { AddAlarmOutlined } from "@mui/icons-material";
 export { AddAlertOutlined } from "@mui/icons-material";
 export { AlarmOffOutlined } from "@mui/icons-material";
-export { AlarmonOutlined } from "@mui/icons-material";/* TODO: rename */
+export { AlarmOnOutlined } from "@mui/icons-material";/* TODO: rename */
 export { AvTimerOutlined } from "@mui/icons-material";
 export { Availability } from "@mui/icons-material";/* TODO: rename */
 export { CalendarTodayOutlined } from "@mui/icons-material";
@@ -30,7 +30,7 @@ export { NotificationsOffOutlined } from "@mui/icons-material";
 export { NotificationsOutlined } from "@mui/icons-material";
 export { NotificationsPausedOutlined } from "@mui/icons-material";
 export { PunchClockOutlined } from "@mui/icons-material";
-export { QueryBuilderFilledOutlined } from "@mui/icons-material";/* TODO: rename */
+export { QueryBuilderOutlined } from "@mui/icons-material";/* TODO: rename */
 export { RestoreOutlined } from "@mui/icons-material";
 export { Timer10Outlined } from "@mui/icons-material";
 export { Timer10SelectOutlined } from "@mui/icons-material";

@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {HealthandSafetyOutlined} from "@mui/icons-material";
+import { HealthAndSafetyOutlined } from "@mui/icons-material";
 
 figma.connect(
-  HealthandSafetyOutlined, 
+  HealthAndSafetyOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11714:3420",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <HealthandSafetyOutlined {...props} />
+    example: ({ ...props }) => <HealthAndSafetyOutlined {...props} />
   }
 );

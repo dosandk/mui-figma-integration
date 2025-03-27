@@ -8,10 +8,10 @@ export { ChangeCircleOutlined } from "@mui/icons-material";
 export { CloseOutlined } from "@mui/icons-material";
 export { ControlPointDuplicateOutlined } from "@mui/icons-material";
 export { DangerousOutlined } from "@mui/icons-material";
-export { DisabledbyDefaultOutlined } from "@mui/icons-material";/* TODO: rename */
+export { DisabledByDefaultOutlined } from "@mui/icons-material";/* TODO: rename */
 export { DoDisturbOffOutlined } from "@mui/icons-material";
 export { DoDisturbOutlined } from "@mui/icons-material";
-export { DoNotDisturbonTotalSilenceOutlined } from "@mui/icons-material";/* TODO: rename */
+export { DoNotDisturbOnTotalSilenceOutlined } from "@mui/icons-material";/* TODO: rename */
 export { FunctionsOutlined } from "@mui/icons-material";
 export { HighlightOffOutlined } from "@mui/icons-material";
 export { HorizontalRuleOutlined } from "@mui/icons-material";

@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {AlarmonOutlined} from "@mui/icons-material";
+import { AlarmOnOutlined } from "@mui/icons-material";
 
 figma.connect(
-  AlarmonOutlined, 
+  AlarmOnOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11706:866932",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <AlarmonOutlined {...props} />
+    example: ({ ...props }) => <AlarmOnOutlined {...props} />
   }
 );

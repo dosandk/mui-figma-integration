@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {ExittoAppOutlined} from "@mui/icons-material";
+import { ExitToAppOutlined } from "@mui/icons-material";
 
 figma.connect(
-  ExittoAppOutlined, 
+  ExitToAppOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11714:3467",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <ExittoAppOutlined {...props} />
+    example: ({ ...props }) => <ExitToAppOutlined {...props} />
   }
 );

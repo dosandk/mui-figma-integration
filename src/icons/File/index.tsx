@@ -15,8 +15,8 @@ export { ContentPasteSearchOutlined } from "@mui/icons-material";
 export { CopyAllOutlined } from "@mui/icons-material";
 export { DescriptionOutlined } from "@mui/icons-material";
 export { DifferenceOutlined } from "@mui/icons-material";
-export { DownloadFilled } from "@mui/icons-material";/* TODO: rename */
-export { DownloadforOfflineOutlined } from "@mui/icons-material";/* TODO: rename */
+export { Download } from "@mui/icons-material";/* TODO: rename */
+export { DownloadForOfflineOutlined } from "@mui/icons-material";/* TODO: rename */
 export { FeedOutlined } from "@mui/icons-material";
 export { FileCopyOutlined } from "@mui/icons-material";
 export { FileDownloadOffOutlined } from "@mui/icons-material";
@@ -29,10 +29,10 @@ export { FilterAltOutlined } from "@mui/icons-material";
 export { FilterListOffOutlined } from "@mui/icons-material";
 export { FilterListOutlined } from "@mui/icons-material";
 export { FilterNoneOutlined } from "@mui/icons-material";
-export { FindinPageOutlined } from "@mui/icons-material";/* TODO: rename */
+export { FindInPageOutlined } from "@mui/icons-material";/* TODO: rename */
 export { FlipOutlined } from "@mui/icons-material";
-export { FliptoBackOutlined } from "@mui/icons-material";/* TODO: rename */
-export { FliptoFrontOutlined } from "@mui/icons-material";/* TODO: rename */
+export { FlipToBackOutlined } from "@mui/icons-material";/* TODO: rename */
+export { FlipToFrontOutlined } from "@mui/icons-material";/* TODO: rename */
 export { If } from "@mui/icons-material";/* TODO: rename */
 export { InboxOutlined } from "@mui/icons-material";
 export { InsertDriveFileOutlined } from "@mui/icons-material";
@@ -48,7 +48,6 @@ export { NoteAddOutlined } from "@mui/icons-material";
 export { NotesOutlined } from "@mui/icons-material";
 export { OutboxOutlined } from "@mui/icons-material";
 export { POnotready } from "@mui/icons-material";/* TODO: rename */
-export { POnotready } from "@mui/icons-material";/* TODO: rename */
 export { PhotoSizeSelectSmallOutlined } from "@mui/icons-material";
 export { PlagiarismOutlined } from "@mui/icons-material";
 export { PlaylistAddCheckCircleOutlined } from "@mui/icons-material";
@@ -59,7 +58,7 @@ export { PlaylistPlayOutlined } from "@mui/icons-material";
 export { PlaylistRemoveOutlined } from "@mui/icons-material";
 export { RestorePageOutlined } from "@mui/icons-material";
 export { RoundedCornerOutlined } from "@mui/icons-material";
-export { SaveAltFilled } from "@mui/icons-material";/* TODO: rename */
+export { SaveAlt } from "@mui/icons-material";/* TODO: rename */
 export { SegmentOutlined } from "@mui/icons-material";
 export { SelectAllOutlined } from "@mui/icons-material";
 export { ShortTextOutlined } from "@mui/icons-material";

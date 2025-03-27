@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {RemoveRedEyeFilled} from "@mui/icons-material";
+import { RemoveRedEye } from "@mui/icons-material";
 
 figma.connect(
-  RemoveRedEyeFilled, 
+  RemoveRedEye,
   "<FIGMA_ICONS_BASE>?node-id=7475:59914",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <RemoveRedEyeFilled {...props} />
+    example: ({ ...props }) => <RemoveRedEye {...props} />
   }
 );

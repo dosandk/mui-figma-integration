@@ -3,7 +3,7 @@ export { AdminPanelSettingsOutlined } from "@mui/icons-material";
 export { GppBadOutlined } from "@mui/icons-material";
 export { GppGoodOutlined } from "@mui/icons-material";
 export { GppMaybeOutlined } from "@mui/icons-material";
-export { HealthandSafetyOutlined } from "@mui/icons-material";/* TODO: rename */
+export { HealthAndSafetyOutlined } from "@mui/icons-material";/* TODO: rename */
 export { LocalPoliceOutlined } from "@mui/icons-material";
 export { LockClockOutlined } from "@mui/icons-material";
 export { LockOpenOutlined } from "@mui/icons-material";

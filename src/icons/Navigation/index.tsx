@@ -12,7 +12,7 @@ export { DensityMediumOutlined } from "@mui/icons-material";
 export { DensitySmallOutlined } from "@mui/icons-material";
 export { DragHandleOutlined } from "@mui/icons-material";
 export { DragIndicatorOutlined } from "@mui/icons-material";
-export { ExittoAppOutlined } from "@mui/icons-material";
+export { ExitToAppOutlined } from "@mui/icons-material";
 export { FullscreenExitOutlined } from "@mui/icons-material";
 export { FullscreenOutlined } from "@mui/icons-material";
 export { HomeOutlined } from "@mui/icons-material";
@@ -28,9 +28,9 @@ export { MinimizeOutlined } from "@mui/icons-material";
 export { MoreHorizOutlined } from "@mui/icons-material";
 export { MoreOutlined } from "@mui/icons-material";
 export { MoreVertOutlined } from "@mui/icons-material";
-export { OpeninBrowserOutlined } from "@mui/icons-material";/* TODO: rename */
-export { OpeninNewOffOutlined } from "@mui/icons-material";/* TODO: rename */
-export { OpeninNewOutlined } from "@mui/icons-material";/* TODO: rename */
+export { OpenInBrowserOutlined } from "@mui/icons-material";/* TODO: rename */
+export { OpenInNewOffOutlined } from "@mui/icons-material";/* TODO: rename */
+export { OpenInNewOutlined } from "@mui/icons-material";/* TODO: rename */
 export { Operations } from "@mui/icons-material";/* TODO: rename */
 export { PMDashboard } from "@mui/icons-material";/* TODO: rename */
 export { RemoveOutlined } from "@mui/icons-material";
@@ -38,12 +38,11 @@ export { ReorderOutlined } from "@mui/icons-material";
 export { SaveManually } from "@mui/icons-material";/* TODO: rename */
 export { ShowFile } from "@mui/icons-material";/* TODO: rename */
 export { SystemUpdateAltOutlined } from "@mui/icons-material";
-export { TableRowsFilled } from "@mui/icons-material";/* TODO: rename */
-export { ViewColumnFilled } from "@mui/icons-material";/* TODO: rename */
+export { TableRows } from "@mui/icons-material";/* TODO: rename */
+export { ViewColumn } from "@mui/icons-material";/* TODO: rename */
 export { ViewDayOutlined } from "@mui/icons-material";
 export { ViewHeadlineOutlined } from "@mui/icons-material";/* TODO: rename */
-export { ViewHeadlineOutlined } from "@mui/icons-material";/* TODO: rename */
 export { ViewModuleOutlined } from "@mui/icons-material";
-export { ViewStreamFilled } from "@mui/icons-material";/* TODO: rename */
+export { ViewStream } from "@mui/icons-material";/* TODO: rename */
 export { ViewTimelineOutlined } from "@mui/icons-material";
 export { WidgetsOutlined } from "@mui/icons-material";

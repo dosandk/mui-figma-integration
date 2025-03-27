@@ -15,13 +15,13 @@ export { ErrorOutlineOutlined } from "@mui/icons-material";
 export { ErrorOutlined } from "@mui/icons-material";
 export { FactCheckOutlined } from "@mui/icons-material";
 export { FileDownloadDoneOutlined } from "@mui/icons-material";
-export { FlagFilled } from "@mui/icons-material";/* TODO: rename */
+export { Flag } from "@mui/icons-material";/* TODO: rename */
 export { FlagOutlined } from "@mui/icons-material";
 export { GradingOutlined } from "@mui/icons-material";
 export { HelpCenterOutlined } from "@mui/icons-material";
 export { HelpOutlineOutlined } from "@mui/icons-material";
 export { HelpOutlined } from "@mui/icons-material";
-export { InfoFilled } from "@mui/icons-material";/* TODO: rename */
+export { Info } from "@mui/icons-material";/* TODO: rename */
 export { InfoOutlined } from "@mui/icons-material";
 export { LibraryAddCheckOutlined } from "@mui/icons-material";
 export { NewReleasesOutlined } from "@mui/icons-material";

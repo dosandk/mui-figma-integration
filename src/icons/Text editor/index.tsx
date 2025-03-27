@@ -37,8 +37,8 @@ export { FormatQuoteOutlined } from "@mui/icons-material";
 export { FormatShapesOutlined } from "@mui/icons-material";
 export { FormatSizeOutlined } from "@mui/icons-material";
 export { FormatStrikethroughOutlined } from "@mui/icons-material";
-export { FormatTextdirectionLtoROutlined } from "@mui/icons-material";/* TODO: rename */
-export { FormatTextdirectionRtoLOutlined } from "@mui/icons-material";/* TODO: rename */
+export { FormatTextdirectionLToROutlined } from "@mui/icons-material";/* TODO: rename */
+export { FormatTextdirectionRToLOutlined } from "@mui/icons-material";/* TODO: rename */
 export { FormatUnderlinedOutlined } from "@mui/icons-material";
 export { TextDecreaseOutlined } from "@mui/icons-material";
 export { TextFieldsOutlined } from "@mui/icons-material";

@@ -42,18 +42,18 @@ export { MergeOutlined } from "@mui/icons-material";
 export { MobiledataOffOutlined } from "@mui/icons-material";
 export { MultipleStopOutlined } from "@mui/icons-material";
 export { OpenWithOutlined } from "@mui/icons-material";
-export { OpeninFullOutlined } from "@mui/icons-material";
+export { OpenInFullOutlined } from "@mui/icons-material";
 export { OutboundOutlined } from "@mui/icons-material"; /* TODO: rename */
-export { PlayArrowFilled } from "@mui/icons-material"; /* TODO: rename */
-export { PlayCircleOutlineFilled } from "@mui/icons-material"; /* TODO: rename */
+export { PlayArrow } from "@mui/icons-material"; /* TODO: rename */
+export { PlayCircleOutline } from "@mui/icons-material"; /* TODO: rename */
 export { PublishOutlined } from "@mui/icons-material";
 export { RampLeftOutlined } from "@mui/icons-material";
 export { RampRightOutlined } from "@mui/icons-material";
 export { RefreshOutlined } from "@mui/icons-material";
 export { RepeatOneOutlined } from "@mui/icons-material";
-export { RepeatOneonOutlined } from "@mui/icons-material";/* TODO: rename */
+export { RepeatOneOnOutlined } from "@mui/icons-material";/* TODO: rename */
 export { RepeatOutlined } from "@mui/icons-material";
-export { RepeatonOutlined } from "@mui/icons-material";/* TODO: rename */
+export { RepeatOnOutlined } from "@mui/icons-material";/* TODO: rename */
 export { Replay10Outlined } from "@mui/icons-material";
 export { Replay30Outlined } from "@mui/icons-material";
 export { Replay5Outlined } from "@mui/icons-material";
@@ -71,7 +71,7 @@ export { RoundaboutRightOutlined } from "@mui/icons-material";
 export { SettingsBackupRestoreOutlined } from "@mui/icons-material";
 export { ShortcutOutlined } from "@mui/icons-material";
 export { ShuffleOutlined } from "@mui/icons-material";
-export { ShuffleonOutlined } from "@mui/icons-material";/* TODO: rename */
+export { ShuffleOnOutlined } from "@mui/icons-material";/* TODO: rename */
 export { SkipNextOutlined } from "@mui/icons-material";
 export { SkipPreviousOutlined } from "@mui/icons-material";
 export { StartOutlined } from "@mui/icons-material";
@@ -102,4 +102,4 @@ export { VerticalAlignBottomOutlined } from "@mui/icons-material";
 export { VerticalAlignCenterOutlined } from "@mui/icons-material";
 export { VerticalAlignTopOutlined } from "@mui/icons-material";
 export { ZoomOutMapOutlined } from "@mui/icons-material";
-export { ZoominMapOutlined } from "@mui/icons-material";/* TODO: rename */
+export { ZoomInMapOutlined } from "@mui/icons-material";/* TODO: rename */

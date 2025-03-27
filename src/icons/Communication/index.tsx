@@ -1,16 +1,16 @@
-export { 3pOutlined } from "@mui/icons-material";/* TODO: rename */
+export { ThreePOutlined } from "@mui/icons-material";/* TODO: rename */
 export { AddCommentOutlined } from "@mui/icons-material";
 export { AddIcCallOutlined } from "@mui/icons-material";
 export { AnnouncementOutlined } from "@mui/icons-material";
 export { AttachEmailOutlined } from "@mui/icons-material";
-export { BluetoothFilled } from "@mui/icons-material";/* TODO: rename */
+export { Bluetooth } from "@mui/icons-material";/* TODO: rename */
 export { CallEndOutlined } from "@mui/icons-material";
 export { CameraFrontOutlined } from "@mui/icons-material";
 export { CameraRearOutlined } from "@mui/icons-material";
 export { ChatBubbleOutlineOutlined } from "@mui/icons-material";
 export { ChatBubbleOutlined } from "@mui/icons-material";
 export { ChatOutlined } from "@mui/icons-material";
-export { CloudFilled } from "@mui/icons-material";/* TODO: rename */
+export { Cloud } from "@mui/icons-material";/* TODO: rename */
 export { CommentBankOutlined } from "@mui/icons-material";
 export { CommentOutlined } from "@mui/icons-material";
 export { CommentsDisabledOutlined } from "@mui/icons-material";
@@ -18,14 +18,14 @@ export { DialerSipOutlined } from "@mui/icons-material";
 export { DraftsOutlined } from "@mui/icons-material";
 export { EmailOutlined } from "@mui/icons-material";
 export { ForumOutlined } from "@mui/icons-material";
-export { ForwardtoInboxOutlined } from "@mui/icons-material";/* TODO: rename */
+export { ForwardToInboxOutlined } from "@mui/icons-material";/* TODO: rename */
 export { MapsUgcOutlined } from "@mui/icons-material";
 export { MarkChatReadOutlined } from "@mui/icons-material";
 export { MarkChatUnreadOutlined } from "@mui/icons-material";
 export { MarkEmailReadOutlined } from "@mui/icons-material";
 export { MarkEmailUnreadOutlined } from "@mui/icons-material";
 export { MarkUnreadChatAltOutlined } from "@mui/icons-material";
-export { MarkasUnreadOutlined } from "@mui/icons-material";/* TODO: rename */
+export { MarkAsUnreadOutlined } from "@mui/icons-material";/* TODO: rename */
 export { MarkunreadMailboxOutlined } from "@mui/icons-material";
 export { ModeCommentOutlined } from "@mui/icons-material";
 export { PermPhoneMsgOutlined } from "@mui/icons-material";
@@ -38,14 +38,14 @@ export { PhoneLockedOutlined } from "@mui/icons-material";
 export { PhoneMissedOutlined } from "@mui/icons-material";
 export { PhoneOutlined } from "@mui/icons-material";
 export { PhonePausedOutlined } from "@mui/icons-material";
-export { PhoneinTalkOutlined } from "@mui/icons-material";/* TODO: rename */
+export { PhoneInTalkOutlined } from "@mui/icons-material";/* TODO: rename */
 export { QuestionAnswerOutlined } from "@mui/icons-material";
 export { QuickreplyOutlined } from "@mui/icons-material";
 export { RateReviewOutlined } from "@mui/icons-material";
 export { ReviewsOutlined } from "@mui/icons-material";
 export { RingVolumeOutlined } from "@mui/icons-material";
 export { SendOutlined } from "@mui/icons-material";
-export { SendandArchiveOutlined } from "@mui/icons-material";/* TODO: rename */
+export { SendAndArchiveOutlined } from "@mui/icons-material";/* TODO: rename */
 export { SettingsPhoneOutlined } from "@mui/icons-material";
 export { SpeakerNotesOffOutlined } from "@mui/icons-material";
 export { SpeakerNotesOutlined } from "@mui/icons-material";
@@ -54,4 +54,4 @@ export { UnsubscribeOutlined } from "@mui/icons-material";
 export { VoiceChatOutlined } from "@mui/icons-material";
 export { WifiCalling3Outlined } from "@mui/icons-material";
 export { WifiCallingOutlined } from "@mui/icons-material";
-export { WifiFilled } from "@mui/icons-material";/* TODO: rename */
+export { Wifi } from "@mui/icons-material";/* TODO: rename */

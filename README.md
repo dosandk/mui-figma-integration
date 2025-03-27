@@ -234,3 +234,31 @@
 - Add all icons from material icons
 - Make link to the figma file dinamic
 - Add link to figma for each story file
+
+## Icons TODO
+
+- RepairCode
+- RepairParts
+- CostRejected
+- CostUnknown
+- PriceAddOutlined
+- RatesOutlined
+- AddNote
+- Autosave
+- If
+- POnotready
+- Template
+- OperationOutlined
+- TransportRate
+- TransportRates2
+- Account
+- AccountInfo
+- AccountRep
+- AccountRepDasboard
+- AccountRepInfo
+- AutosaveNew
+- Operations
+- PMDashboard
+- SaveManually
+- ShowFile
+- Availability

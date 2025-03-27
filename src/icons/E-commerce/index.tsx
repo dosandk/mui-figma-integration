@@ -6,7 +6,7 @@ export { AtmOutlined } from "@mui/icons-material";
 export { AttachMoneyOutlined } from "@mui/icons-material";
 export { CardGiftcardOutlined } from "@mui/icons-material";
 export { CardMembershipOutlined } from "@mui/icons-material";
-export { CostRejected } from "@mui/icons-material"/* TODO: rename */;
+export { CostRejected } from "@mui/icons-material";/* TODO: rename */
 export { CostUnknown } from "@mui/icons-material";/* TODO: rename */
 export { CreditCardOffOutlined } from "@mui/icons-material";
 export { CreditCardOutlined } from "@mui/icons-material";
@@ -23,7 +23,7 @@ export { LocalAtmOutlined } from "@mui/icons-material";
 export { LocalMallOutlined } from "@mui/icons-material";
 export { LocalOfferOutlined } from "@mui/icons-material";
 export { LoyaltyOutlined } from "@mui/icons-material";
-export { MonetizationonOutlined } from "@mui/icons-material";/* TODO: rename */
+export { MonetizationOnOutlined } from "@mui/icons-material";/* TODO: rename */
 export { MoneyOffOutlined } from "@mui/icons-material";/* TODO: rename */
 export { PriceAddOutlined } from "@mui/icons-material";
 export { PriceChangeOutlined } from "@mui/icons-material";

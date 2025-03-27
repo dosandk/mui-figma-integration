@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {PlayCircleOutlineFilled} from "@mui/icons-material";
+import { PlayCircleOutline } from "@mui/icons-material";
 
 figma.connect(
-  PlayCircleOutlineFilled, 
+  PlayCircleOutline,
   "<FIGMA_ICONS_BASE>?node-id=9602:112396",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <PlayCircleOutlineFilled {...props} />
+    example: ({ ...props }) => <PlayCircleOutline {...props} />
   }
 );

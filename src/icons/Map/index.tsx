@@ -7,10 +7,10 @@ export { FmdBadOutlined } from "@mui/icons-material";
 export { LocalShippingOutlined } from "@mui/icons-material";
 export { LocationDisabledOutlined } from "@mui/icons-material";
 export { LocationOffOutlined } from "@mui/icons-material";
-export { LocationOnFilled } from "@mui/icons-material";/* TODO: rename */
+export { LocationOn } from "@mui/icons-material";/* TODO: rename */
 export { LocationSearchingOutlined } from "@mui/icons-material";
 export { MapOutlined } from "@mui/icons-material";
-export { ModeofTravelOutlined } from "@mui/icons-material";/* TODO: rename */
+export { ModeOfTravelOutlined } from "@mui/icons-material";/* TODO: rename */
 export { MyLocationOutlined } from "@mui/icons-material";
 export { NavigationOutlined } from "@mui/icons-material";
 export { NearMeDisabledOutlined } from "@mui/icons-material";
@@ -27,5 +27,5 @@ export { ShareLocationOutlined } from "@mui/icons-material";
 export { SignpostOutlined } from "@mui/icons-material";
 export { TransportRate } from "@mui/icons-material";/* TODO: rename */
 export { TransportRates2 } from "@mui/icons-material";/* TODO: rename */
-export { WheretoVoteOutlined } from "@mui/icons-material";/* TODO: rename */
+export { WhereToVoteOutlined } from "@mui/icons-material";/* TODO: rename */
 export { WrongLocationOutlined } from "@mui/icons-material";

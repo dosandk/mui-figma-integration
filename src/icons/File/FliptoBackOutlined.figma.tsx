@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {FliptoBackOutlined} from "@mui/icons-material";
+import { FlipToBackOutlined } from "@mui/icons-material";
 
 figma.connect(
-  FliptoBackOutlined, 
+  FlipToBackOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11714:3594",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <FliptoBackOutlined {...props} />
+    example: ({ ...props }) => <FlipToBackOutlined {...props} />
   }
 );
