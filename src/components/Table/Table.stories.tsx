@@ -1,4 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react';
+import type { Meta, StoryObj, StoryFn } from '@storybook/react';
+import { TableCell, TableRow } from '@mui/material';
 
 import { Table } from './index';
 import { getFigmaPath } from "../figma.config";
@@ -41,4 +42,31 @@ export default meta;
 
 type Story = StoryObj<typeof Table>;
 
-// TODO: implement stories
+const Template: StoryFn = (props) => {
+  return (
+    <Table {...props}>
+      <TableRow>
+        <TableCell>1</TableCell>
+        <TableCell>2</TableCell>
+        <TableCell>3</TableCell>
+      </TableRow>
+      <TableRow>
+        <TableCell>1</TableCell>
+        <TableCell>2</TableCell>
+        <TableCell>3</TableCell>
+      </TableRow>
+      <TableRow>
+        <TableCell>1</TableCell>
+        <TableCell>2</TableCell>
+        <TableCell>3</TableCell>
+      </TableRow>
+    </Table>
+  );
+};
+
+export const DefaultTable: Story = {
+  render: Template,
+  args: {},
+};
+
+// TODO: implement other stories

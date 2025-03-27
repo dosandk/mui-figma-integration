@@ -1,0 +1,374 @@
+[
+  [
+    "GroupRemoveOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {GroupRemoveOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  GroupRemoveOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11684\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <GroupRemoveOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "GroupAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {GroupAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  GroupAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11686\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <GroupAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "InterpreterModeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {InterpreterModeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  InterpreterModeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11694\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <InterpreterModeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PeopleAltOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PeopleAltOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PeopleAltOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:50665\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PeopleAltOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PersonAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PersonAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PersonAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:50722\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PersonAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PersonAddDisabledOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PersonAddDisabledOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PersonAddDisabledOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11705\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PersonAddDisabledOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PersonAddAlt1Outlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PersonAddAlt1Outlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PersonAddAlt1Outlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11707\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PersonAddAlt1Outlined {...props} />\n  }\n);"
+  ],
+  [
+    "ManageAccountsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ManageAccountsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ManageAccountsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11710\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ManageAccountsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PersonSearchOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PersonSearchOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PersonSearchOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11716\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PersonSearchOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PersonRemoveOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PersonRemoveOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PersonRemoveOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11721\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PersonRemoveOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PersonOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PersonOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PersonOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11727\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PersonOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Experience",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Experience} from \"@mui/icons-material\";\n\nfigma.connect(\n  Experience, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11729\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Experience {...props} />\n  }\n);"
+  ],
+  [
+    "NoAccountsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NoAccountsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NoAccountsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11735\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NoAccountsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EngineeringOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EngineeringOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EngineeringOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11740\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EngineeringOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SupervisorAccountOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SupervisorAccountOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SupervisorAccountOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11746\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SupervisorAccountOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SupervisedUserCircleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SupervisedUserCircleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SupervisedUserCircleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11748\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SupervisedUserCircleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PortraitOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PortraitOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PortraitOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867049\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PortraitOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "GroupsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {GroupsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  GroupsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11752\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <GroupsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CoPresentOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CoPresentOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CoPresentOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867059\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CoPresentOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ContactsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContactsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContactsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867070\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContactsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ContactPhoneOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContactPhoneOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContactPhoneOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867075\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContactPhoneOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ContactMailOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContactMailOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContactMailOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867079\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContactMailOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BadgeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BadgeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BadgeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867076\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BadgeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PermContactCalendarOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PermContactCalendarOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PermContactCalendarOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867068\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PermContactCalendarOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PersonPinOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PersonPinOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PersonPinOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867067\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PersonPinOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PermIdentityOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PermIdentityOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PermIdentityOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:50709\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PermIdentityOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Certificate",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Certificate} from \"@mui/icons-material\";\n\nfigma.connect(\n  Certificate, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11784\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Certificate {...props} />\n  }\n);"
+  ],
+  [
+    "HowtoRegOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HowtoRegOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HowtoRegOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11790\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HowtoRegOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddReactionOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddReactionOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddReactionOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867065\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddReactionOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FaceRetouchingOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FaceRetouchingOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FaceRetouchingOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867060\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FaceRetouchingOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FaceRetouchingNaturalOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FaceRetouchingNaturalOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FaceRetouchingNaturalOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867024\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FaceRetouchingNaturalOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FaceOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FaceOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FaceOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867050\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FaceOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SentimentSatisfiedAltOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SentimentSatisfiedAltOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SentimentSatisfiedAltOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867061\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SentimentSatisfiedAltOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SentimentNeutralOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SentimentNeutralOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SentimentNeutralOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867022\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SentimentNeutralOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SentimentDissatisfiedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SentimentDissatisfiedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SentimentDissatisfiedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867037\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SentimentDissatisfiedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SupportAgentOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SupportAgentOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SupportAgentOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867077\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SupportAgentOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SentimentVerySatisfiedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SentimentVerySatisfiedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SentimentVerySatisfiedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867054\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SentimentVerySatisfiedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SentimentVeryDissatisfiedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SentimentVeryDissatisfiedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SentimentVeryDissatisfiedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867056\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SentimentVeryDissatisfiedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ChildCareOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ChildCareOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ChildCareOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867026\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ChildCareOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AirlineSeatReclineNormalOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AirlineSeatReclineNormalOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AirlineSeatReclineNormalOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867053\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AirlineSeatReclineNormalOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AirlineSeatReclineExtraOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AirlineSeatReclineExtraOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AirlineSeatReclineExtraOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867066\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AirlineSeatReclineExtraOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AirlineSeatLegroomReducedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AirlineSeatLegroomReducedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AirlineSeatLegroomReducedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867051\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AirlineSeatLegroomReducedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AirlineSeatLegroomNormalOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AirlineSeatLegroomNormalOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AirlineSeatLegroomNormalOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867058\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AirlineSeatLegroomNormalOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AirlineSeatLegroomExtraOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AirlineSeatLegroomExtraOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AirlineSeatLegroomExtraOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867048\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AirlineSeatLegroomExtraOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AirlineSeatIndividualSuiteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AirlineSeatIndividualSuiteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AirlineSeatIndividualSuiteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867045\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AirlineSeatIndividualSuiteOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AirlineSeatFlatOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AirlineSeatFlatOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AirlineSeatFlatOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867043\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AirlineSeatFlatOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AirlineSeatFlatAngledOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AirlineSeatFlatAngledOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AirlineSeatFlatAngledOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867041\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AirlineSeatFlatAngledOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AccessibleForwardOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccessibleForwardOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccessibleForwardOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867038\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccessibleForwardOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AccessibilityOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccessibilityOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccessibilityOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867069\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccessibilityOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AccessibilityNewOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccessibilityNewOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccessibilityNewOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867057\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccessibilityNewOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BabyChangingStationOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BabyChangingStationOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BabyChangingStationOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867047\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BabyChangingStationOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AttributionOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AttributionOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AttributionOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867035\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AttributionOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BoyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BoyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BoyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867040\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BoyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ChildFriendlyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ChildFriendlyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ChildFriendlyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867033\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ChildFriendlyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DownhillSkiingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DownhillSkiingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DownhillSkiingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867032\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DownhillSkiingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DirectionsWalkOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DirectionsWalkOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DirectionsWalkOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867074\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DirectionsWalkOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EscalatorWarningOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EscalatorWarningOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EscalatorWarningOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867064\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EscalatorWarningOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EmojiPeopleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EmojiPeopleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EmojiPeopleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867030\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EmojiPeopleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ElderlyWomanOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ElderlyWomanOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ElderlyWomanOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867078\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ElderlyWomanOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ElderlyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ElderlyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ElderlyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867028\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ElderlyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DirectionsRunOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DirectionsRunOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DirectionsRunOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867055\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DirectionsRunOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ConnectWithoutContactOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ConnectWithoutContactOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ConnectWithoutContactOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11894\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ConnectWithoutContactOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HikingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HikingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HikingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867027\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HikingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HailOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HailOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HailOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867052\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HailOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FollowtheSignsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FollowtheSignsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FollowtheSignsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867025\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FollowtheSignsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "GirlOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {GirlOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  GirlOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867071\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <GirlOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ElevatorOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ElevatorOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ElevatorOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867023\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ElevatorOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FamilyRestroomOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FamilyRestroomOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FamilyRestroomOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867042\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FamilyRestroomOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NotAccessibleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NotAccessibleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NotAccessibleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867021\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NotAccessibleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NordicWalkingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NordicWalkingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NordicWalkingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867036\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NordicWalkingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PsychologyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PsychologyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PsychologyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867044\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PsychologyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PregnantWomanOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PregnantWomanOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PregnantWomanOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867046\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PregnantWomanOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RowingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RowingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RowingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867020\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RowingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SelfImprovementOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SelfImprovementOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SelfImprovementOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867019\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SelfImprovementOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SettingsAccessibilityOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SettingsAccessibilityOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SettingsAccessibilityOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867018\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SettingsAccessibilityOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SocialDistanceOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SocialDistanceOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SocialDistanceOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867031\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SocialDistanceOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SnowshoeingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SnowshoeingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SnowshoeingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867039\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SnowshoeingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SnowboardingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SnowboardingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SnowboardingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867063\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SnowboardingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SleddingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SleddingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SleddingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867016\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SleddingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SkateboardingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SkateboardingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SkateboardingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867015\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SkateboardingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SportsMartialArtsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SportsMartialArtsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SportsMartialArtsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867073\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SportsMartialArtsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SportsKabaddiOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SportsKabaddiOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SportsKabaddiOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867029\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SportsKabaddiOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SportsHandballOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SportsHandballOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SportsHandballOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867014\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SportsHandballOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SurfingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SurfingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SurfingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867017\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SurfingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TransferWithinaStationOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TransferWithinaStationOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TransferWithinaStationOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867034\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TransferWithinaStationOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "WomanOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WomanOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  WomanOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867013\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WomanOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "WcOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WcOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  WcOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867072\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WcOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ManOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ManOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ManOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867062\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ManOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AccessibleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccessibleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccessibleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:867012\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccessibleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Code",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Code} from \"@mui/icons-material\";\n\nfigma.connect(\n  Code, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11982\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Code {...props} />\n  }\n);"
+  ],
+  [
+    "ChangeUser",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ChangeUser} from \"@mui/icons-material\";\n\nfigma.connect(\n  ChangeUser, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11985\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ChangeUser {...props} />\n  }\n);"
+  ],
+  [
+    "ChangeUser2",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ChangeUser2} from \"@mui/icons-material\";\n\nfigma.connect(\n  ChangeUser2, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11993\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ChangeUser2 {...props} />\n  }\n);"
+  ],
+  [
+    "AccountCircleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccountCircleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccountCircleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:69571\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccountCircleOutlined {...props} />\n  }\n);"
+  ]
+]

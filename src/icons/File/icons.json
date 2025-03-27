@@ -1,0 +1,306 @@
+[
+  [
+    "AppsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AppsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AppsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3625\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AppsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AppsOutageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AppsOutageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AppsOutageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3622\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AppsOutageOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AppRegistrationOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AppRegistrationOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AppRegistrationOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12797\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AppRegistrationOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddchartOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddchartOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddchartOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3619\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddchartOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AutoAwesomeMotionOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AutoAwesomeMotionOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AutoAwesomeMotionOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12810\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AutoAwesomeMotionOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ContentPasteSearchOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContentPasteSearchOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContentPasteSearchOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12814\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContentPasteSearchOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ContentPasteOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContentPasteOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContentPasteOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3617\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContentPasteOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Template",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Template} from \"@mui/icons-material\";\n\nfigma.connect(\n  Template, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12822\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Template {...props} />\n  }\n);"
+  ],
+  [
+    "CopyAllOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CopyAllOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CopyAllOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3606\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CopyAllOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DifferenceOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DifferenceOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DifferenceOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3608\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DifferenceOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FileCopyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FileCopyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FileCopyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3583\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FileCopyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FilterNoneOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FilterNoneOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FilterNoneOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3605\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FilterNoneOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FilterListOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FilterListOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FilterListOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3596\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FilterListOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FilterAltOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FilterAltOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FilterAltOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3601\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FilterAltOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FilePresentOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FilePresentOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FilePresentOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12852\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FilePresentOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FileOpenOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FileOpenOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FileOpenOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3598\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FileOpenOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LibraryMusicOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LibraryMusicOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LibraryMusicOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3616\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LibraryMusicOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LibraryBooksOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LibraryBooksOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LibraryBooksOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12860\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LibraryBooksOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LibraryAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LibraryAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LibraryAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3609\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LibraryAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ListOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ListOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ListOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3612\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ListOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ListAltOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ListAltOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ListAltOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12866\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ListAltOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "InsertDriveFileOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {InsertDriveFileOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  InsertDriveFileOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3597\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <InsertDriveFileOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DownloadforOfflineOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DownloadforOfflineOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DownloadforOfflineOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3582\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DownloadforOfflineOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DescriptionOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DescriptionOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DescriptionOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12874\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DescriptionOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FliptoFrontOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FliptoFrontOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FliptoFrontOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3595\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FliptoFrontOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FliptoBackOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FliptoBackOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FliptoBackOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3594\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FliptoBackOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FlipOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FlipOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FlipOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3624\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FlipOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NotesOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NotesOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NotesOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12882\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NotesOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PhotoSizeSelectSmallOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PhotoSizeSelectSmallOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PhotoSizeSelectSmallOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3580\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PhotoSizeSelectSmallOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PlaylistRemoveOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PlaylistRemoveOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PlaylistRemoveOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3604\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PlaylistRemoveOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PlaylistPlayOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PlaylistPlayOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PlaylistPlayOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3593\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PlaylistPlayOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PlaylistAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PlaylistAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PlaylistAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3600\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PlaylistAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PlaylistAddCircleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PlaylistAddCircleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PlaylistAddCircleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3592\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PlaylistAddCircleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PlaylistAddCheckOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PlaylistAddCheckOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PlaylistAddCheckOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3590\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PlaylistAddCheckOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PlaylistAddCheckCircleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PlaylistAddCheckCircleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PlaylistAddCheckCircleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3621\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PlaylistAddCheckCircleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RoundedCornerOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RoundedCornerOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RoundedCornerOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3586\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RoundedCornerOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SelectAllOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SelectAllOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SelectAllOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3588\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SelectAllOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SegmentOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SegmentOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SegmentOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3585\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SegmentOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "StickyNote2Outlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StickyNote2Outlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StickyNote2Outlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12917\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StickyNote2Outlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddNote",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddNote} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddNote, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12919\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddNote {...props} />\n  }\n);"
+  ],
+  [
+    "TabUnselectedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TabUnselectedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TabUnselectedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3623\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TabUnselectedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TabOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TabOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TabOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3610\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TabOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "UploadFileOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {UploadFileOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  UploadFileOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9603:149058\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <UploadFileOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "UnarchiveOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {UnarchiveOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  UnarchiveOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3607\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <UnarchiveOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PlagiarismOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PlagiarismOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PlagiarismOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3584\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PlagiarismOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "InsertPageBreakOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {InsertPageBreakOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  InsertPageBreakOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3602\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <InsertPageBreakOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "InventoryOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {InventoryOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  InventoryOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3599\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <InventoryOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Inventory2Outlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Inventory2Outlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  Inventory2Outlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12950\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Inventory2Outlined {...props} />\n  }\n);"
+  ],
+  [
+    "FeedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FeedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FeedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3581\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FeedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SubjectOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SubjectOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SubjectOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12957\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SubjectOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextSnippetOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextSnippetOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextSnippetOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3579\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextSnippetOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TocOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TocOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TocOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3578\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TocOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SortOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SortOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SortOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3576\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SortOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ShortTextOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ShortTextOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ShortTextOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3611\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ShortTextOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ClearAllOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ClearAllOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ClearAllOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3620\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ClearAllOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TaskOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TaskOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TaskOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12970\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TaskOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "POnotready",
+    "\nimport figma from \"@figma/code-connect\";\nimport {POnotready} from \"@mui/icons-material\";\n\nfigma.connect(\n  POnotready, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3587\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <POnotready {...props} />\n  }\n);"
+  ],
+  [
+    "POnotready",
+    "\nimport figma from \"@figma/code-connect\";\nimport {POnotready} from \"@mui/icons-material\";\n\nfigma.connect(\n  POnotready, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12975\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <POnotready {...props} />\n  }\n);"
+  ],
+  [
+    "NoteAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NoteAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NoteAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12981\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NoteAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "OutboxOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {OutboxOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  OutboxOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3575\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <OutboxOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DownloadFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DownloadFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  DownloadFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112422\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DownloadFilled {...props} />\n  }\n);"
+  ],
+  [
+    "FileUploadOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FileUploadOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FileUploadOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3573\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FileUploadOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FileDownloadOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FileDownloadOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FileDownloadOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3591\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FileDownloadOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FindinPageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FindinPageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FindinPageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3589\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FindinPageOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CancelOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CancelOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CancelOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13000\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CancelOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Autosave",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Autosave} from \"@mui/icons-material\";\n\nfigma.connect(\n  Autosave, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13003\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Autosave {...props} />\n  }\n);"
+  ],
+  [
+    "If",
+    "\nimport figma from \"@figma/code-connect\";\nimport {If} from \"@mui/icons-material\";\n\nfigma.connect(\n  If, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13005\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <If {...props} />\n  }\n);"
+  ],
+  [
+    "RestorePageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RestorePageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RestorePageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3574\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RestorePageOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ContentCopyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContentCopyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContentCopyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:65825\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContentCopyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FileDownloadOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FileDownloadOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FileDownloadOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112408\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FileDownloadOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ContentCutOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContentCutOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContentCutOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:65837\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContentCutOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ContentPasteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContentPasteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContentPasteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:65850\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContentPasteOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FilterListOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FilterListOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FilterListOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112406\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FilterListOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "InboxOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {InboxOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  InboxOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112414\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <InboxOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SaveAltFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SaveAltFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  SaveAltFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=208:101689\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SaveAltFilled {...props} />\n  }\n);"
+  ],
+  [
+    "FilterAltOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FilterAltOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FilterAltOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=293:93149\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FilterAltOutlined {...props} />\n  }\n);"
+  ]
+]

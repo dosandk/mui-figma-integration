@@ -1,0 +1,146 @@
+[
+  [
+    "AccountBalanceOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccountBalanceOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccountBalanceOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3817\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccountBalanceOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AssuredWorkloadOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AssuredWorkloadOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AssuredWorkloadOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3838\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AssuredWorkloadOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CabinOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CabinOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CabinOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3823\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CabinOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BusinessOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BusinessOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BusinessOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3837\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BusinessOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BungalowOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BungalowOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BungalowOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3834\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BungalowOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ChurchOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ChurchOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ChurchOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3833\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ChurchOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ChaletOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ChaletOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ChaletOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3815\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ChaletOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CastleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CastleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CastleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3830\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CastleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DoorSlidingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DoorSlidingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DoorSlidingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3829\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DoorSlidingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DoorFrontOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DoorFrontOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DoorFrontOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3828\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DoorFrontOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DomainDisabledOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DomainDisabledOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DomainDisabledOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3827\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DomainDisabledOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DomainAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DomainAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DomainAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3824\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DomainAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CountertopsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CountertopsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CountertopsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3822\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CountertopsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CottageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CottageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CottageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3820\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CottageOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CorporateFareOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CorporateFareOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CorporateFareOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3835\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CorporateFareOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HouseboatOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HouseboatOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HouseboatOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3818\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HouseboatOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HouseSidingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HouseSidingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HouseSidingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3816\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HouseSidingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HouseOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HouseOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HouseOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3814\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HouseOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HomeWorkOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HomeWorkOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HomeWorkOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13382\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HomeWorkOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FactoryOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FactoryOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FactoryOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3832\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FactoryOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FestivalOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FestivalOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FestivalOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3826\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FestivalOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FenceOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FenceOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FenceOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3839\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FenceOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FoundationOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FoundationOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FoundationOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3812\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FoundationOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FortOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FortOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FortOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3831\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FortOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HolidayVillageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HolidayVillageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HolidayVillageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3811\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HolidayVillageOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LocationCityOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LocationCityOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LocationCityOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3810\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LocationCityOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "MapsHomeWorkOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MapsHomeWorkOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  MapsHomeWorkOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3825\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MapsHomeWorkOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "MarginOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MarginOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  MarginOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3809\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MarginOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SynagogueOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SynagogueOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SynagogueOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3808\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SynagogueOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TempleHinduOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TempleHinduOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TempleHinduOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3807\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TempleHinduOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "VillaOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {VillaOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  VillaOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13427\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <VillaOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TempleBuddhistOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TempleBuddhistOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TempleBuddhistOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3819\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TempleBuddhistOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "WarehouseOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WarehouseOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  WarehouseOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13432\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WarehouseOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "StadiumOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StadiumOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StadiumOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3836\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StadiumOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TaxRates",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TaxRates} from \"@mui/icons-material\";\n\nfigma.connect(\n  TaxRates, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13437\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TaxRates {...props} />\n  }\n);"
+  ],
+  [
+    "ApartmentOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ApartmentOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ApartmentOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9607:259085\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ApartmentOutlined {...props} />\n  }\n);"
+  ]
+]

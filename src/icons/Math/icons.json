@@ -1,0 +1,82 @@
+[
+  [
+    "AddCircleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddCircleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddCircleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12602\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddCircleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddCircleOutlineOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddCircleOutlineOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddCircleOutlineOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12604\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddCircleOutlineOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddBoxOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddBoxOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddBoxOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12606\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddBoxOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BlockOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BlockOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BlockOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12608\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BlockOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ChangeCircleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ChangeCircleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ChangeCircleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12610\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ChangeCircleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CloseOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CloseOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CloseOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:54257\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CloseOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ControlPointDuplicateOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ControlPointDuplicateOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ControlPointDuplicateOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12614\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ControlPointDuplicateOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DangerousOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DangerousOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DangerousOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12616\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DangerousOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DoNotDisturbonTotalSilenceOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DoNotDisturbonTotalSilenceOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DoNotDisturbonTotalSilenceOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12619\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DoNotDisturbonTotalSilenceOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DoDisturbOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DoDisturbOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DoDisturbOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12623\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DoDisturbOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DoDisturbOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DoDisturbOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DoDisturbOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12625\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DoDisturbOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DisabledbyDefaultOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DisabledbyDefaultOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DisabledbyDefaultOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12627\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DisabledbyDefaultOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FunctionsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FunctionsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FunctionsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12629\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FunctionsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HighlightOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HighlightOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HighlightOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12631\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HighlightOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "MotionPhotosOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MotionPhotosOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  MotionPhotosOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12633\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MotionPhotosOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HorizontalRuleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HorizontalRuleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HorizontalRuleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12638\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HorizontalRuleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RemoveCircleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RemoveCircleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RemoveCircleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12642\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RemoveCircleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RemoveCircleOutlineOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RemoveCircleOutlineOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RemoveCircleOutlineOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12644\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RemoveCircleOutlineOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:65638\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CancelOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CancelOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CancelOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:54212\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CancelOutlined {...props} />\n  }\n);"
+  ]
+]

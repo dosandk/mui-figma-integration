@@ -1,0 +1,178 @@
+[
+  [
+    "DoorbellOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DoorbellOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DoorbellOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866937\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DoorbellOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PunchClockOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PunchClockOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PunchClockOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866907\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PunchClockOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Timer10SelectOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Timer10SelectOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  Timer10SelectOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866923\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Timer10SelectOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Timer10Outlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Timer10Outlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  Timer10Outlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866917\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Timer10Outlined {...props} />\n  }\n);"
+  ],
+  [
+    "Timer3SelectOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Timer3SelectOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  Timer3SelectOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866915\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Timer3SelectOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Timer3Outlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Timer3Outlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  Timer3Outlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866908\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Timer3Outlined {...props} />\n  }\n);"
+  ],
+  [
+    "Availability",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Availability} from \"@mui/icons-material\";\n\nfigma.connect(\n  Availability, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11174\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Availability {...props} />\n  }\n);"
+  ],
+  [
+    "WatchOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WatchOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  WatchOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866941\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WatchOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "WatchOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WatchOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  WatchOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866939\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WatchOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HourglassTopOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HourglassTopOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HourglassTopOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866920\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HourglassTopOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HourglassFullOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HourglassFullOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HourglassFullOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866924\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HourglassFullOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HourglassEmptyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HourglassEmptyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HourglassEmptyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866918\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HourglassEmptyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HourglassDisabledOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HourglassDisabledOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HourglassDisabledOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866916\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HourglassDisabledOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HourglassBottomOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HourglassBottomOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HourglassBottomOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866922\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HourglassBottomOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "QueryBuilderFilledOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {QueryBuilderFilledOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  QueryBuilderFilledOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:72599\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <QueryBuilderFilledOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CircleNotificationsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CircleNotificationsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CircleNotificationsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866912\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CircleNotificationsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddAlertOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddAlertOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddAlertOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866940\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddAlertOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EditNotificationsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EditNotificationsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EditNotificationsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866928\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EditNotificationsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NotificationsPausedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NotificationsPausedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NotificationsPausedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866938\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NotificationsPausedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NotificationsOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NotificationsOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NotificationsOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866931\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NotificationsOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NotificationsActiveOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NotificationsActiveOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NotificationsActiveOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866927\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NotificationsActiveOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NotificationImportantOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NotificationImportantOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NotificationImportantOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866911\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NotificationImportantOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NotificationAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NotificationAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NotificationAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866910\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NotificationAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "NotificationsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NotificationsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  NotificationsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:50551\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NotificationsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AvTimerOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AvTimerOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AvTimerOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866930\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AvTimerOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TimerOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TimerOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TimerOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866909\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TimerOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TimerOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TimerOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TimerOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866929\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TimerOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AlarmOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AlarmOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AlarmOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866936\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AlarmOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddAlarmOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddAlarmOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddAlarmOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866934\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddAlarmOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AlarmonOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AlarmonOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AlarmonOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866932\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AlarmonOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AccessAlarmOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccessAlarmOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccessAlarmOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866942\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccessAlarmOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "UpdateDisabledOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {UpdateDisabledOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  UpdateDisabledOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866914\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <UpdateDisabledOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "UpdateOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {UpdateOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  UpdateOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11159\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <UpdateOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RestoreOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RestoreOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RestoreOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11130\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RestoreOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HistoryToggleOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HistoryToggleOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HistoryToggleOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866921\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HistoryToggleOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "MoreTimeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MoreTimeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  MoreTimeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866913\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MoreTimeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AccessTimeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccessTimeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccessTimeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112402\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccessTimeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EventRepeatOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EventRepeatOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EventRepeatOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866935\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EventRepeatOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EventBusyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EventBusyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EventBusyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866925\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EventBusyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EventOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EventOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EventOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=1251:808069\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EventOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EventNoteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EventNoteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EventNoteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866926\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EventNoteOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DateRangeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DateRangeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DateRangeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:70648\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DateRangeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EventAvailableOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EventAvailableOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EventAvailableOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11091\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EventAvailableOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CalendarTodayOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CalendarTodayOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CalendarTodayOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112409\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CalendarTodayOutlined {...props} />\n  }\n);"
+  ]
+]

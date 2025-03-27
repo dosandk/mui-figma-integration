@@ -12,7 +12,8 @@
     "build-storybook": "storybook build",
     "figma:connect": "figma connect",
     "figma:publish": "figma connect publish --include-template-files",
-    "figma:unpublish": "figma connect unpublish"
+    "figma:unpublish": "figma connect unpublish",
+    "figma:icons": "node --env-file=./.env ./icons-script/index.js"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

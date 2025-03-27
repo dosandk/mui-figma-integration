@@ -1,0 +1,186 @@
+[
+  [
+    "AccountBalanceWalletOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AccountBalanceWalletOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AccountBalanceWalletOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866981\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AccountBalanceWalletOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddCardOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddCardOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddCardOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866969\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddCardOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddBusinessOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddBusinessOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddBusinessOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866978\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddBusinessOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddShoppingCartOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddShoppingCartOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddShoppingCartOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11191\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddShoppingCartOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CardGiftcardOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CardGiftcardOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CardGiftcardOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866980\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CardGiftcardOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AttachMoneyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AttachMoneyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AttachMoneyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866960\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AttachMoneyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AtmOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AtmOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AtmOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866976\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AtmOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CurrencyYuanOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CurrencyYuanOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CurrencyYuanOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866973\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CurrencyYuanOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CurrencyYenOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CurrencyYenOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CurrencyYenOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866984\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CurrencyYenOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CurrencyRupeeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CurrencyRupeeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CurrencyRupeeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866971\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CurrencyRupeeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CurrencyPoundOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CurrencyPoundOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CurrencyPoundOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866983\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CurrencyPoundOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CurrencyLiraOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CurrencyLiraOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CurrencyLiraOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866970\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CurrencyLiraOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CurrencyFrancOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CurrencyFrancOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CurrencyFrancOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866977\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CurrencyFrancOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CurrencyExchangeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CurrencyExchangeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CurrencyExchangeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11218\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CurrencyExchangeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CreditScoreOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CreditScoreOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CreditScoreOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866966\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CreditScoreOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CreditCardOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CreditCardOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CreditCardOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866972\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CreditCardOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CardMembershipOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CardMembershipOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CardMembershipOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866982\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CardMembershipOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EuroOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EuroOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EuroOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866968\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EuroOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "MoneyOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MoneyOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  MoneyOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866985\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MoneyOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "MonetizationonOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MonetizationonOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  MonetizationonOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866967\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MonetizationonOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ReceiptOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ReceiptOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ReceiptOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866964\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ReceiptOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ReceiptLongOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ReceiptLongOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ReceiptLongOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11239\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ReceiptLongOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RequestQuoteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RequestQuoteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RequestQuoteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11246\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RequestQuoteOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RequestPageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RequestPageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RequestPageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866962\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RequestPageOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ShoppingCartCheckoutOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ShoppingCartCheckoutOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ShoppingCartCheckoutOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866979\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ShoppingCartCheckoutOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ShoppingBasketOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ShoppingBasketOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ShoppingBasketOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866961\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ShoppingBasketOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ShoppingBagOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ShoppingBagOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ShoppingBagOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866963\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ShoppingBagOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ShopOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ShopOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ShopOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866959\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ShopOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Shop2Outlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Shop2Outlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  Shop2Outlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866958\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Shop2Outlined {...props} />\n  }\n);"
+  ],
+  [
+    "StorefrontOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StorefrontOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StorefrontOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866957\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StorefrontOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "StoreOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StoreOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StoreOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11273\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StoreOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LocalOfferOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LocalOfferOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LocalOfferOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866956\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LocalOfferOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LocalMallOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LocalMallOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LocalMallOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866955\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LocalMallOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LocalAtmOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LocalAtmOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LocalAtmOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866975\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LocalAtmOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ProductionQuantityLimitsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ProductionQuantityLimitsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ProductionQuantityLimitsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866954\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ProductionQuantityLimitsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PriceCheckOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PriceCheckOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PriceCheckOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11284\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PriceCheckOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PriceChangeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PriceChangeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PriceChangeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866952\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PriceChangeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SavingsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SavingsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SavingsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866951\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SavingsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RemoveShoppingCartOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RemoveShoppingCartOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RemoveShoppingCartOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866974\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RemoveShoppingCartOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LoyaltyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LoyaltyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LoyaltyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11706:866953\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LoyaltyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RatesOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RatesOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RatesOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11301\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RatesOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CostRejected",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CostRejected} from \"@mui/icons-material\";\n\nfigma.connect(\n  CostRejected, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11305\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CostRejected {...props} />\n  }\n);"
+  ],
+  [
+    "CostUnknown",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CostUnknown} from \"@mui/icons-material\";\n\nfigma.connect(\n  CostUnknown, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11309\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CostUnknown {...props} />\n  }\n);"
+  ],
+  [
+    "PriceAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PriceAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PriceAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:11313\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PriceAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ShoppingCartOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ShoppingCartOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ShoppingCartOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:73251\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ShoppingCartOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CreditCardOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CreditCardOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CreditCardOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112403\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CreditCardOutlined {...props} />\n  }\n);"
+  ]
+]

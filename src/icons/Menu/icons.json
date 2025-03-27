@@ -1,0 +1,294 @@
+[
+  [
+    "LayersFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LayersFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  LayersFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112411\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LayersFilled {...props} />\n  }\n);"
+  ],
+  [
+    "PhoneIphoneFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PhoneIphoneFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  PhoneIphoneFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112400\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PhoneIphoneFilled {...props} />\n  }\n);"
+  ],
+  [
+    "WorkFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WorkFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  WorkFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112404\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WorkFilled {...props} />\n  }\n);"
+  ],
+  [
+    "BeachAccessFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BeachAccessFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  BeachAccessFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112418\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BeachAccessFilled {...props} />\n  }\n);"
+  ],
+  [
+    "CollectionsFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CollectionsFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  CollectionsFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112410\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CollectionsFilled {...props} />\n  }\n);"
+  ],
+  [
+    "ReceiptFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ReceiptFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  ReceiptFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:72641\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ReceiptFilled {...props} />\n  }\n);"
+  ],
+  [
+    "TryFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TryFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  TryFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13236\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TryFilled {...props} />\n  }\n);"
+  ],
+  [
+    "RequestPageFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RequestPageFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  RequestPageFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13246\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RequestPageFilled {...props} />\n  }\n);"
+  ],
+  [
+    "SummarizeFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SummarizeFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  SummarizeFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13240\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SummarizeFilled {...props} />\n  }\n);"
+  ],
+  [
+    "SwapHorizontalCircleFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SwapHorizontalCircleFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  SwapHorizontalCircleFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13238\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SwapHorizontalCircleFilled {...props} />\n  }\n);"
+  ],
+  [
+    "HandymanFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HandymanFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  HandymanFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13258\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HandymanFilled {...props} />\n  }\n);"
+  ],
+  [
+    "ContactPageFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContactPageFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContactPageFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13268\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContactPageFilled {...props} />\n  }\n);"
+  ],
+  [
+    "GroupWorkFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {GroupWorkFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  GroupWorkFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13260\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <GroupWorkFilled {...props} />\n  }\n);"
+  ],
+  [
+    "CompareFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CompareFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  CompareFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13270\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CompareFilled {...props} />\n  }\n);"
+  ],
+  [
+    "WorkspacesFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WorkspacesFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  WorkspacesFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13232\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WorkspacesFilled {...props} />\n  }\n);"
+  ],
+  [
+    "ReceiptLongFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ReceiptLongFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  ReceiptLongFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13248\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ReceiptLongFilled {...props} />\n  }\n);"
+  ],
+  [
+    "SensorWindowFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SensorWindowFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  SensorWindowFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13244\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SensorWindowFilled {...props} />\n  }\n);"
+  ],
+  [
+    "FactCheckFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FactCheckFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  FactCheckFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13262\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FactCheckFilled {...props} />\n  }\n);"
+  ],
+  [
+    "ViewTimelineFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ViewTimelineFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  ViewTimelineFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13234\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ViewTimelineFilled {...props} />\n  }\n);"
+  ],
+  [
+    "PreviewFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PreviewFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  PreviewFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13252\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PreviewFilled {...props} />\n  }\n);"
+  ],
+  [
+    "StarsFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StarsFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  StarsFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13242\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StarsFilled {...props} />\n  }\n);"
+  ],
+  [
+    "PollFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PollFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  PollFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13254\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PollFilled {...props} />\n  }\n);"
+  ],
+  [
+    "PriceChangeFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PriceChangeFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  PriceChangeFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13250\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PriceChangeFilled {...props} />\n  }\n);"
+  ],
+  [
+    "AssignmentFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AssignmentFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  AssignmentFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13272\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AssignmentFilled {...props} />\n  }\n);"
+  ],
+  [
+    "AllInboxFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AllInboxFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  AllInboxFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13274\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AllInboxFilled {...props} />\n  }\n);"
+  ],
+  [
+    "NoteAltFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {NoteAltFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  NoteAltFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13256\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <NoteAltFilled {...props} />\n  }\n);"
+  ],
+  [
+    "DashboardFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DashboardFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  DashboardFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13264\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DashboardFilled {...props} />\n  }\n);"
+  ],
+  [
+    "CurrencyExchangeFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CurrencyExchangeFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  CurrencyExchangeFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13266\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CurrencyExchangeFilled {...props} />\n  }\n);"
+  ],
+  [
+    "GroupFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {GroupFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  GroupFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13230\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <GroupFilled {...props} />\n  }\n);"
+  ],
+  [
+    "TaskFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TaskFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  TaskFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13216\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TaskFilled {...props} />\n  }\n);"
+  ],
+  [
+    "ContentPasteSearchFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContentPasteSearchFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContentPasteSearchFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13218\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContentPasteSearchFilled {...props} />\n  }\n);"
+  ],
+  [
+    "SettingsApplicationsFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SettingsApplicationsFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  SettingsApplicationsFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13220\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SettingsApplicationsFilled {...props} />\n  }\n);"
+  ],
+  [
+    "VerifiedUserFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {VerifiedUserFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  VerifiedUserFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13222\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <VerifiedUserFilled {...props} />\n  }\n);"
+  ],
+  [
+    "MarkasUnreadFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MarkasUnreadFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  MarkasUnreadFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13224\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MarkasUnreadFilled {...props} />\n  }\n);"
+  ],
+  [
+    "MapFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MapFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  MapFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13226\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MapFilled {...props} />\n  }\n);"
+  ],
+  [
+    "DocumentScannerFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DocumentScannerFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  DocumentScannerFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13228\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DocumentScannerFilled {...props} />\n  }\n);"
+  ],
+  [
+    "CalculateFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CalculateFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  CalculateFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13206\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CalculateFilled {...props} />\n  }\n);"
+  ],
+  [
+    "StickyNote2Filled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StickyNote2Filled} from \"@mui/icons-material\";\n\nfigma.connect(\n  StickyNote2Filled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13208\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StickyNote2Filled {...props} />\n  }\n);"
+  ],
+  [
+    "FolderSharedFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FolderSharedFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  FolderSharedFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13210\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FolderSharedFilled {...props} />\n  }\n);"
+  ],
+  [
+    "PageviewFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PageviewFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  PageviewFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13212\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PageviewFilled {...props} />\n  }\n);"
+  ],
+  [
+    "CollectionsBookmarkFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CollectionsBookmarkFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  CollectionsBookmarkFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13214\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CollectionsBookmarkFilled {...props} />\n  }\n);"
+  ],
+  [
+    "BackupTableFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BackupTableFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  BackupTableFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13196\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BackupTableFilled {...props} />\n  }\n);"
+  ],
+  [
+    "MovetoInboxFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MovetoInboxFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  MovetoInboxFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13198\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MovetoInboxFilled {...props} />\n  }\n);"
+  ],
+  [
+    "AdminPanelSettingsFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AdminPanelSettingsFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  AdminPanelSettingsFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13200\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AdminPanelSettingsFilled {...props} />\n  }\n);"
+  ],
+  [
+    "BubbleChartFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BubbleChartFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  BubbleChartFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13202\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BubbleChartFilled {...props} />\n  }\n);"
+  ],
+  [
+    "InventoryFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {InventoryFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  InventoryFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13204\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <InventoryFilled {...props} />\n  }\n);"
+  ],
+  [
+    "TableChartFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TableChartFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  TableChartFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13190\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TableChartFilled {...props} />\n  }\n);"
+  ],
+  [
+    "PieChartFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PieChartFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  PieChartFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13192\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PieChartFilled {...props} />\n  }\n);"
+  ],
+  [
+    "DataThresholdingFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DataThresholdingFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  DataThresholdingFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13194\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DataThresholdingFilled {...props} />\n  }\n);"
+  ],
+  [
+    "TableViewFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TableViewFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  TableViewFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13176\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TableViewFilled {...props} />\n  }\n);"
+  ],
+  [
+    "MapsHomeWorkFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MapsHomeWorkFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  MapsHomeWorkFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13170\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MapsHomeWorkFilled {...props} />\n  }\n);"
+  ],
+  [
+    "ShareLocationFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ShareLocationFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  ShareLocationFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13172\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ShareLocationFilled {...props} />\n  }\n);"
+  ],
+  [
+    "CardTravelFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CardTravelFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  CardTravelFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13174\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CardTravelFilled {...props} />\n  }\n);"
+  ],
+  [
+    "WidgetsFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WidgetsFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  WidgetsFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13188\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WidgetsFilled {...props} />\n  }\n);"
+  ],
+  [
+    "BuildFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BuildFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  BuildFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13182\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BuildFilled {...props} />\n  }\n);"
+  ],
+  [
+    "ContentPasteGoFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ContentPasteGoFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  ContentPasteGoFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13178\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ContentPasteGoFilled {...props} />\n  }\n);"
+  ],
+  [
+    "DownloadingFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DownloadingFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  DownloadingFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13180\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DownloadingFilled {...props} />\n  }\n);"
+  ],
+  [
+    "SubtitlesFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SubtitlesFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  SubtitlesFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13184\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SubtitlesFilled {...props} />\n  }\n);"
+  ],
+  [
+    "FolderFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FolderFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  FolderFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:61740\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FolderFilled {...props} />\n  }\n);"
+  ],
+  [
+    "FileCopyFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FileCopyFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  FileCopyFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13168\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FileCopyFilled {...props} />\n  }\n);"
+  ],
+  [
+    "RoomPreferencesFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RoomPreferencesFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  RoomPreferencesFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13166\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RoomPreferencesFilled {...props} />\n  }\n);"
+  ],
+  [
+    "PlagiarismFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PlagiarismFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  PlagiarismFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13164\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PlagiarismFilled {...props} />\n  }\n);"
+  ],
+  [
+    "ManageAccountsFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ManageAccountsFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  ManageAccountsFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13162\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ManageAccountsFilled {...props} />\n  }\n);"
+  ],
+  [
+    "MonitorFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MonitorFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  MonitorFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112417\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MonitorFilled {...props} />\n  }\n);"
+  ],
+  [
+    "SpaceDashboardFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SpaceDashboardFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  SpaceDashboardFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:73288\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SpaceDashboardFilled {...props} />\n  }\n);"
+  ],
+  [
+    "SpaceDashboardOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SpaceDashboardOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SpaceDashboardOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:73290\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SpaceDashboardOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "RouteFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RouteFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  RouteFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13160\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RouteFilled {...props} />\n  }\n);"
+  ],
+  [
+    "LocalShippingFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LocalShippingFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  LocalShippingFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13148\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LocalShippingFilled {...props} />\n  }\n);"
+  ],
+  [
+    "SwitchCameraFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SwitchCameraFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  SwitchCameraFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13158\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SwitchCameraFilled {...props} />\n  }\n);"
+  ],
+  [
+    "WebhookFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WebhookFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  WebhookFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13156\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WebhookFilled {...props} />\n  }\n);"
+  ],
+  [
+    "RocketFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RocketFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  RocketFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13154\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RocketFilled {...props} />\n  }\n);"
+  ],
+  [
+    "BusinessCenterFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BusinessCenterFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  BusinessCenterFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13150\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BusinessCenterFilled {...props} />\n  }\n);"
+  ],
+  [
+    "RecentActorsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RecentActorsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  RecentActorsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13152\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RecentActorsOutlined {...props} />\n  }\n);"
+  ]
+]

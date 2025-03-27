@@ -1,3 +1,4 @@
+import { TableCell, TableRow } from "@mui/material"
 import { TableHead } from "./index"
 import figma from "@figma/code-connect"
 
@@ -14,6 +15,8 @@ figma.connect(
       // "checkbox": figma.boolean('Checkbox')
       children: figma.children("*"),
     },
-    example: ({ children, ...props }) => <TableHead {...props}>{children}</TableHead>,
+    example: ({ children, ...props }) => <TableHead {...props}>
+      {children}
+    </TableHead>,
   },
 )

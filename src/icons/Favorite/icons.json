@@ -1,0 +1,86 @@
+[
+  [
+    "WorkspacePremiumOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WorkspacePremiumOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  WorkspacePremiumOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3754\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WorkspacePremiumOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BookmarksOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BookmarksOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BookmarksOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3753\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BookmarksOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BookmarkRemoveOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BookmarkRemoveOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BookmarkRemoveOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3751\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BookmarkRemoveOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BookmarkBorderOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BookmarkBorderOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BookmarkBorderOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3747\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BookmarkBorderOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BookmarkAddedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BookmarkAddedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BookmarkAddedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3748\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BookmarkAddedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BookmarkAddOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BookmarkAddOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BookmarkAddOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3744\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BookmarkAddOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BookOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BookOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BookOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3749\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BookOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ClassOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ClassOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ClassOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3745\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ClassOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CollectionsBookmarkOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CollectionsBookmarkOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CollectionsBookmarkOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3752\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CollectionsBookmarkOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BookmarkOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BookmarkOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BookmarkOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3743\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BookmarkOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ThumbsUpDownOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ThumbsUpDownOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ThumbsUpDownOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3742\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ThumbsUpDownOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ThumbUpOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ThumbUpOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ThumbUpOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3741\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ThumbUpOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ThumbDownOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ThumbDownOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ThumbDownOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3740\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ThumbDownOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "StarsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StarsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StarsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3739\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StarsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LocalPlayOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LocalPlayOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LocalPlayOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13134\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LocalPlayOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FavoriteBorderOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FavoriteBorderOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FavoriteBorderOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3746\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FavoriteBorderOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "StarRateOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StarRateOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StarRateOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:49651\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StarRateOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "StarHalfOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StarHalfOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StarHalfOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:49640\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StarHalfOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "StarOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StarOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StarOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:49603\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StarOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "StarBorderOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {StarBorderOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  StarBorderOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:49617\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <StarBorderOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FavoriteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FavoriteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FavoriteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:70999\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FavoriteOutlined {...props} />\n  }\n);"
+  ]
+]

@@ -4,7 +4,7 @@ import { Toolbar, Typography, Button, IconButton } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
 import { getFigmaPath } from "../figma.config";
 
-const FIGMA_COMPONENT_URL = getFigmaPath("AppBar");
+const FIGMA_COMPONENT_URL = getFigmaPath("Appbar");
 
 /**
  * AppBar Component Stories

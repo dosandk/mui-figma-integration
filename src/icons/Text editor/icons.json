@@ -1,0 +1,214 @@
+[
+  [
+    "AlignVerticalTopOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AlignVerticalTopOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AlignVerticalTopOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3187\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AlignVerticalTopOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AlignVerticalCenterOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AlignVerticalCenterOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AlignVerticalCenterOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3229\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AlignVerticalCenterOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AlignVerticalBottomOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AlignVerticalBottomOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AlignVerticalBottomOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3224\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AlignVerticalBottomOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AlignHorizontalRightOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AlignHorizontalRightOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AlignHorizontalRightOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3183\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AlignHorizontalRightOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AlignHorizontalLeftOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AlignHorizontalLeftOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AlignHorizontalLeftOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3220\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AlignHorizontalLeftOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AlignHorizontalCenterOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AlignHorizontalCenterOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AlignHorizontalCenterOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3207\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AlignHorizontalCenterOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderVerticalOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderVerticalOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderVerticalOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3204\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderVerticalOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderTopOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderTopOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderTopOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3230\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderTopOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderStyleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderStyleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderStyleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3226\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderStyleOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderRightOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderRightOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderRightOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3228\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderRightOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderOuterOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderOuterOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderOuterOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3225\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderOuterOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderLeftOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderLeftOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderLeftOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3222\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderLeftOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderInnerOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderInnerOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderInnerOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3221\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderInnerOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderHorizontalOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderHorizontalOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderHorizontalOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3219\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderHorizontalOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderClearOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderClearOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderClearOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3227\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderClearOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderBottomOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderBottomOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderBottomOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3217\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderBottomOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BorderAllOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderAllOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderAllOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3216\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderAllOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CropRotateOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CropRotateOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CropRotateOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3215\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CropRotateOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CropOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CropOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CropOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3214\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CropOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatUnderlinedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatUnderlinedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatUnderlinedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3213\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatUnderlinedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatTextdirectionRtoLOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatTextdirectionRtoLOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatTextdirectionRtoLOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3212\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatTextdirectionRtoLOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatTextdirectionLtoROutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatTextdirectionLtoROutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatTextdirectionLtoROutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3211\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatTextdirectionLtoROutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatStrikethroughOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatStrikethroughOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatStrikethroughOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3210\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatStrikethroughOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatSizeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatSizeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatSizeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3209\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatSizeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatShapesOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatShapesOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatShapesOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3206\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatShapesOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatQuoteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatQuoteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatQuoteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3203\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatQuoteOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatPaintOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatPaintOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatPaintOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3201\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatPaintOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatListNumberedRtlOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatListNumberedRtlOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatListNumberedRtlOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3199\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatListNumberedRtlOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatListNumberedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatListNumberedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatListNumberedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3197\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatListNumberedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatListBulletedOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatListBulletedOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatListBulletedOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12320\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatListBulletedOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatLineSpacingOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatLineSpacingOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatLineSpacingOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3195\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatLineSpacingOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatItalicOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatItalicOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatItalicOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3193\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatItalicOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatIndentIncreaseOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatIndentIncreaseOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatIndentIncreaseOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3192\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatIndentIncreaseOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatIndentDecreaseOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatIndentDecreaseOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatIndentDecreaseOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3190\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatIndentDecreaseOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatColorTextOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatColorTextOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatColorTextOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3189\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatColorTextOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatColorFillOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatColorFillOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatColorFillOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3188\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatColorFillOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatClearOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatClearOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatClearOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3185\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatClearOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatBoldOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatBoldOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatBoldOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3182\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatBoldOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatAlignRightOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatAlignRightOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatAlignRightOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3205\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatAlignRightOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatAlignJustifyOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatAlignJustifyOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatAlignJustifyOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3200\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatAlignJustifyOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatAlignCenterOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatAlignCenterOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatAlignCenterOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3208\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatAlignCenterOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextRotationNoneOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextRotationNoneOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextRotationNoneOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3196\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextRotationNoneOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextRotationDownOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextRotationDownOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextRotationDownOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3202\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextRotationDownOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextRotationAngleupOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextRotationAngleupOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextRotationAngleupOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3194\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextRotationAngleupOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextRotationAngledownOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextRotationAngledownOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextRotationAngledownOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3198\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextRotationAngledownOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextRotateVerticalOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextRotateVerticalOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextRotateVerticalOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3191\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextRotateVerticalOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextRotateUpOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextRotateUpOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextRotateUpOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3218\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextRotateUpOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextIncreaseOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextIncreaseOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextIncreaseOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3186\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextIncreaseOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextFormatOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextFormatOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextFormatOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3181\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextFormatOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextFieldsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextFieldsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextFieldsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3223\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextFieldsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TextDecreaseOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TextDecreaseOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TextDecreaseOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3180\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TextDecreaseOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FormatAlignLeftOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FormatAlignLeftOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FormatAlignLeftOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:62358\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FormatAlignLeftOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "TitleOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {TitleOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  TitleOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11613:424595\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <TitleOutlined {...props} />\n  }\n);"
+  ]
+]

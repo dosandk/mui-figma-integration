@@ -1,0 +1,16 @@
+export { AddPhotoAlternateOutlined } from "./AddPhotoAlternateOutlined.tsx";
+export { BrokenImageOutlined } from "./BrokenImageOutlined.tsx";
+export { BurstModeOutlined } from "./BurstModeOutlined.tsx";
+export { CompareOutlined } from "./CompareOutlined.tsx";
+export { HideImageOutlined } from "./HideImageOutlined.tsx";
+export { ImageOutlined } from "./ImageOutlined.tsx";
+export { ImageSearchOutlined } from "./ImageSearchOutlined.tsx";
+export { MmsOutlined } from "./MmsOutlined.tsx";
+export { PhotoAlbumOutlined } from "./PhotoAlbumOutlined.tsx";
+export { PhotoCameraBackOutlined } from "./PhotoCameraBackOutlined.tsx";
+export { PhotoLibraryOutlined } from "./PhotoLibraryOutlined.tsx";
+export { PhotoSizeSelectLargeOutlined } from "./PhotoSizeSelectLargeOutlined.tsx";
+export { SatelliteOutlined } from "./SatelliteOutlined.tsx";
+export { VideoCameraBackOutlined } from "./VideoCameraBackOutlined.tsx";
+export { VrpanoOutlined } from "./VrpanoOutlined.tsx";
+export { WallpaperOutlined } from "./WallpaperOutlined.tsx";

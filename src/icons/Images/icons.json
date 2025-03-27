@@ -1,0 +1,66 @@
+[
+  [
+    "BrokenImageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BrokenImageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BrokenImageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3786\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BrokenImageOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BurstModeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BurstModeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BurstModeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3790\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BurstModeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "HideImageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {HideImageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  HideImageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3788\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <HideImageOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ImageSearchOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ImageSearchOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ImageSearchOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3787\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ImageSearchOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PhotoSizeSelectLargeOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PhotoSizeSelectLargeOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PhotoSizeSelectLargeOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3789\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PhotoSizeSelectLargeOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PhotoLibraryOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PhotoLibraryOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PhotoLibraryOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3779\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PhotoLibraryOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PhotoCameraBackOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PhotoCameraBackOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PhotoCameraBackOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3783\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PhotoCameraBackOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "PhotoAlbumOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {PhotoAlbumOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  PhotoAlbumOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3780\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <PhotoAlbumOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SatelliteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SatelliteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SatelliteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3782\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SatelliteOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "CompareOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {CompareOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  CompareOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3784\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <CompareOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "MmsOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {MmsOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  MmsOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3781\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <MmsOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "VideoCameraBackOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {VideoCameraBackOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  VideoCameraBackOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3778\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <VideoCameraBackOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "WallpaperOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {WallpaperOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  WallpaperOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3777\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <WallpaperOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "VrpanoOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {VrpanoOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  VrpanoOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3785\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <VrpanoOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddPhotoAlternateOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddPhotoAlternateOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddPhotoAlternateOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11715:3776\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddPhotoAlternateOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ImageOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ImageOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ImageOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:59725\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ImageOutlined {...props} />\n  }\n);"
+  ]
+]

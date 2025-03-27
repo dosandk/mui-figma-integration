@@ -1,0 +1,34 @@
+[
+  [
+    "ZoomOutOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ZoomOutOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ZoomOutOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3705\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ZoomOutOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ZoominOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ZoominOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ZoominOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3703\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ZoominOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "YoutubeSearchedforOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {YoutubeSearchedforOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  YoutubeSearchedforOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3701\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <YoutubeSearchedforOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SearchOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SearchOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SearchOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3702\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SearchOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SavedSearchOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SavedSearchOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SavedSearchOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3699\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SavedSearchOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "ManageSearchOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {ManageSearchOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  ManageSearchOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:13029\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <ManageSearchOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "FindReplaceOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {FindReplaceOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  FindReplaceOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3704\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <FindReplaceOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "SearchOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {SearchOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  SearchOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:72891\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <SearchOutlined {...props} />\n  }\n);"
+  ]
+]

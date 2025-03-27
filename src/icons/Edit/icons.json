@@ -1,0 +1,70 @@
+[
+  [
+    "BorderColorOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BorderColorOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BorderColorOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12539\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BorderColorOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "EditOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EditOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EditOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12547\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EditOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AutoDeleteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AutoDeleteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AutoDeleteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12551\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AutoDeleteOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DeleteSweepOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DeleteSweepOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DeleteSweepOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12557\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DeleteSweepOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DeleteForeverOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DeleteForeverOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DeleteForeverOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12561\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DeleteForeverOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "BackspaceOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {BackspaceOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  BackspaceOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12563\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <BackspaceOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LinkOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LinkOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LinkOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12565\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LinkOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "LinkOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {LinkOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  LinkOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12567\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <LinkOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AttachmentOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AttachmentOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AttachmentOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3731\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AttachmentOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AttachFileOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AttachFileOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AttachFileOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11714:3730\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AttachFileOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "VisibilityOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {VisibilityOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  VisibilityOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12573\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <VisibilityOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "VisibilityOffOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {VisibilityOffOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  VisibilityOffOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12575\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <VisibilityOffOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "AddLinkOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {AddLinkOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  AddLinkOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12577\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <AddLinkOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "Drag",
+    "\nimport figma from \"@figma/code-connect\";\nimport {Drag} from \"@mui/icons-material\";\n\nfigma.connect(\n  Drag, \n  \"<FIGMA_ICONS_BASE>?node-id=11673:12597\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <Drag {...props} />\n  }\n);"
+  ],
+  [
+    "RemoveRedEyeFilled",
+    "\nimport figma from \"@figma/code-connect\";\nimport {RemoveRedEyeFilled} from \"@mui/icons-material\";\n\nfigma.connect(\n  RemoveRedEyeFilled, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:59914\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <RemoveRedEyeFilled {...props} />\n  }\n);"
+  ],
+  [
+    "EditOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {EditOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  EditOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=7475:58506\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <EditOutlined {...props} />\n  }\n);"
+  ],
+  [
+    "DeleteOutlined",
+    "\nimport figma from \"@figma/code-connect\";\nimport {DeleteOutlined} from \"@mui/icons-material\";\n\nfigma.connect(\n  DeleteOutlined, \n  \"<FIGMA_ICONS_BASE>?node-id=9602:112393\",\n  { \n    props: {\n    \n    },\n    example: ({ ...props }) => <DeleteOutlined {...props} />\n  }\n);"
+  ]
+]

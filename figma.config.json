@@ -3,6 +3,7 @@
     "parser": "react",
     "include": [
       "src/components/**/*.{tsx,jsx}",
+      "src/icons/**/*.{tsx,jsx}",
       "src/components/**/*.figma.template.js"
     ],
     "exclude": [

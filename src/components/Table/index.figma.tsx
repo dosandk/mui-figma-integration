@@ -1,7 +1,6 @@
 import figma from "@figma/code-connect"
 import { Table } from "./index"
 
-
 figma.connect(
   Table,
   "<FIGMA_TABLE>",
@@ -16,7 +15,8 @@ figma.connect(
       //   "5": "5",
       //   "10": "10"
       // })
+      children: figma.children("*"),
     },
-    example: (props) => <Table columns={/* TODO */} rows={/* TODO */} />,
+    example: ({ children, ...props }) => <Table {...props}>{children}</Table>,
   },
 )
