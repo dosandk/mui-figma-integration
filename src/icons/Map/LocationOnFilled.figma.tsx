@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {LocationOnFilled} from "@mui/icons-material";
+import { LocationOn } from "@mui/icons-material";
 
 figma.connect(
-  LocationOnFilled, 
+  LocationOn,
   "<FIGMA_ICONS_BASE>?node-id=7475:67170",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <LocationOnFilled {...props} />
+    example: ({ ...props }) => <LocationOn {...props} />
   }
 );

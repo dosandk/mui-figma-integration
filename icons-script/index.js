@@ -8,27 +8,27 @@ const URL_BASE = "https://api.figma.com/v1/files";
 const ICON_VARIANT_NAME = "Size=16";
 
 const iconsRanges = {
-  "Menu": "11673:13140",
+  "Arrows": "11673:11318",
+  "Buildings": "11673:13319",
+  "Communication": "11673:11998",
   "Date & Time": "11673:11057",
   "E-commerce": "11673:11178",
-  "Arrows": "11673:11318",
-  "Users and People": "11673:11683",
-  "Communication": "11673:11998",
-  "Map": "11673:12160",
-  "Text editor": "11673:12261",
-  "Success-warning": "11673:12368",
-  "Security": "11673:12475",
-  "Math": "11673:12599",
-  "Navigation": "11673:12646",
-  "File": "11673:12792",
-  "Magnifying glass": "11673:13010",
-  "Settings": "11673:13034",
   "Edit": "11673:12538",
   "Favorite": "11673:13095",
+  "File": "11673:12792",
   "Images": "11673:13276",
-  "Buildings": "11673:13319"
+  "Magnifying glass": "11673:13010",
+  "Map": "11673:12160",
+  "Math": "11673:12599",
+  "Menu": "11673:13140",
+  "Navigation": "11673:12646",
+  "Security": "11673:12475",
+  "Settings": "11673:13034",
+  "Success-warning": "11673:12368",
+  "Text editor": "11673:12261",
+  "Users and People": "11673:11683",
 };
-const ICONS_SET_NAME = "Buildings"
+const ICONS_SET_NAME = "Menu"
 const ROOT_TRAVERSE_IDS = ["6594:47638", iconsRanges[ICONS_SET_NAME]]; // Page ID > Section ID
 const SKIP_REST_API = process.argv.includes("--skip-rest-api");
 

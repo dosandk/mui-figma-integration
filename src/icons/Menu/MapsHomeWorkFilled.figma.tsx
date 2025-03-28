@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {MapsHomeWorkFilled} from "@mui/icons-material";
+import { MapsHomeWork } from "@mui/icons-material";
 
 figma.connect(
-  MapsHomeWorkFilled, 
+  MapsHomeWork,
   "<FIGMA_ICONS_BASE>?node-id=11673:13170",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <MapsHomeWorkFilled {...props} />
+    example: ({ ...props }) => <MapsHomeWork {...props} />
   }
 );

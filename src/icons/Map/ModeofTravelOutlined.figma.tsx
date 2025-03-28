@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {ModeofTravelOutlined} from "@mui/icons-material";
+import { ModeOfTravelOutlined } from "@mui/icons-material";
 
 figma.connect(
-  ModeofTravelOutlined, 
+  ModeOfTravelOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11673:12188",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <ModeofTravelOutlined {...props} />
+    example: ({ ...props }) => <ModeOfTravelOutlined {...props} />
   }
 );

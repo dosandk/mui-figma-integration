@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {DataThresholdingFilled} from "@mui/icons-material";
+import { DataThresholding } from "@mui/icons-material";
 
 figma.connect(
-  DataThresholdingFilled, 
+  DataThresholding,
   "<FIGMA_ICONS_BASE>?node-id=11673:13194",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <DataThresholdingFilled {...props} />
+    example: ({ ...props }) => <DataThresholding {...props} />
   }
 );

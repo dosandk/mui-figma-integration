@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {WorkspacesFilled} from "@mui/icons-material";
+import { Workspaces } from "@mui/icons-material";
 
 figma.connect(
-  WorkspacesFilled, 
+  Workspaces,
   "<FIGMA_ICONS_BASE>?node-id=11673:13232",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <WorkspacesFilled {...props} />
+    example: ({ ...props }) => <Workspaces {...props} />
   }
 );

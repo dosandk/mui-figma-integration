@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {BusinessCenterFilled} from "@mui/icons-material";
+import { BusinessCenter } from "@mui/icons-material";
 
 figma.connect(
-  BusinessCenterFilled, 
+  BusinessCenter,
   "<FIGMA_ICONS_BASE>?node-id=11673:13150",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <BusinessCenterFilled {...props} />
+    example: ({ ...props }) => <BusinessCenter {...props} />
   }
 );

@@ -234,3 +234,94 @@
 - Add all icons from material icons
 - Make link to the figma file dinamic
 - Add link to figma for each story file
+
+## Icons TODO
+
+- RepairCode
+- RepairParts
+- CostRejected
+- CostUnknown
+- PriceAddOutlined
+- RatesOutlined
+- AddNote
+- Autosave
+- If
+- POnotready
+- Template
+- OperationOutlined
+- TransportRate
+- TransportRates2
+- Account
+- AccountInfo
+- AccountRep
+- AccountRepDasboard
+- AccountRepInfo
+- AutosaveNew
+- Operations
+- PMDashboard
+- SaveManually
+- ShowFile
+- Availability
+
+## Figma
+
+### Figma connect
+
+To connect figma components to the existed components use the next command:
+
+```sh
+npm run figma:connect
+```
+
+### Figma Publish
+
+To publish all components:
+
+```sh
+npm run figma:publish
+```
+
+To publish components from specific directory:
+
+```sh
+npm run figma:publish -- --dir=src/icons
+```
+
+To publish figma "template files" use the next flag `--include-template-files`,
+you can check "PieChart.figma.template.js" file (more details about template api here https://www.figma.com/code-connect-docs/no-parser/)
+
+```sh
+npm run figma:publish -- --include-template-files
+```
+
+### Figma Unpublish
+
+To unpublish all components from Figma use the next command:
+
+```bash
+npm run figma:unpublish
+```
+
+### Figma Icons
+
+To generate components for Figma icons use the next command:
+
+```sh
+npm run figma:icons
+```
+
+NOTE: Please check source code inside "icons-script" directory.
+
+## Storybook
+
+To start Storybook:
+
+```sh
+npm run storybook
+```
+
+To run tests for storybook stories:
+
+```sh
+npm run storybook:test
+```

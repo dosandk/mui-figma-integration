@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {BeachAccessFilled} from "@mui/icons-material";
+import { BeachAccess } from "@mui/icons-material";
 
 figma.connect(
-  BeachAccessFilled, 
+  BeachAccess,
   "<FIGMA_ICONS_BASE>?node-id=9602:112418",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <BeachAccessFilled {...props} />
+    example: ({ ...props }) => <BeachAccess {...props} />
   }
 );

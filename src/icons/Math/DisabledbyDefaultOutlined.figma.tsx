@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {DisabledbyDefaultOutlined} from "@mui/icons-material";
+import { DisabledByDefaultOutlined } from "@mui/icons-material";
 
 figma.connect(
-  DisabledbyDefaultOutlined, 
+  DisabledByDefaultOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11673:12627",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <DisabledbyDefaultOutlined {...props} />
+    example: ({ ...props }) => <DisabledByDefaultOutlined {...props} />
   }
 );

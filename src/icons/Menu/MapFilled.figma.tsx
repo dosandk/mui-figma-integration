@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {MapFilled} from "@mui/icons-material";
+import { Map } from "@mui/icons-material";
 
 figma.connect(
-  MapFilled, 
+  Map,
   "<FIGMA_ICONS_BASE>?node-id=11673:13226",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <MapFilled {...props} />
+    example: ({ ...props }) => <Map {...props} />
   }
 );

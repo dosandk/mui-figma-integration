@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {RocketFilled} from "@mui/icons-material";
+import { Rocket } from "@mui/icons-material";
 
 figma.connect(
-  RocketFilled, 
+  Rocket,
   "<FIGMA_ICONS_BASE>?node-id=11673:13154",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <RocketFilled {...props} />
+    example: ({ ...props }) => <Rocket {...props} />
   }
 );

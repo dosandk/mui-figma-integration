@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {InventoryFilled} from "@mui/icons-material";
+import { Inventory } from "@mui/icons-material";
 
 figma.connect(
-  InventoryFilled, 
+  Inventory,
   "<FIGMA_ICONS_BASE>?node-id=11673:13204",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <InventoryFilled {...props} />
+    example: ({ ...props }) => <Inventory {...props} />
   }
 );

@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {TransferWithinaStationOutlined} from "@mui/icons-material";
+import { TransferWithinAStationOutlined } from "@mui/icons-material";
 
 figma.connect(
-  TransferWithinaStationOutlined, 
+  TransferWithinAStationOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11706:867034",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <TransferWithinaStationOutlined {...props} />
+    example: ({ ...props }) => <TransferWithinAStationOutlined {...props} />
   }
 );

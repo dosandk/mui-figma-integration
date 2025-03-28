@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {ContactPageFilled} from "@mui/icons-material";
+import { ContactPage } from "@mui/icons-material";
 
 figma.connect(
-  ContactPageFilled, 
+  ContactPage,
   "<FIGMA_ICONS_BASE>?node-id=11673:13268",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <ContactPageFilled {...props} />
+    example: ({ ...props }) => <ContactPage {...props} />
   }
 );

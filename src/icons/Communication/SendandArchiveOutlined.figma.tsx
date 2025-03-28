@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {SendandArchiveOutlined} from "@mui/icons-material";
+import { SendAndArchiveOutlined } from "@mui/icons-material";
 
 figma.connect(
-  SendandArchiveOutlined, 
+  SendAndArchiveOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11714:3046",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <SendandArchiveOutlined {...props} />
+    example: ({ ...props }) => <SendAndArchiveOutlined {...props} />
   }
 );

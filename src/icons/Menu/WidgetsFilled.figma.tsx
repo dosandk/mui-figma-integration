@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {WidgetsFilled} from "@mui/icons-material";
+import { Widgets } from "@mui/icons-material";
 
 figma.connect(
-  WidgetsFilled, 
+  Widgets,
   "<FIGMA_ICONS_BASE>?node-id=11673:13188",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <WidgetsFilled {...props} />
+    example: ({ ...props }) => <Widgets {...props} />
   }
 );

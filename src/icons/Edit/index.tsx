@@ -1,17 +1,17 @@
-export { AddLinkOutlined } from "./AddLinkOutlined.tsx";
-export { AttachFileOutlined } from "./AttachFileOutlined.tsx";
-export { AttachmentOutlined } from "./AttachmentOutlined.tsx";
-export { AutoDeleteOutlined } from "./AutoDeleteOutlined.tsx";
-export { BackspaceOutlined } from "./BackspaceOutlined.tsx";
-export { BorderColorOutlined } from "./BorderColorOutlined.tsx";
-export { DeleteForeverOutlined } from "./DeleteForeverOutlined.tsx";
-export { DeleteOutlined } from "./DeleteOutlined.tsx";
-export { DeleteSweepOutlined } from "./DeleteSweepOutlined.tsx";
-export { Drag } from "./Drag.tsx";
-export { EditOffOutlined } from "./EditOffOutlined.tsx";
-export { EditOutlined } from "./EditOutlined.tsx";
-export { LinkOffOutlined } from "./LinkOffOutlined.tsx";
-export { LinkOutlined } from "./LinkOutlined.tsx";
-export { RemoveRedEyeFilled } from "./RemoveRedEyeFilled.tsx";
-export { VisibilityOffOutlined } from "./VisibilityOffOutlined.tsx";
-export { VisibilityOutlined } from "./VisibilityOutlined.tsx";
+export { AddLinkOutlined } from "@mui/icons-material";
+export { AttachFileOutlined } from "@mui/icons-material";
+export { AttachmentOutlined } from "@mui/icons-material";
+export { AutoDeleteOutlined } from "@mui/icons-material";
+export { BackspaceOutlined } from "@mui/icons-material";
+export { BorderColorOutlined } from "@mui/icons-material";
+export { DeleteForeverOutlined } from "@mui/icons-material";
+export { DeleteOutlined } from "@mui/icons-material";
+export { DeleteSweepOutlined } from "@mui/icons-material";
+export { DragIndicator } from "@mui/icons-material";/* TODO: rename */
+export { EditOffOutlined } from "@mui/icons-material";
+export { EditOutlined } from "@mui/icons-material";
+export { LinkOffOutlined } from "@mui/icons-material";
+export { LinkOutlined } from "@mui/icons-material";
+export { RemoveRedEye } from "@mui/icons-material";/* TODO: rename */
+export { VisibilityOffOutlined } from "@mui/icons-material";
+export { VisibilityOutlined } from "@mui/icons-material";

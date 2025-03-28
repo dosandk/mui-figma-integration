@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {TaskFilled} from "@mui/icons-material";
+import { Task } from "@mui/icons-material";
 
 figma.connect(
-  TaskFilled, 
+  Task,
   "<FIGMA_ICONS_BASE>?node-id=11673:13216",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <TaskFilled {...props} />
+    example: ({ ...props }) => <Task {...props} />
   }
 );

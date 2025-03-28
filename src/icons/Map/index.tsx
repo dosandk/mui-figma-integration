@@ -1,31 +1,31 @@
-export { AddLocationAltOutlined } from "./AddLocationAltOutlined.tsx";
-export { AddLocationOutlined } from "./AddLocationOutlined.tsx";
-export { EditLocationAltOutlined } from "./EditLocationAltOutlined.tsx";
-export { ExploreOffOutlined } from "./ExploreOffOutlined.tsx";
-export { ExploreOutlined } from "./ExploreOutlined.tsx";
-export { FmdBadOutlined } from "./FmdBadOutlined.tsx";
-export { LocalShippingOutlined } from "./LocalShippingOutlined.tsx";
-export { LocationDisabledOutlined } from "./LocationDisabledOutlined.tsx";
-export { LocationOffOutlined } from "./LocationOffOutlined.tsx";
-export { LocationOnFilled } from "./LocationOnFilled.tsx";
-export { LocationSearchingOutlined } from "./LocationSearchingOutlined.tsx";
-export { MapOutlined } from "./MapOutlined.tsx";
-export { ModeofTravelOutlined } from "./ModeofTravelOutlined.tsx";
-export { MyLocationOutlined } from "./MyLocationOutlined.tsx";
-export { NavigationOutlined } from "./NavigationOutlined.tsx";
-export { NearMeDisabledOutlined } from "./NearMeDisabledOutlined.tsx";
-export { NearMeOutlined } from "./NearMeOutlined.tsx";
-export { NotListedLocationOutlined } from "./NotListedLocationOutlined.tsx";
-export { OperationOutlined } from "./OperationOutlined.tsx";
-export { OperationsDept } from "./OperationsDept.tsx";
-export { PersonPinCircleOutlined } from "./PersonPinCircleOutlined.tsx";
-export { PinDropOutlined } from "./PinDropOutlined.tsx";
-export { PlaceOutlined } from "./PlaceOutlined.tsx";
-export { PushPinOutlined } from "./PushPinOutlined.tsx";
-export { RouteOutlined } from "./RouteOutlined.tsx";
-export { ShareLocationOutlined } from "./ShareLocationOutlined.tsx";
-export { SignpostOutlined } from "./SignpostOutlined.tsx";
-export { TransportRate } from "./TransportRate.tsx";
-export { TransportRates2 } from "./TransportRates2.tsx";
-export { WheretoVoteOutlined } from "./WheretoVoteOutlined.tsx";
-export { WrongLocationOutlined } from "./WrongLocationOutlined.tsx";
+export { AddLocationAltOutlined } from "@mui/icons-material";
+export { AddLocationOutlined } from "@mui/icons-material";
+export { EditLocationAltOutlined } from "@mui/icons-material";
+export { ExploreOffOutlined } from "@mui/icons-material";
+export { ExploreOutlined } from "@mui/icons-material";
+export { FmdBadOutlined } from "@mui/icons-material";
+export { LocalShippingOutlined } from "@mui/icons-material";
+export { LocationDisabledOutlined } from "@mui/icons-material";
+export { LocationOffOutlined } from "@mui/icons-material";
+export { LocationOn } from "@mui/icons-material";/* TODO: rename */
+export { LocationSearchingOutlined } from "@mui/icons-material";
+export { MapOutlined } from "@mui/icons-material";
+export { ModeOfTravelOutlined } from "@mui/icons-material";/* TODO: rename */
+export { MyLocationOutlined } from "@mui/icons-material";
+export { NavigationOutlined } from "@mui/icons-material";
+export { NearMeDisabledOutlined } from "@mui/icons-material";
+export { NearMeOutlined } from "@mui/icons-material";
+export { NotListedLocationOutlined } from "@mui/icons-material";
+export { OperationOutlined } from "@mui/icons-material";/* TODO: rename */
+export { OperationsDept } from "@mui/icons-material";/* TODO: rename */
+export { PersonPinCircleOutlined } from "@mui/icons-material";
+export { PinDropOutlined } from "@mui/icons-material";
+export { PlaceOutlined } from "@mui/icons-material";
+export { PushPinOutlined } from "@mui/icons-material";
+export { RouteOutlined } from "@mui/icons-material";
+export { ShareLocationOutlined } from "@mui/icons-material";
+export { SignpostOutlined } from "@mui/icons-material";
+export { TransportRate } from "@mui/icons-material";/* TODO: rename */
+export { TransportRates2 } from "@mui/icons-material";/* TODO: rename */
+export { WhereToVoteOutlined } from "@mui/icons-material";/* TODO: rename */
+export { WrongLocationOutlined } from "@mui/icons-material";

@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {ZoominOutlined} from "@mui/icons-material";
+import { ZoomInOutlined } from "@mui/icons-material";
 
 figma.connect(
-  ZoominOutlined, 
+  ZoomInOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11714:3703",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <ZoominOutlined {...props} />
+    example: ({ ...props }) => <ZoomInOutlined {...props} />
   }
 );

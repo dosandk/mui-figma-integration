@@ -37,7 +37,7 @@ const preview: Preview = {
         green: {},
         eleks: eleksTheme,
       },
-      defaultTheme: 'light',
+      defaultTheme: 'eleks',
       Provider: ThemeProvider,
       GlobalStyles: CssBaseline,
     }),

@@ -1,8 +1,8 @@
-export { FindReplaceOutlined } from "./FindReplaceOutlined.tsx";
-export { ManageSearchOutlined } from "./ManageSearchOutlined.tsx";
-export { SavedSearchOutlined } from "./SavedSearchOutlined.tsx";
-export { SearchOffOutlined } from "./SearchOffOutlined.tsx";
-export { SearchOutlined } from "./SearchOutlined.tsx";
-export { YoutubeSearchedforOutlined } from "./YoutubeSearchedforOutlined.tsx";
-export { ZoomOutOutlined } from "./ZoomOutOutlined.tsx";
-export { ZoominOutlined } from "./ZoominOutlined.tsx";
+export { FindReplaceOutlined } from "@mui/icons-material";
+export { ManageSearchOutlined } from "@mui/icons-material";
+export { SavedSearchOutlined } from "@mui/icons-material";
+export { SearchOffOutlined } from "@mui/icons-material";
+export { SearchOutlined } from "@mui/icons-material";
+export { YoutubeSearchedForOutlined } from "@mui/icons-material";/* TODO: rename */
+export { ZoomOutOutlined } from "@mui/icons-material";
+export { ZoomInOutlined } from "@mui/icons-material";/* TODO: rename */

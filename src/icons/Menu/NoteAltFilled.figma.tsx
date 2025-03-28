@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {NoteAltFilled} from "@mui/icons-material";
+import { NoteAlt } from "@mui/icons-material";
 
 figma.connect(
-  NoteAltFilled, 
+  NoteAlt,
   "<FIGMA_ICONS_BASE>?node-id=11673:13256",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <NoteAltFilled {...props} />
+    example: ({ ...props }) => <NoteAlt {...props} />
   }
 );

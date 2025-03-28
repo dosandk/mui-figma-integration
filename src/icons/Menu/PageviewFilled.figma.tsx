@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {PageviewFilled} from "@mui/icons-material";
+import { Pageview } from "@mui/icons-material";
 
 figma.connect(
-  PageviewFilled, 
+  Pageview,
   "<FIGMA_ICONS_BASE>?node-id=11673:13212",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <PageviewFilled {...props} />
+    example: ({ ...props }) => <Pageview {...props} />
   }
 );

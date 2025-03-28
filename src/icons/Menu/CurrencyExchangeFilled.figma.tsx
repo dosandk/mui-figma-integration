@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {CurrencyExchangeFilled} from "@mui/icons-material";
+import { CurrencyExchange } from "@mui/icons-material";
 
 figma.connect(
-  CurrencyExchangeFilled, 
+  CurrencyExchange,
   "<FIGMA_ICONS_BASE>?node-id=11673:13266",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <CurrencyExchangeFilled {...props} />
+    example: ({ ...props }) => <CurrencyExchange {...props} />
   }
 );

@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {SpaceDashboardFilled} from "@mui/icons-material";
+import { SpaceDashboard } from "@mui/icons-material";
 
 figma.connect(
-  SpaceDashboardFilled, 
+  SpaceDashboard,
   "<FIGMA_ICONS_BASE>?node-id=7475:73288",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <SpaceDashboardFilled {...props} />
+    example: ({ ...props }) => <SpaceDashboard {...props} />
   }
 );

@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {FormatTextdirectionRtoLOutlined} from "@mui/icons-material";
+import { FormatTextdirectionRToLOutlined } from "@mui/icons-material";
 
 figma.connect(
-  FormatTextdirectionRtoLOutlined, 
+  FormatTextdirectionRToLOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11714:3212",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <FormatTextdirectionRtoLOutlined {...props} />
+    example: ({ ...props }) => <FormatTextdirectionRToLOutlined {...props} />
   }
 );

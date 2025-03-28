@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {WheretoVoteOutlined} from "@mui/icons-material";
+import { WhereToVoteOutlined } from "@mui/icons-material";
 
 figma.connect(
-  WheretoVoteOutlined, 
+  WhereToVoteOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11673:12215",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <WheretoVoteOutlined {...props} />
+    example: ({ ...props }) => <WhereToVoteOutlined {...props} />
   }
 );

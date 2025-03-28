@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {RouteFilled} from "@mui/icons-material";
+import { Route } from "@mui/icons-material";
 
 figma.connect(
-  RouteFilled, 
+  Route,
   "<FIGMA_ICONS_BASE>?node-id=11673:13160",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <RouteFilled {...props} />
+    example: ({ ...props }) => <Route {...props} />
   }
 );

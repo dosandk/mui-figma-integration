@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {CollectionsBookmarkFilled} from "@mui/icons-material";
+import { CollectionsBookmark } from "@mui/icons-material";
 
 figma.connect(
-  CollectionsBookmarkFilled, 
+  CollectionsBookmark,
   "<FIGMA_ICONS_BASE>?node-id=11673:13214",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <CollectionsBookmarkFilled {...props} />
+    example: ({ ...props }) => <CollectionsBookmark {...props} />
   }
 );

@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import { AdminPanelSettingsFilled } from "@mui/icons-material";
+import { AdminPanelSettings } from "@mui/icons-material";
 
 figma.connect(
-  AdminPanelSettingsFilled,
+  AdminPanelSettings,
   "<FIGMA_ICONS_BASE>?node-id=11673:13200",
   {
     props: {
 
     },
-    example: ({ ...props }) => <AdminPanelSettingsFilled {...props} />
+    example: ({ ...props }) => <AdminPanelSettings {...props} />
   }
 );

@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {BubbleChartFilled} from "@mui/icons-material";
+import { BubbleChart } from "@mui/icons-material";
 
 figma.connect(
-  BubbleChartFilled, 
+  BubbleChart,
   "<FIGMA_ICONS_BASE>?node-id=11673:13202",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <BubbleChartFilled {...props} />
+    example: ({ ...props }) => <BubbleChart {...props} />
   }
 );

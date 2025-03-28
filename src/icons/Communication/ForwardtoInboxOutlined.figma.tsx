@@ -1,14 +1,14 @@
 
 import figma from "@figma/code-connect";
-import {ForwardtoInboxOutlined} from "@mui/icons-material";
+import { ForwardToInboxOutlined } from "@mui/icons-material";
 
 figma.connect(
-  ForwardtoInboxOutlined, 
+  ForwardToInboxOutlined,
   "<FIGMA_ICONS_BASE>?node-id=11673:12077",
-  { 
+  {
     props: {
-    
+
     },
-    example: ({ ...props }) => <ForwardtoInboxOutlined {...props} />
+    example: ({ ...props }) => <ForwardToInboxOutlined {...props} />
   }
 );
