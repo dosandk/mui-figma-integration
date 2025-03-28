@@ -2,7 +2,9 @@
   "codeConnect": {
     "parser": "react",
     "include": [
-      "src/components/Charts/**/*.{tsx,jsx}"
+      "src/components/**/*.{tsx,jsx}",
+      "src/icons/**/*.{tsx,jsx}",
+      "src/components/**/*.figma.template.js"
     ],
     "exclude": [
       "src/components/**/*.stories.{tsx,jsx}"
