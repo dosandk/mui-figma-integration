@@ -5,6 +5,7 @@ import {
 
 export interface ButtonProps extends MuiButtonProps {
   children?: React.ReactNode;
+  onClick?: () => void;
 }
 
 export const Button = ({ children, ...props }: ButtonProps) => (
