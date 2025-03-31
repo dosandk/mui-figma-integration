@@ -20,7 +20,6 @@ const meta: Meta<typeof Container> = {
       type: "figma",
       url: FIGMA_COMPONENT_URL
     },
-    layout: 'centered',
   },
   tags: ['autodocs'],
   argTypes: {
@@ -99,7 +98,7 @@ export const WithoutGutters: Story = {
  */
 export const DifferentMaxWidths: Story = {
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', width: "100%" }}>
       <Container maxWidth="xs">
         <Box sx={{ bgcolor: '#cfe8fc', p: 2 }}>
           <Typography variant="h6">Extra Small (xs)</Typography>

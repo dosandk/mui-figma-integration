@@ -9,7 +9,11 @@ figma.connect(
       // These props were automatically mapped based on your linked code:
       disableGutters: figma.boolean("Dis. Gutters"),
       maxWidth: figma.enum("Max Width", {
+        "Extra Small": "xs",
         Small: "sm",
+        Medium: "md",
+        Large: "lg",
+        "Extra Large": "xl",
       }),
       children: figma.children("*"),
     },
