@@ -72,7 +72,7 @@ const TextFieldWithState = ({ ...rest }: any) => {
  * Shows a basic text field with default styling.
  */
 export const Default: Story = {
-  render: () => <TextFieldWithState label="Default TextField" />,
+  render: (props) => <TextFieldWithState label="Default TextField" {...props} />,
 };
 
 /**

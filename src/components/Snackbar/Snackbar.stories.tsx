@@ -55,7 +55,7 @@ type Story = StoryObj<typeof Snackbar>;
  * 
  * A wrapper component that demonstrates controlled snackbar functionality with a trigger button.
  */
-const SnackbarWithButton = ({ message, color, severity, autoHideDuration, anchorOrigin }: any) => {
+const SnackbarWithButton = ({ message, color, severity, autoHideDuration, anchorOrigin, ...props }: any) => {
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
@@ -70,7 +70,7 @@ const SnackbarWithButton = ({ message, color, severity, autoHideDuration, anchor
   };
 
   return (
-    <>
+    <div data-testid={props["data-testid"]}>
       <Button variant="contained" onClick={handleClick}>
         Open Snackbar
       </Button>
@@ -83,7 +83,7 @@ const SnackbarWithButton = ({ message, color, severity, autoHideDuration, anchor
         onClose={handleClose}
         anchorOrigin={anchorOrigin}
       />
-    </>
+    </div>
   );
 };
 
@@ -93,7 +93,7 @@ const SnackbarWithButton = ({ message, color, severity, autoHideDuration, anchor
  * Shows basic snackbar with default styling and message.
  */
 export const Default: Story = {
-  render: () => <SnackbarWithButton message="This is a default snackbar message" />,
+  render: (props) => <SnackbarWithButton {...props} message="This is a default snackbar message" />,
 };
 
 /**

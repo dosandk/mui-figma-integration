@@ -64,7 +64,7 @@ const Template: StoryFn = (props) => {
   );
 };
 
-export const DefaultTable: Story = {
+export const Default: Story = {
   render: Template,
   args: {},
 };

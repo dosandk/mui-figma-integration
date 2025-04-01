@@ -46,8 +46,8 @@ type Story = StoryObj<typeof Tooltip>;
  * Shows a basic tooltip with default settings.
  */
 export const Default: Story = {
-  render: () => (
-    <Tooltip title="This is a tooltip">
+  render: (props) => (
+    <Tooltip title="This is a tooltip" {...props}>
       <Button>Hover me</Button>
     </Tooltip>
   ),

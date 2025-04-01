@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Dialog } from './index';
 import { Button, DialogContentText } from '@mui/material';
 import { useState } from 'react';
+
+import { Dialog } from './index';
 import { getFigmaPath } from "../figma.config";
 
 const FIGMA_COMPONENT_URL = getFigmaPath("Dialog");
@@ -53,7 +54,7 @@ type Story = StoryObj<typeof Dialog>;
  * 
  * A wrapper component that provides the open/close functionality for dialog stories.
  */
-const DialogDemo = ({ args }: { args: any }) => {
+const DialogDemo = (args: any) => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -66,7 +67,7 @@ const DialogDemo = ({ args }: { args: any }) => {
 
   return (
     <>
-      <Button variant="contained" onClick={handleClickOpen}>
+      <Button data-testid={args["data-testid"]} variant="contained" onClick={handleClickOpen}>
         Open Dialog
       </Button>
       <Dialog
@@ -84,7 +85,7 @@ const DialogDemo = ({ args }: { args: any }) => {
  * Shows a basic dialog with title, content, and action buttons.
  */
 export const Default: Story = {
-  render: (args) => <DialogDemo args={args} />,
+  render: (args) => <DialogDemo {...args} />,
   args: {
     title: 'Dialog Title',
     content: (
@@ -94,8 +95,8 @@ export const Default: Story = {
     ),
     actions: (
       <>
-        <Button onClick={() => {}}>Cancel</Button>
-        <Button onClick={() => {}} variant="contained">
+        <Button onClick={() => { }}>Cancel</Button>
+        <Button onClick={() => { }} variant="contained">
           Confirm
         </Button>
       </>
@@ -109,7 +110,7 @@ export const Default: Story = {
  * Demonstrates a dialog with custom width and full-width option.
  */
 export const WithCustomWidth: Story = {
-  render: (args) => <DialogDemo args={args} />,
+  render: (args) => <DialogDemo {...args} />,
   args: {
     maxWidth: 'sm',
     fullWidth: true,
@@ -121,8 +122,8 @@ export const WithCustomWidth: Story = {
     ),
     actions: (
       <>
-        <Button onClick={() => {}}>Cancel</Button>
-        <Button onClick={() => {}} variant="contained">
+        <Button onClick={() => { }}>Cancel</Button>
+        <Button onClick={() => { }} variant="contained">
           Confirm
         </Button>
       </>
@@ -136,7 +137,7 @@ export const WithCustomWidth: Story = {
  * Shows a dialog that takes up the full screen.
  */
 export const FullScreen: Story = {
-  render: (args) => <DialogDemo args={args} />,
+  render: (args) => <DialogDemo {...args} />,
   args: {
     fullScreen: true,
     title: 'Full Screen Dialog',
@@ -147,8 +148,8 @@ export const FullScreen: Story = {
     ),
     actions: (
       <>
-        <Button onClick={() => {}}>Cancel</Button>
-        <Button onClick={() => {}} variant="contained">
+        <Button onClick={() => { }}>Cancel</Button>
+        <Button onClick={() => { }} variant="contained">
           Confirm
         </Button>
       </>
@@ -162,7 +163,7 @@ export const FullScreen: Story = {
  * Demonstrates a dialog with custom styling applied to its components.
  */
 export const WithCustomStyle: Story = {
-  render: (args) => <DialogDemo args={args} />,
+  render: (args) => <DialogDemo {...args} />,
   args: {
     title: 'Styled Dialog',
     content: (
@@ -172,8 +173,8 @@ export const WithCustomStyle: Story = {
     ),
     actions: (
       <>
-        <Button onClick={() => {}}>Cancel</Button>
-        <Button onClick={() => {}} variant="contained">
+        <Button onClick={() => { }}>Cancel</Button>
+        <Button onClick={() => { }} variant="contained">
           Confirm
         </Button>
       </>

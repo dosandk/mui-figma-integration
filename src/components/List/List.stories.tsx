@@ -62,8 +62,8 @@ type Story = StoryObj<typeof List>;
  * Shows a basic list with simple text items.
  */
 export const Default: Story = {
-  render: () => (
-    <List>
+  render: (props) => (
+    <List {...props}>
       <ListItem>
         <ListItemText primary="Inbox" />
       </ListItem>

@@ -3,7 +3,8 @@ import { Divider } from './index';
 import { Box, Typography } from '@mui/material';
 import { getFigmaPath } from "../figma.config";
 
-const FIGMA_COMPONENT_URL = getFigmaPath("Divider");
+// TODO: replace figma path to Divider page, not to the specific component
+const FIGMA_COMPONENT_URL = getFigmaPath("DividerHorizontal");
 
 /**
  * Divider Component Stories

@@ -57,7 +57,7 @@ const defaultActions = [
   { icon: <DeleteIcon />, name: 'Delete', onClick: () => console.log('Delete clicked') },
 ];
 
-const SpeedDialWithState = ({ direction, hidden, transitionDuration }: any) => {
+const SpeedDialWithState = ({ direction, hidden, transitionDuration, ...rest }: any) => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => setOpen(true);
@@ -65,6 +65,7 @@ const SpeedDialWithState = ({ direction, hidden, transitionDuration }: any) => {
 
   return (
     <SpeedDial
+      {...rest}
       open={open}
       icon={<AddIcon />}
       actions={defaultActions}
@@ -84,7 +85,7 @@ const SpeedDialWithState = ({ direction, hidden, transitionDuration }: any) => {
  * Shows a basic speed dial component with default settings and three actions.
  */
 export const Default: Story = {
-  render: () => <SpeedDialWithState />,
+  render: (props) => <SpeedDialWithState {...props} />,
 };
 
 /**

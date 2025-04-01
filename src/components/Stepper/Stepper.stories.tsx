@@ -74,7 +74,7 @@ const defaultSteps = [
   },
 ];
 
-const StepperWithState = ({ orientation, alternativeLabel, nonLinear }: any) => {
+const StepperWithState = ({ orientation, alternativeLabel, nonLinear, ...rest }: any) => {
   const [activeStep, setActiveStep] = useState(0);
 
   const handleNext = () => {
@@ -92,6 +92,7 @@ const StepperWithState = ({ orientation, alternativeLabel, nonLinear }: any) => 
   return (
     <Box sx={{ width: '100%' }}>
       <Stepper
+        {...rest}
         activeStep={activeStep}
         orientation={orientation}
         alternativeLabel={alternativeLabel}
@@ -121,7 +122,7 @@ const StepperWithState = ({ orientation, alternativeLabel, nonLinear }: any) => 
  * Shows a basic stepper component with horizontal orientation and three steps.
  */
 export const Default: Story = {
-  render: () => <StepperWithState />,
+  render: (props) => <StepperWithState {...props} />,
 };
 
 /**

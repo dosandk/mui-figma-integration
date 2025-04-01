@@ -65,7 +65,7 @@ const ToggleButtonWithState = ({ ...rest }: any) => {
  * Shows a basic toggle button with default settings.
  */
 export const Default: Story = {
-  render: () => <ToggleButtonWithState />,
+  render: (props) => <ToggleButtonWithState {...props} />,
 };
 
 /**

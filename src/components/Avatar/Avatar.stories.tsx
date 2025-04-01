@@ -51,9 +51,9 @@ type Story = StoryObj<typeof Avatar>;
  * 
  * Shows a basic avatar with a single letter.
  */
-export const Default: Story = {
-  render: () => (
-    <Avatar>U</Avatar>
+export const DefaultAvatar: Story = {
+  render: (props) => (
+    <Avatar {...props}>Avatar</Avatar>
   ),
 };
 

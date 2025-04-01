@@ -86,7 +86,7 @@ const PopoverDemo = () => {
  * Shows a basic popover with default settings.
  */
 export const Default: Story = {
-  render: () => {
+  render: (props) => {
     const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
 
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -100,7 +100,7 @@ export const Default: Story = {
     const open = Boolean(anchorEl);
 
     return (
-      <div>
+      <div data-testid={props["data-testid"]}>
         <Button variant="contained" onClick={handleClick}>
           Open Popover
         </Button>

@@ -47,8 +47,9 @@ type Story = StoryObj<typeof Backdrop>;
  * 
  * Shows a basic backdrop with loading spinner.
  */
-export const Default: Story = {
+export const DefaultStory: Story = {
   args: {
+    role: "presentation",
     open: true,
     children: <CircularProgress color="inherit" />,
   },

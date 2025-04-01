@@ -62,6 +62,7 @@ type Story = StoryObj<typeof ButtonGroup>;
  */
 export const Default: Story = {
   args: {
+    role: "group",
     children: (
       <>
         <Button>One</Button>

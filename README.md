@@ -235,7 +235,7 @@
 - Make link to the figma file dinamic
 - Add link to figma for each story file
 
-## Icons TODO
+## TODO: Icons
 
 - RepairCode
 - RepairParts
@@ -263,9 +263,68 @@
 - ShowFile
 - Availability
 
+## TODO: Components figma -> mui consistancy
+
+- Grid
+- Table (to discuss)
+- Charts (hardcoded)
+- ImageList (to add to the figma)
+
+## TODO: Storybook
+
+- Charts
+  - BarChart
+  - Legend
+  - LineChart
+  - PieChart
+  - ScatterChart
+- FloatingActionButton
+- FormControlLabel
+- FormGroup
+- FromHelperText
+- FormLabel
+- Grid2
+- InputLabel
+- Masonry
+- MenuList
+- Pagination
+- Popper
+- RadioGroup
+- Stack
+- TabsGroup
+- TimeLine
+- TransferList
+- Treeview
+
 ## Figma
 
 ### Figma connect
+
+TODO:
+
+- FloatingActionButton
+- Form
+- Box
+- DataGrid
+- FormControlLabel
+- FormGroup
+- FromHelperText
+- FormLabel
+- Grid2
+- ImageList
+- InputLabel
+- Masonry
+- MenuList
+- Modal
+- Pagination
+- Popper
+- Progress
+- RadioGroup
+- Stack
+- TabsGroup
+- TimeLine
+- TransferList
+- Treeview
 
 To connect figma components to the existed components use the next command:
 

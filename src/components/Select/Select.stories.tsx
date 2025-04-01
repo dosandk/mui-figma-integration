@@ -57,8 +57,8 @@ type Story = StoryObj<typeof Select>;
  * Shows a basic select component with default settings.
  */
 export const Default: Story = {
-  render: () => (
-    <FormControl fullWidth>
+  render: (props) => (
+    <FormControl fullWidth {...props}>
       <InputLabel>Age</InputLabel>
       <Select label="Age" defaultValue={10}>
         <MenuItem value={10}>Ten</MenuItem>

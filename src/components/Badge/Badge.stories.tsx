@@ -49,8 +49,11 @@ type Story = StoryObj<typeof Badge>;
  * Shows a basic badge with a numeric content.
  */
 export const Default: Story = {
+  args: {
+    role: "status",
+  },
   render: () => (
-    <Badge badgeContent={4}>
+    <Badge badgeContent={4} role="status">
       <MailIcon />
     </Badge>
   ),

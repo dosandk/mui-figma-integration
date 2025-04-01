@@ -72,7 +72,6 @@ const style = {
  */
 export const Default: Story = {
   args: {
-    // open: true,
     children: (
       <Box sx={style}>
         <Typography variant="h6" component="h2">

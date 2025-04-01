@@ -60,7 +60,7 @@ type Story = StoryObj<typeof Menu>;
  * 
  * A wrapper component that demonstrates the basic menu functionality with icons.
  */
-const MenuDemo = () => {
+const MenuDemo = (props) => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
 
@@ -75,6 +75,7 @@ const MenuDemo = () => {
   return (
     <div>
       <Button
+        {...props}
         aria-controls={open ? 'basic-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
@@ -114,7 +115,7 @@ const MenuDemo = () => {
  * Shows a basic menu with icons and default styling.
  */
 export const Default: Story = {
-  render: () => <MenuDemo />,
+  render: (props) => <MenuDemo {...props} />,
 };
 
 /**

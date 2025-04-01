@@ -126,8 +126,8 @@ type Story = StoryObj<typeof ImageList>;
  * Shows a basic image list with standard grid layout and item bars.
  */
 export const Default: Story = {
-  render: () => (
-    <ImageList sx={{ width: 500, height: 450 }}>
+  render: (props) => (
+    <ImageList sx={{ width: 500, height: 450 }} {...props}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img

@@ -55,7 +55,8 @@ type Story = StoryObj<typeof Drawer>;
  * 
  * A wrapper component that demonstrates the Drawer functionality with a list of menu items.
  */
-const DrawerDemo = ({ args }: { args: any }) => {
+// TODO: add TypeScript types for args
+const DrawerDemo = (args) => {
   const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
@@ -74,7 +75,7 @@ const DrawerDemo = ({ args }: { args: any }) => {
 
   return (
     <>
-      <Button variant="contained" onClick={handleClickOpen}>
+      <Button data-testid={args["data-testid"]} variant="contained" onClick={handleClickOpen}>
         Open Drawer
       </Button>
       <Drawer
@@ -103,7 +104,7 @@ const DrawerDemo = ({ args }: { args: any }) => {
  * Shows a basic temporary drawer that can be opened and closed.
  */
 export const Default: Story = {
-  render: (args) => <DrawerDemo args={args} />,
+  render: (args) => <DrawerDemo {...args} />,
 };
 
 /**
@@ -112,7 +113,7 @@ export const Default: Story = {
  * Demonstrates a permanent drawer that is always visible.
  */
 export const Permanent: Story = {
-  render: (args) => <DrawerDemo args={args} />,
+  render: (args) => <DrawerDemo {...args} />,
   args: {
     variant: 'permanent',
     open: true,
@@ -125,7 +126,7 @@ export const Permanent: Story = {
  * Shows a persistent drawer that stays open until explicitly closed.
  */
 export const Persistent: Story = {
-  render: (args) => <DrawerDemo args={args} />,
+  render: (args) => <DrawerDemo {...args} />,
   args: {
     variant: 'persistent',
     open: true,
@@ -138,7 +139,7 @@ export const Persistent: Story = {
  * Demonstrates a drawer anchored to the right side of the screen.
  */
 export const RightAnchored: Story = {
-  render: (args) => <DrawerDemo args={args} />,
+  render: (args) => <DrawerDemo {...args} />,
   args: {
     anchor: 'right',
   },
@@ -150,7 +151,7 @@ export const RightAnchored: Story = {
  * Shows a drawer with custom styling for the paper and list items.
  */
 export const WithCustomStyle: Story = {
-  render: (args) => <DrawerDemo args={args} />,
+  render: (args) => <DrawerDemo {...args} />,
   args: {
     sx: {
       '& .MuiDrawer-paper': {

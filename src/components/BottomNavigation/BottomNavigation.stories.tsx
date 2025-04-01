@@ -51,6 +51,7 @@ type Story = StoryObj<typeof BottomNavigation>;
  */
 export const Default: Story = {
   args: {
+    role: "navigation",
     children: (
       <>
         <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />

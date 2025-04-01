@@ -71,7 +71,7 @@ const SwitchWithState = ({ ...rest }: any) => {
  * Shows basic switch with default styling and functionality.
  */
 export const Default: Story = {
-  render: () => <SwitchWithState />,
+  render: (props) => <SwitchWithState {...props} />,
 };
 
 /**

@@ -84,8 +84,8 @@ const AlertWithClose = ({ ...rest }: any) => {
  * Shows a basic info alert with default styling.
  */
 export const Default: Story = {
-  render: () => (
-    <Alert severity="info">
+  render: (props) => (
+    <Alert severity="info" {...props}>
       This is an info alert.
     </Alert>
   ),

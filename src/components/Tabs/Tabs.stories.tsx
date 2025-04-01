@@ -94,7 +94,7 @@ const TabsWithState = ({ ...rest }: any) => {
  * Shows basic tabs with default styling and content.
  */
 export const Default: Story = {
-  render: () => <TabsWithState />,
+  render: (props) => <TabsWithState {...props} />,
 };
 
 /**
